@@ -1,4 +1,4 @@
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;"> 
   <summary style="font-weigth: bold;">SPRINT 0</summary>
 <h2>Sprint 0</h2>
 <p><strong>Período:</strong> 18/03/2024 a 25/03/2024</p>
@@ -33,7 +33,7 @@ Nesta Sprint, o grupo discutiu e decidiu que as reuniões serão realizadas sema
 
 <h3>Estudo do GitHub e Metodologia Ágil</h3>
 <p><strong>Descrição:</strong><br>
-Nesta Sprint, o time se concentrou em estudar o GitHub e a metodologia ágil para nos prepararmos para o desenvolvimento do projeto. Esta sprint foi dedicada a compreender os princípios básicos de controle de versão, colaboração em equipe e práticas ágeis de desenvolvimento de software.</p>
+Nesta Sprint, o grupo se concentrou em estudar o GitHub e a metodologia ágil para nos prepararmos para o desenvolvimento do projeto. Esta sprint foi dedicada a compreender os princípios básicos de controle de versão, colaboração em equipe e práticas ágeis de desenvolvimento de software.</p>
 
 <h3>Reunião 2</h3>
 <p><strong>Data:</strong> 25/03/2024<br>
@@ -65,7 +65,7 @@ Nesta Sprint, o time se concentrou em estudar o GitHub e a metodologia ágil par
 
 <h3>Estudo do Querido Diário, Raspagem de Dados e Metodologias de Desenvolvimento</h3>
 <p><strong>Descrição:</strong><br>
-Nesta Sprint, dedicamos tempo para estudar e entender os conceitos relacionados à contribuição para o projeto Querido Diário, além de aprofundar nossos conhecimentos em raspagem de dados, criação de spiders, utilização do Scrapy e práticas de desenvolvimento colaborativo como Git Flow, GitHub e Scrum.</p>
+Nesta Sprint, o grupo dedicou tempo para estudar e entender os conceitos relacionados à contribuição para o projeto Querido Diário, além de aprofundar os conhecimentos em raspagem de dados, criação de spiders, utilização do Scrapy e práticas de desenvolvimento colaborativo como Git Flow, GitHub e Scrum.</p>
 
 <h3>Reunião 3</h3>
 <p><strong>Data:</strong> 01/04/2024<br>
@@ -100,7 +100,7 @@ Nesta Sprint, dedicamos tempo para estudar e entender os conceitos relacionados 
 
 <h3>Alteração da fonte de dados</h3>
 <p><strong>Descrição:</strong><br>
-Nesta Sprint o grupo decidiu, através de uma reunião, não utilizar mais o Querido Diário como a fonte de dados do projeto. Foi decidido então utilizar o Portal Nacional de Contratações Públicas (PNCP) como nossa fonte de dados. Além disso, o grupo também revisou mais alguns comandos do Git para que fossem feitas melhores aplicações no nosso projeto. Ademais, estudamos mais sobre web scraping, pois será bastante utilizado para que seja feita a raspagem de dados do PNCP. Por fim, foi decidido o que cada participante faria até a próxima sprint, que seria: utilização do Figma para criação da página do projeto, web scraping para raspar dados do PNCP, implementação da arquitetura do nosso projeto e criação do diagrama da arquitetura.</p>
+Nesta Sprint, o grupo decidiu não utilizar mais o Querido Diário como a fonte de dados do projeto. Foi decidido então utilizar o Portal Nacional de Contratações Públicas (PNCP) como nossa fonte de dados. Além disso, o grupo também revisou mais alguns comandos do Git para que fossem feitas melhores aplicações no nosso projeto. Ademais, estudamos mais sobre web scraping, pois será bastante utilizado para que seja feita a raspagem de dados do PNCP. Por fim, foi decidido o que cada participante faria até a próxima sprint, que seria: utilização do Figma para criação da página do projeto, web scraping para raspar dados do PNCP, implementação da arquitetura do nosso projeto e criação do diagrama da arquitetura.</p>
 
 <h3>Reunião 4</h3>
 <p><strong>Data:</strong> 10/04/2024<br>
@@ -150,4 +150,95 @@ Nesta Sprint, inicialmente, cada participante apresentou para o grupo o que real
 <ul>
   <li>API do Portal Nacional de Contratações Públicas</li>
   <li>Figma</li>
+</ul>
+
+</details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" > 
+  <summary style="font-weigth: bold;">SPRINT 5</summary>
+<h2>Sprint 5</h2>
+<p><strong>Período:</strong> 15/04/2024 a 29/04/2024</p>
+
+<h3>Demonstração do código Streamlit</h3>
+<p><strong>Descrição:</strong><br>
+Nesta Sprint, foram apresentadas as dashboards feitas em Streamlit e também foi criada a GitPage do projeto com o objetivo de mostrar a documentação e organizar as sprints do projeto.Após isso, foram determinadas as novas orientações, que foram: aperfeiçoar o código Streamlit, aperfeiçoar os gráficos, aperfeiçoar o ranking e alterar a organização dos dados.</p>
+
+<h3>Reunião 6</h3>
+<p><strong>Data:</strong> 29/04/2024<br>
+<strong>Local:</strong> Discord</p>
+
+<h4>Tarefas Entregues:</h4>
+<ul>
+  <li>Criação de dashboards usando streamlit</li>
+  <li>Explicação das dashboards</li>
+  <li>Demonstração de gitactions</li>
+  <li>Aperfeiçoamento do workflow</li>
+  <li>Criação de GitPage</li>
+</ul>
+
+<h4>Recursos de Estudo:</h4>
+<ul>
+  <li>GitPage</li>
+  <li>Figma</li>
+  <li>Streamlit</li>
+  <li>MarkDown</li>
+</ul>
+
+</details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" > 
+  <summary style="font-weigth: bold;">SPRINT 6</summary>
+<h2>Sprint 6</h2>
+<p><strong>Período:</strong> 22/05/2024 a 29/05/2024</p>
+
+<h3> Retomada do projeto </h3>
+<p><strong>Descrição:</strong><br>
+Nesta Sprint, o grupo se reuniu novamente após um período sem reuniões pois todos os integrantes estavam em período de provas. Logo após foram passadas as novas orientações para os participantes, sendo elas: implementação das multipages dentro do Streamlit, implementação de uma área de contato com coleta de dados e interação do usuário com a equipe, ajuste das dashboards, implementação do cadastro e login dentro do Streamlit, implementação do html e css dentro do Streamlit e atualização/organização das sprints e da arquitetura.</p>
+
+<h3>Reunião 7</h3>
+<p><strong>Data:</strong> 22/05/2024<br>
+<strong>Local:</strong> Discord</p>
+
+<h4>Tarefas Entregues:</h4>
+<ul>
+  <li>Aperfeiçoamento das dashboards</li>
+  <li>Aperfeiçoamento dos gráficos</li>
+  <li>Aperfeiçoamento do ranking</li>
+  <li>Alteração da organização dos dados</li>
+</ul>
+
+<h4>Recursos de Estudo:</h4>
+<ul>
+  <li>Streamlit</li>
+  <li>HTML, CSS e JavaScript</li>
+</ul>
+
+</details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" > 
+  <summary style="font-weigth: bold;">SPRINT 7</summary>
+<h2>Sprint 7</h2>
+<p><strong>Período:</strong> 29/05/2024 a 05/06/2024</p>
+
+<h3> Aperfeiçoamento do Front-end </h3>
+<p><strong>Descrição:</strong><br>
+Nesta Sprint, </p>
+
+<h3>Reunião 8</h3>
+<p><strong>Data:</strong> 29/05/2024<br>
+<strong>Local:</strong> Discord</p>
+
+<h4>Tarefas Entregues:</h4>
+<ul>
+  <li>------------</li>
+  <li>------------</li>
+  <li>------------</li>
+  <li>------------</li>
+  <li>------------</li>
+</ul>
+
+<h4>Recursos de Estudo:</h4>
+<ul>
+  <li>------------</li>
+  <li>------------</li>
 </ul>

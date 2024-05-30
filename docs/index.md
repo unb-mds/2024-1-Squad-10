@@ -1,4 +1,4 @@
-# Queridinhas da Licitação
+# LicitaNow
 
 ## Projeto de Transparência nos Gastos Públicos - MDS UnB
 
@@ -16,25 +16,25 @@
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
                 <img src="imagens/mateus.png" alt="Mateus" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p>Mateus</p>
+            <p>Mateus de Castro</p>
         </div>
         <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
                 <img src="imagens/romulo.png" alt="Romulo" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p>Romulo</p>
+            <p>Rômulo de Araújo</p>
         </div>
         <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
                 <img src="imagens/lindo.png" alt="Davi" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p>Davi</p>
+            <p>Davi de Aguiar</p>
         </div>
         <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
-                <img src="imagens/henrique.png" alt="Henrique" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="imagens/henrique.jpeg" alt="Henrique" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p>Henrique</p>
+            <p>Henrique Carvalho</p>
         </div>
     </div>
 </div>
@@ -45,13 +45,13 @@
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
                 <img src="imagens/rafa.png" alt="Rafael" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p>Rafael</p>
+            <p>Rafael Melo</p>
         </div>
         <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
-                <img src="imagens/lock.jpeg" alt="Pedro" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="imagens/Lock.jpeg" alt="Pedro" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p>Pedro</p>
+            <p>Pedro Lock</p>
         </div>
         <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
