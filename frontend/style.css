@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 5%;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+header h1 {
+    font-size: 40px;
+    color: white;
+}
+header nav {
+    display: flex;
+    gap: 30px;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.3s;
+    color: white;
+}
+header nav a.active {
+    background: #5247B9;
+}
+header nav a:hover {
+    background: #5247B9;
+}
+header nav:hover > a:not(:hover) {
+    background: none;
+}
+
+.home {
+    display: flex;
+    height: 100dvh;
+    background: linear-gradient(to top, #0B121E 30%, #0B121E);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.home img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.home .title {
+    position: absolute;
+    top: 30%;
+    left: 67%;
+    transform: translate(-40%, -40%);
+    color: white;
+    font-size: 50px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home .subtitle {
+    position: absolute;
+    top: 42%;
+    left: 68%;
+    transform: translate(-40%, -40%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.home .botao-arredondado {
+    position: absolute;
+    top: 55%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.about {
+    padding: 50px;
+    background: #0b172c;
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+.about h1 {
+    font-size: 40px;
+}
+
+.botao-arredondado {
+    background-color: #5247B9; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 200px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Mostrar como elemento inline */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margens */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    border: none; /* Remover borda padrão */
+    border-radius: 12px; /* Borda arredondada */
+}
