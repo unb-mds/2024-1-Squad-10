@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Carrega o arquivo JSON original
-with open('C:/Users/mateu/Documents/PROGRAMATION/Projeto MDS/Coleta_API/contratos_OFICIAL.json', 'r', encoding='utf-8') as file:
+with open('contratos_OFICIAL.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 # Lista para armazenar os novos dicionários
