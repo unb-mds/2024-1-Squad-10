@@ -11,7 +11,7 @@
 
 - **1:** Ranking das principais empresas beneficiadas por Dispensa de Licitação
 - **2:** Ranking dos órgão que mais gastaram
-- **3:** Visualização dos contratos que cada empresa participou e vice-sersa
+- **3:** Visualização dos contratos que cada empresa participou e vice-versa
 - **4:** Possibilidade de ver os sócios de cada empresa
 
 ## Documentação:
