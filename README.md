@@ -9,10 +9,10 @@
 
 ## Funcionalidades Previstas
 
-- **1:** 
-- **2:** 
-- **3:** 
-- **4:** 
+- **1:** Ranking das principais empresas beneficiadas por Dispensa de Licitação
+- **2:** Ranking dos órgão que mais gastaram
+- **3:** Visualização dos contratos que cada empresa participou e vice-sersa
+- **4:** Possibilidade de ver os sócios de cada empresa
 
 ## Documentação:
 <p>Para acessar a documentação completa do projeto. <a href="#">Clique aqui.</a></p>
