@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import plotly.express as px
+import plotly_express as px
 
 st.set_page_config(page_title="Queridinhas da Licitação", layout='wide')
 
@@ -35,6 +35,8 @@ def carregar_dados2():
 def init_session_state():
     if "page" not in st.session_state:
         st.session_state.page = 0
+    #if "selected_empresa" not in st.session_state:
+    #    st.session_state.selected_empresa = None
 
 # Inicializando o estado da sessão
 init_session_state()
@@ -43,13 +45,15 @@ init_session_state()
 def reset_pagination():
     st.session_state.page = 0
 
+
+
 with st.container():
-    st.subheader("RANKING DAS EMPRESAS MAIS BENEFICIADAS POR DISPENSA DE LICITAÇÃO")
+    st.subheader("RANKING DAS EMPRESAS MAIS BENFICIADAS POR DISPENSA DE LICITAÇÃO")
     st.write('Informações sobre contratos')
     st.write("Quer saber mais sobre nosso projeto? [clique aqui](www.unb.br)")
     st.write('---')
     data = carregar_dados()
-    data1 = carregar_dados1()
+    data1= carregar_dados1()
     data2 = carregar_dados2()
 
 # Sidebar para selecionar a quantidade de empresas e o intervalo de valores recebidos
@@ -66,6 +70,7 @@ def change_page(change):
     st.session_state.page += change
     st.rerun()
 
+
 # Filtrando os dados com base no intervalo de valores recebidos
 df = data[["Código", "Empresa Contratada", "Valor Recebido"]]
 df_group = df.groupby(by=["Empresa Contratada"])["Valor Recebido"].sum().reset_index()
@@ -80,20 +85,20 @@ df_group_list = df_page["Empresa Contratada"].tolist()
 
 df_grafico = df[df["Empresa Contratada"].isin(df_group_list)]
 
-altura_grafico = max(400, len(df_group_list) * 35)  # Ajusta a altura conforme a lista for aumentando
+altura_grafico = max(400, len(df_group_list) * 35)  #Ajusta a altura conforme a lista for aumentando
 
 # Criando o gráfico de barras empilhadas
 chart = alt.Chart(df_grafico).mark_bar().encode(
     x=alt.X('sum(Valor Recebido):Q', title='Valor Total Recebido ($)'),
     y=alt.Y('Empresa Contratada:N', sort=df_group_list, title='Empresas Contratadas por Dispensa de Licitação', axis=alt.Axis(labelLimit=170)),
-    color=alt.Color('Código:N', legend=None),  # legend=alt.Legend(title="Contratos")
+    color=alt.Color('Código:N', legend=None), # legend=alt.Legend(title="Contratos")
     order=alt.Order('Código:N', sort='ascending')
 ).properties(
-    title=alt.TitleParams(
+    title= alt.TitleParams(
         text='Soma dos Valores Recebidos por Contrato',
-        anchor="middle",
-        color='rgba(255, 255, 255, 0.5)',
-        fontSize=20,
+        anchor= "middle", 
+        color = 'rgba(255, 255, 255, 0.5)' , 
+        fontSize=20, 
         fontStyle='oblique',
     )
 ).properties(
@@ -112,18 +117,18 @@ with col1:
 with col2:
     if st.button("Próxima página"):
         change_page(1)
-
+    
 st.write(" ")
 st.write(" ")
 st.write(" ")
 
-# Função que irá fazer o gráfico da pizza
+#Função que irá fazer o gráfico da pizza
 def grafico_pie(dataframe):
     # Criando o gráfico de rosca com Plotly Express
     fig = px.pie(dataframe, values='Valor Recebido', names='Empresa Contratada', title='Distribuição do Contrato',
-                 hole=0.55,  # Define o tamanho do buraco no meio (0.4 = 40%)
-                 labels={'Valor Recebido': 'Valor', 'Empresa Contratada': 'Empresa'},
-                 hover_data={'Valor Recebido': True, 'Empresa Contratada': True})
+                hole=0.55,  # Define o tamanho do buraco no meio (0.55 = 55%)
+                labels={'Valor Recebido':'Valor', 'Empresa Contratada':'Empresa'},
+                hover_data={'Valor Recebido': True, 'Empresa Contratada': True})
 
     # Atualizar as fatias do gráfico para mostrar porcentagem e rótulo
     fig.update_traces(textposition='inside', textinfo='percent')
@@ -132,41 +137,55 @@ def grafico_pie(dataframe):
     fig.update_traces(hovertemplate="<b>%{label}</b><br>Valor: %{value}<br>Percentual: %{percent}")
 
     fig.update_layout(
+        
         title_x=0.2  # Centralizar o título
     )
 
     return fig
 
+
 df_filtro = df.groupby(by=["Código", "Empresa Contratada"])["Valor Recebido"].sum().reset_index()
+df_filtro_empresas = df_filtro["Empresa Contratada"].reset_index() #Apenas coluna das empresas do df_filtro
 
 def detalhes_contratos(empresa):
-    contratos = df_filtro["Código"][df_filtro["Empresa Contratada"] == empresa].to_list()
-    for i, contrato in enumerate(contratos):
-        df_filtro1 = df_filtro[df_filtro["Código"] == contrato]  # Aqui teremos a lista das empresas contratadas dentro desse contrato específico
-        df_filtro1 = df_filtro1[["Empresa Contratada", "Valor Recebido"]]  # Estamos deixando o dataframe apenas com essas duas colunas
-        orgao = data1["Órgão Entidade"][data1["Código"] == contrato].iloc[0]
-        data_compra = data1["Ano da Compra"][data1["Código"] == contrato].iloc[0]
-        objeto = data1["Objeto da Compra"][data1["Código"] == contrato].iloc[0]
-        valor = data1["Valor Total Homologado"][data1["Código"] == contrato].iloc[0]
+    contratos = df_filtro["Código"][df_filtro["Empresa Contratada"]== empresa].to_list()
+    for i,contrato in enumerate(contratos):
+        df_filtro1 = df_filtro[df_filtro["Código"] == contrato] #Aqui teremos a lista das empresas contratadas dentro desse contrato específico
+        df_filtro1 = df_filtro1[["Empresa Contratada", "Valor Recebido"]] #Estamos deixando o dataframe apenas com essas duas colunas
+        orgao = data1["Órgão Entidade"][data1["Código"]== contrato].iloc[0]
+        data_compra = data1["Ano da Compra"][data1["Código"]== contrato].iloc[0]
+        objeto = data1["Objeto da Compra"][data1["Código"]== contrato].iloc[0]
+        valor = data1["Valor Total Homologado"][data1["Código"]== contrato].iloc[0]
         valor_formatado = f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
-        col1, col2 = st.columns([3, 2])  # Define a proporção das colunas
+        col1,col2 = st.columns([3,2]) #define a proporção das colunas
 
         with col1:
-            if i == 0:
+            if i==0:
                 st.write(" ")
-            st.markdown(f"<p><span style='color:red;'>Contrato n° {i + 1}:</span> <span '>{contrato}</span></p>", unsafe_allow_html=True)
-            st.markdown(f"<p><span style='border-bottom: 2px solid red;'>Ano da compra</span>: {data_compra}</p>", unsafe_allow_html=True)
-            st.markdown(f"<p><span style='border-bottom: 2px solid red;'>Órgão Responsável</span>: {orgao}</p>", unsafe_allow_html=True)
-            st.markdown(f"<p><span style='border-bottom: 2px solid red;'>Objeto da compra do contrato</span>: {objeto}</p>", unsafe_allow_html=True)
-            st.markdown(f"<p><span style='border-bottom: 2px solid red;'>Valor Total Homologado</span>: {valor_formatado}</p>", unsafe_allow_html=True)
+            st.markdown(f"<p><span style='color:red;'>Contrato n° {i+1}:</span> <span '>{contrato}</span></p>", unsafe_allow_html=True)
+            #st.write(f"Contrato n° {i+1}: {contrato}")
+            st.markdown(f"<p><span style='border-bottom: 2px solid red;'>Ano da compra</span>: {data_compra}</p>", unsafe_allow_html=True)        
+            st.markdown(f"<p><span style='border-bottom: 2px solid red;'>Órgão Responsável</span>: {orgao}</p>", unsafe_allow_html=True)        
+            st.markdown(f"<p><span style='border-bottom: 2px solid red;'>Objeto da compra do contrato</span>: {objeto}</p>", unsafe_allow_html=True)        
+            #st.write(f"Objeto da compra do contrato: {objeto}")
+            st.markdown(f"<p><span style='border-bottom: 2px solid red;'>Valor Total Homologado</span>: {valor_formatado}</p>", unsafe_allow_html=True)  
+            st.write(" ")
+            st.write(" ")
+        
+            code = contrato.split('-')[0]
+            year = contrato.split('/')[1]
+            sequencial = contrato.split('/')[0].split('-')[2]
+            st.write(f"Para mais informações [clique aqui](https://pncp.gov.br/app/editais/{code}/{year}/{sequencial})")
+
 
         with col2:
-            pie = grafico_pie(df_filtro1)  # Adicionando o gráfico pie
+            pie = grafico_pie(df_filtro1) #Adicionando o gráfico pie
             st.plotly_chart(pie)
 
         st.write("----")
     return contratos
+
 
 def exibir_detalhes_empresa(df, empresa):
     if empresa in df["Razão social"].unique():
@@ -183,16 +202,14 @@ def exibir_detalhes_empresa(df, empresa):
                 st.write(f"**Situação Cadastral:** {empresa_info['Situação Cadastral']}")
             if 'Data da Situação Cadastral' in empresa_info:
                 st.write(f"**Data da Situação Cadastral:** {empresa_info['Data da Situação Cadastral']}")
-            if 'Capital Social' in empresa_info:
-                capital_social = empresa_info.get('Capital Social', 'Não informado')
-                st.write(f"**Capital Social:** {capital_social}")
             if 'Endereço UF' in empresa_info and 'Endereço Município' in empresa_info:
                 endereco = empresa_info.get('Endereço Município', '') + ', ' + empresa_info.get('Endereço UF', '')
                 st.write(f"**Endereço:** {endereco}")
-            if 'Data de Início de Atividade' in empresa_info:
-                st.write(f"**Data de Início de Atividade:** {empresa_info['Data de Início de Atividade']}")
-            if 'CNAE Principal (Código)' in empresa_info:
-                st.write(f"**CNAE Principal (Código):** {empresa_info['CNAE Principal (Código)']}")
+            if 'Data de Início da Atividade' in empresa_info:
+                st.write(f"**Data de Início da Atividade:** {empresa_info['Data de Início da Atividade']}")
+            if 'CNAE fiscal principal' in empresa_info and 'nome' in empresa_info['CNAE fiscal principal']:
+                cnae_nome = empresa_info['CNAE fiscal principal']['nome']
+                st.write(f"**CNAE Principal (Nome):** {cnae_nome}")
 
         with col2:
             if 'Sócios' in empresa_info:
@@ -212,17 +229,39 @@ def exibir_detalhes_empresa(df, empresa):
 
 
 
-
+coluna1,coluna2 = st.columns(2)
 escolha = ["Escolha sua empresa"] + df_group_list
-empresa_selecionada = st.selectbox("Selecione a Empresa para ver detalhes dos contratos que ela participou: ", escolha)
+with coluna1:
+    empresa_selecionada = st.selectbox("Selecione a Empresa para ver detalhes dos contratos que ela participou: ", escolha)
+    #if empresa_selecionada != "Escolha sua empresa":
+    #        st.session_state.empresa_nome = None  # Limpa a variável se a empresa selecionada foi alterada
+    if empresa_selecionada == "Escolha sua empresa":
+        with coluna2:
+            empresa_nome = st.text_input('Digite o nome da empresa:')
+            #if empresa_nome:
+            #    empresa_selecionada = "Escolha sua empresa"  # Limpa a variável se o nome da empresa foi inserido
 
-if empresa_selecionada != "Escolha sua empresa":
+if (empresa_selecionada != "Escolha sua empresa"):
     exibir_detalhes_empresa(data2, empresa_selecionada)
     st.write("---")
     st.write("---")
     contratos = detalhes_contratos(empresa_selecionada)
-    st.write(" ")
-    st.write(" ")
-    st.write(" ")
-    selecao_contratos = st.selectbox("Selecione o contrato que deseja: ", contratos)
-    #exibir_detalhes_empresa(data2, empresa_selecionada)
+    
+elif empresa_nome:
+    filtrando = df_filtro_empresas.drop_duplicates(subset = 'Empresa Contratada')#Retirando empresas Duplicadas, pois uma mesma empresa pode estar em vaários contratos, então ao buscar o nome dela, ela apareceria com se fossem diferentes
+    filtrando = filtrando[filtrando["Empresa Contratada"].str.contains(empresa_nome,case=False, regex=True)]
+    lista_filtro = filtrando["Empresa Contratada"].tolist()
+
+    if lista_filtro:
+        st.write(" ")
+        st.write(" ")
+        st.write("Empresas encontradas:")
+        for idx,empresa in enumerate(lista_filtro):
+            but = st.button(empresa,key=f"btn_{idx}")
+            if but:
+                exibir_detalhes_empresa(data2, empresa)
+                st.write(" ")
+                st.write("---")
+                contratos = detalhes_contratos(empresa)
+
+
