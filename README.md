@@ -9,13 +9,18 @@
 
 ## Funcionalidades Previstas
 
-- **1:** Ranking das principais empresas beneficiadas por Dispensa de Licitação
-- **2:** Ranking dos órgão que mais gastaram
-- **3:** Visualização dos contratos que cada empresa participou e vice-versa
-- **4:** Possibilidade de ver os sócios de cada empresa
+- **1:** Ranking das principais empresas beneficiadas por dispensas de licitação.
+- **2:** Ranking dos órgãos que mais gastaram.
+- **3:** Visualização dos contratos que cada empresa participou.
+- **4:** Possibilidade de ver os sócios de cada empresa.
 
 ## Documentação:
-<p>Para acessar a documentação completa do projeto. <a href="#">Clique aqui.</a></p>
+<p>Para acessar a documentação completa do projeto. <a href="https://unb-mds.github.io/2024-1-Squad-10/">Clique aqui.</a></p>
+
+## Diagrama de Arquitetura: 
+![image](https://github.com/unb-mds/2024-1-Squad-10/assets/145598542/4850441c-f750-410b-a8d8-c478e8ece700)
+
+<p>Clique <a href="https://www.figma.com/board/NBvsCarJ03JDQZUAZ24csy/Diagrama-de-Arquitetura?node-id=0-1&t=O5K8SFcl7e9Cseye-0">aqui</a> para acessar o diagrama de arquitetura do projeto.
 
 ## Equipe
 
