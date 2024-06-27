@@ -1,0 +1,5 @@
+{'Nome': 'pedrolock', 'Email': 'pedrolock@', 'Senha': '123'}
+{'Nome': 'fluminense', 'Email': 'fluminense@', 'Senha': '123'}
+{'Nome': ']cano', 'Email': 'cano@', 'Senha': '2023'}
+{'Nome': 'diniz', 'Email': 'diniz', 'Senha': '1010'}
+{'Nome': 'ronald', 'Email': 'ronald@gmail.com', 'Senha': '120'}
