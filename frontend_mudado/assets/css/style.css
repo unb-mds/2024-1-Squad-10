@@ -72,7 +72,7 @@ input::-webkit-inner-spin-button {
 
 :root {
     --blue: #007BFF;
-    --black: #0f1118;
+    --black: #050505;
     --white: #fafafa;
     --gray: #c9c9c9;
 }
@@ -132,7 +132,7 @@ body {
     font-size: 1.3rem;
 }
 
-/* HEADER // 3 traços do canto superior*/
+/* HEADER */
 .header {
     width: 100%;
     padding: 1rem 0rem;
@@ -161,9 +161,9 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-/*tamanho da logo*/
+
 .logo {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -266,18 +266,18 @@ body {
     justify-content: center;
     user-select: none;
 }
-/*tamanho do titulo*/
+
 .text-home h1 {
-    font-size: 3.8rem;
+    font-size: 4rem;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    margin: -3px;
+    margin: -2px;
     z-index: 9;
 }
 
 .text-home span {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 300;
     z-index: 9;
 }

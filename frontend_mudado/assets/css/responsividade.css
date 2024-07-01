@@ -42,6 +42,64 @@
         font-size: 3rem;
     }
 
+    /*About, Skills*/
+    .about, .skills {
+        width: 92%;
+    }
+
+    .img-about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-about img {
+        width: 100%;
+    }
+
+    .content-about-left h1 {
+        font-size: 2rem;
+    }
+
+    .cta-about {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 1.6rem;
+    }
+    
+    .btn-about {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    
+    .about-social {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        gap: 0.8rem;
+        cursor: pointer;
+        height: 100%;
+        padding: 0;
+    }
+
+    /*Skills*/
+    .skills-headline span {
+        font-size: 1.6rem;
+    }
+
+    .skills-headline h1 {
+        font-size: 2rem;
+    }
+
 /* Estilos para desktops */
 @media (min-width: 1025px) {
     body {
@@ -83,6 +141,7 @@
     }
 
     .headline h1 {
-        font-size: .1rem;
+        font-size: 3.1rem;
     }
-}}
+}
+    }
