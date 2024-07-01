@@ -1,0 +1,21 @@
+site_name: LicitaNow
+theme: 
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: purple
+    - scheme: slate
+      primary: teal
+      accent: lime 
