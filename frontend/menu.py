@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 import base64
 from streamlit_extras.switch_page_button import switch_page
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 
 # Função para carregar o conteúdo do arquivo
 def load_file(file_path):
@@ -39,7 +39,7 @@ html_with_css = f"""
 """
 
 # Crie as colunas
-col1, col2, col3, col4 = st.columns(4)
+col ,col1, col2, col3, col4 = st.columns(5)
 
 # Manipula os cliques nos botões
 with col1:
