@@ -38,6 +38,9 @@ html_with_css = f"""
     {html_content}
 """
 
+# Crie as colunas
+col1, col2, col3, col4 = st.columns(4)
+
 # Manipula os cliques nos botões
 with col1:
     if st.button("Home"):
@@ -52,7 +55,7 @@ with col3:
 
 with col4:
     if st.button("Contato"):
-        st.write("Página Contato")
+        switch_page("contato")
 
 # Exibir o HTML com CSS no Streamlit
 components.html(html_with_css, height=800, scrolling=False)
