@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import base64
+from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(layout="wide")
 
@@ -36,6 +37,22 @@ html_with_css = f"""
     </style>
     {html_content}
 """
+
+# Manipula os cliques nos botões
+with col1:
+    if st.button("Home"):
+        st.write("Página Home")
+
+with col2:
+    if st.button("Ranking Empresas"):
+        switch_page("rank_empresas")
+with col3:
+    if st.button("Serviços"):
+        st.write("Página Serviços")
+
+with col4:
+    if st.button("Contato"):
+        st.write("Página Contato")
 
 # Exibir o HTML com CSS no Streamlit
 components.html(html_with_css, height=800, scrolling=False)
