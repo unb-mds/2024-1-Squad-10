@@ -1,0 +1,88 @@
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Header*/
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .menu-icon, .close-icon {
+        font-size: 2.2rem;
+    }
+
+    /*Menu Navegação*/
+    .lista-navegacao li {
+        font-size: 3rem;
+    }
+
+    /*Home*/
+    .text-home h1 {
+        font-size: 4rem;
+    }
+
+    .text-home span {
+        font-size: 2.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.8rem;
+    }
+
+    /*Headline*/
+    .headline span {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 {
+        font-size: 3rem;
+    }
+
+/* Estilos para desktops */
+@media (min-width: 1025px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Header*/
+    .logo {
+        font-size: 1.6rem;
+    }
+
+    .menu-icon, .close-icon {
+        font-size: 2rem;
+    }
+
+    /*Menu Navegação*/
+    .lista-navegacao li {
+        font-size: 3rem;
+    }
+
+    /*Home*/
+    .text-home h1 {
+        font-size: 5.5rem;
+    }
+
+    .text-home span {
+        font-size: 3.7rem;
+    }
+
+    .redes-sociais a {
+        font-size: 1.6rem;
+    }
+
+    /*Headline*/
+    .headline span {
+        font-size: 1.6rem;
+    }
+
+    .headline h1 {
+        font-size: .1rem;
+    }
+}}
