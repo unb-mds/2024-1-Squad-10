@@ -37,8 +37,6 @@ html_with_css = f"""
     </style>
     {html_content}
 """
-col ,col1,col2,col3,col4 = st.columns(5)
-
 
 # Manipula os cliques nos botões
 with col1:
