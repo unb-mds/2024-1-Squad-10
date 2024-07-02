@@ -24,7 +24,7 @@ def apply_dark_mode_css():
 
 def resize_image(image_path, size=(150, 150)):
     img = Image.open(image_path)
-    img = ImageOps.fit(img, size, Image.ANTIALIAS)
+    img = ImageOps.fit(img, size, Image.LANCZOS)
     return img
 
 apply_dark_mode_css()
