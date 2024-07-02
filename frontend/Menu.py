@@ -43,15 +43,15 @@ col ,col1, col2, col3, col4 = st.columns(5)
 
 # Manipula os cliques nos botões
 with col1:
-    if st.button("Home"):
-        st.write("Página Home")
+    if st.button("Menu"):
+        st.write("Página Menu")
 
 with col2:
     if st.button("Ranking Empresas"):
         switch_page("rank_empresas")
 with col3:
     if st.button("Ranking Órgãos"):
-        switch_page("Rank_orgaos")
+        switch_page("Rank_dos_órgãos")
 
 with col4:
     if st.button("Contato"):

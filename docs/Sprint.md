@@ -222,7 +222,7 @@ Nesta Sprint, o grupo se reuniu novamente após um período sem reuniões pois t
 
 <h3> Aperfeiçoamento do Front-end </h3>
 <p><strong>Descrição:</strong><br>
-Nesta Sprint, </p>
+Nesta Sprint, foi apresentado tudo que foi feito e aperfeiçoado no que se diz respeito ao Front-end do projeto. Após apresentação e revisão dessa parte, foram passadas as novas atividades para os participantes, sendo estas: implementação de mais utilidades no código usando Streamlit, continuar incrementando as dashboards, criação de páginas sobre informações das empresas e continuar a estilizaçãoo do projeto. </p>
 
 <h3>Reunião 8</h3>
 <p><strong>Data:</strong> 29/05/2024<br>
@@ -230,8 +230,36 @@ Nesta Sprint, </p>
 
 <h4>Tarefas Entregues:</h4>
 <ul>
-  <li>------------</li>
-  <li>------------</li>
+  <li>Implementação do HTLM e CSS dentro do Streamlit</li>
+  <li>Organização do projeto</li>
+  <li>Implementação do cadastro e do login no Streamlit</li>
+</ul>
+
+<h4>Recursos de Estudo:</h4>
+<ul>
+  <li>Streamlit</li>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+</details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" > 
+  <summary style="font-weigth: bold;">SPRINT 8</summary>
+<h2>Sprint 8 <h2>
+<p><strong>Período:</strong> 05/06/2024 a 12/06/2024</p>
+
+<h3> Título </h3>
+<p><strong>Descrição:</strong><br>
+
+ </p>
+ 
+<h3>Reunião 9</h3>
+<p><strong>Data:</strong> 05/06/2024<br>
+<strong>Local:</strong> Discord</p>
+
+<h4>Tarefas Entregues:</h4>
+<ul>
   <li>------------</li>
   <li>------------</li>
   <li>------------</li>
@@ -239,6 +267,7 @@ Nesta Sprint, </p>
 
 <h4>Recursos de Estudo:</h4>
 <ul>
+  <li>Streamlit</li>
   <li>------------</li>
   <li>------------</li>
 </ul>

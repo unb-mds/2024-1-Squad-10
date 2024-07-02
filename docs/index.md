@@ -49,7 +49,7 @@
         </div>
         <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
             <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
-                <img src="imagens/Lock.jpeg" alt="Pedro" style="width: 100%; height: 100%; object-fit: cover;">
+                <img src="imagens/Pedrolock.jpeg" alt="Pedro" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <p>Pedro Lock</p>
         </div>
