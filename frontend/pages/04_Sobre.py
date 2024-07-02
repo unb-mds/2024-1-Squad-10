@@ -67,3 +67,39 @@ with col6:
 
 with col7:
     st.image(resize_image(get_image_path('clara.jpeg')), caption='Maria Clara')
+
+# Rodapé estilizado usando HTML
+footer = """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .footer a {
+        color: #18bc9c;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .footer a:hover {
+        color: #148f77;
+    }
+    .footer .fa {
+        margin-right: 8px;
+    }
+    </style>
+    <div class="footer">
+        <p>Desenvolvido por <a href="https://github.com/unb-mds/2024-1-Squad-10" target="_blank"><i class="fab fa-github"></i> Squad 10</a> | <a href="https://unb-mds.github.io/2024-1-Squad-10/" target="_blank"><i class="fas fa-file-alt"></i> Documentação</a> | <a href="mailto:licitanow.unb@gmail.com"><i class="fas fa-envelope"></i> Envie um E-mail</a></p>
+    </div>
+"""
+st.markdown(footer, unsafe_allow_html=True)
+
+# Adicionar suporte a ícones da Font Awesome
+st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">', unsafe_allow_html=True)
+
