@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function handleNavLinkActivation(e) {
         const url = this.getAttribute('href'); 
-        if (url === 'index.html' || url.includes('viverdefreelancer.com.br')) return;  
+        if (url === 'index1.html' || url.includes('viverdefreelancer.com.br')) return;  
 
         e.preventDefault();  
         fadeOut(url);

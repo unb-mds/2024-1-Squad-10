@@ -22,11 +22,11 @@ html_content = load_file('index.html')
 css_content = load_file('style.css')
 
 # Carregar e codificar as imagens
-logo_base64 = load_image_base64('images/licitanow.png')
+logo_base64 = load_image_base64('images/licitanownovo.png')
 licitacao_base64 = load_image_base64('images/licitacao.png')
 
 # Atualizar o HTML com as imagens base64
-html_content = html_content.replace('images/licitanow.png', f'data:image/png;base64,{logo_base64}')
+html_content = html_content.replace('images/licitanownovo.png', f'data:image/png;base64,{logo_base64}')
 html_content = html_content.replace('images/licitacao.png', f'data:image/png;base64,{licitacao_base64}')
 
 # Injetar o CSS no HTML

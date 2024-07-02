@@ -3,11 +3,11 @@ import streamlit as st
 def main():
     # Incorporando o CSS principal (style.css)
     try:
-        with open('css/style.css', 'r', encoding='utf-8') as file:
+        with open('css/style1.css', 'r', encoding='utf-8') as file:
             style_css = file.read()
         st.markdown(f'<style>{style_css}</style>', unsafe_allow_html=True)
     except FileNotFoundError:
-        st.error("Arquivo 'style.css' não encontrado!")
+        st.error("Arquivo 'style1.css' não encontrado!")
 
     # Incorporando o CSS de responsividade (responsividade.css)
     try:
