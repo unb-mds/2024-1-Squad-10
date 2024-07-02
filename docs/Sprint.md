@@ -1,24 +1,24 @@
-<details style="background-color: #f0f0f0; padding: 30px;"> 
-  <summary style="font-weigth: bold;">SPRINT 0</summary>
-<h2>Sprint 0</h2>
+<details style="background-color: #f0f0f0; padding: 30px; color: black;"> 
+  <summary style="font-weight: bold; color: black;">SPRINT 0</summary>
+<h2 style="color: black;">Sprint 0</h2>
 <p><strong>Período:</strong> 18/03/2024 a 25/03/2024</p>
 
-<h3>Formação dos Grupos e Definição dos Temas</h3>
+<h3 style="color: black;">Formação dos Grupos e Definição dos Temas</h3>
 <p><strong>Descrição:</strong><br>
 Nesta Sprint, o grupo discutiu e decidiu que as reuniões serão realizadas semanalmente, mas podendo ser feita mais de uma vez caso seja necessário, às segundas-feiras às 20:00 na plataforma Discord. Também foi explicado e discutido como o projeto seria conduzido, além de sugerir três possíveis temas para serem abordados no projeto.</p>
 
-<h3>Reunião 1</h3>
+<h3 style="color: black;">Reunião 1</h3>
 <p><strong>Data:</strong> 22/03/2024<br>
 <strong>Local:</strong> Discord</p>
 
-<h4>Tarefas Entregues:</h4>
+<h4 style="color: black;">Tarefas Entregues:</h4>
 <ul>
   <li>Definir o horário, data e frequência das reuniões.</li>
   <li>Explicar o processo de trabalho do projeto.</li>
   <li>Sugerir três possíveis temas para o projeto.</li>
 </ul>
 
-<h4>Recursos de Estudo:</h4>
+<h4 style="color: black;">Recursos de Estudo:</h4>
 <ul>
   <li>Notas da reunião onde foram formados os grupos.</li>
   <li>Anotações sobre os temas sugeridos.</li>
@@ -26,20 +26,20 @@ Nesta Sprint, o grupo discutiu e decidiu que as reuniões serão realizadas sema
 
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" > 
-  <summary style="font-weigth: bold;">SPRINT 1</summary>
-<h2>Sprint 1</h2>
+<details style="background-color: #f0f0f0; padding: 30px; color: black;"> 
+  <summary style="font-weight: bold; color: black;">SPRINT 1</summary>
+<h2 style="color: black;">Sprint 1</h2>
 <p><strong>Período:</strong> 25/03/2024 a 01/04/2024</p>
 
-<h3>Estudo do GitHub e Metodologia Ágil</h3>
+<h3 style="color: black;">Estudo do GitHub e Metodologia Ágil</h3>
 <p><strong>Descrição:</strong><br>
 Nesta Sprint, o grupo se concentrou em estudar o GitHub e a metodologia ágil para nos prepararmos para o desenvolvimento do projeto. Esta sprint foi dedicada a compreender os princípios básicos de controle de versão, colaboração em equipe e práticas ágeis de desenvolvimento de software.</p>
 
-<h3>Reunião 2</h3>
+<h3 style="color: black;">Reunião 2</h3>
 <p><strong>Data:</strong> 25/03/2024<br>
 <strong>Local:</strong> Discord</p>
 
-<h4>Tarefas Entregues:</h4>
+<h4 style="color: black;">Tarefas Entregues:</h4>
 <ul>
   <li>Estudar o funcionamento básico do GitHub.</li>
   <li>Criar e clonar repositórios no GitHub.</li>
@@ -49,7 +49,7 @@ Nesta Sprint, o grupo se concentrou em estudar o GitHub e a metodologia ágil pa
   <li>Pesquisar e discutir sobre as práticas ágeis mais relevantes para o nosso projeto.</li>
 </ul>
 
-<h4>Recursos de Estudo:</h4>
+<h4 style="color: black;">Recursos de Estudo:</h4>
 <ul>
   <li>Tutoriais e documentação do GitHub.</li>
   <li>Livros e artigos sobre metodologia ágil.</li>
