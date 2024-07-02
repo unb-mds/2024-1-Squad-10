@@ -50,7 +50,7 @@ def reset_pagination():
 with st.container():
     st.subheader("RANKING DAS EMPRESAS MAIS BENFICIADAS POR DISPENSA DE LICITAÇÃO")
     st.write('Informações sobre contratos')
-    st.write("Quer saber mais sobre nosso projeto? [clique aqui](www.unb.br)")
+    st.write("Quer saber mais sobre nosso projeto? [clique aqui](https://unb-mds.github.io/2024-1-Squad-10/)")
     st.write('---')
     data = carregar_dados()
     data1= carregar_dados1()
