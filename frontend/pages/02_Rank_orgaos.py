@@ -26,7 +26,7 @@ with st.container():
     st.write('---')
 
 #df_ordenado = pd.read_csv('contratos_ordenados_completo.csv')
-df_ordenado = pd.read_csv('dados/contratos_ordenados_completo.csv')
+df_ordenado = pd.read_csv('contratos_ordenados_completo.csv')
 df_ordenado = df_ordenado.sort_values("Ano da Compra")
 anos_unicos = df_ordenado['Ano da Compra'].unique()
 anos_unicos = ['Todos'] + list(anos_unicos)  # Adicionando a opção "Todos" à lista de anos únicos

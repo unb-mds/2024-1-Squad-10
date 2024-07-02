@@ -51,7 +51,7 @@ with col2:
         switch_page("rank_empresas")
 with col3:
     if st.button("Ranking Órgãos"):
-        switch_page("dashboard")
+        switch_page("Rank_orgaos")
 
 with col4:
     if st.button("Contato"):
