@@ -135,6 +135,12 @@ def remove_duplicadas(df):
     
     return df_sem_duplicatas
 
+def arredonda_valores(df):
+    # Remover duplicatas com base nas colunas especificadas
+    df_arredondados = df.copy()  # Criar uma cópia do DataFrame original
+    df_arredondados[['Valor Total Estimado', 'Valor Total Homologado', 'Valor Recebido']] = df_arredondados[['Valor Total Estimado', 'Valor Total Homologado', 'Valor Recebido']].round(2)
+    
+    return df_arredondados
 
 
 # Carregar o arquivo JSON
@@ -160,6 +166,7 @@ contratos_fila = read_file_contratos(df)
 contratos_cnpj = read_file_cnpj()
 contratos_merged = merge(contratos_fila, contratos_cnpj) #avaliar a necessidade de puxar o cadastro das empresas
 #contratos_merged=remove_duplicadas(contratos_merged) # desativado pq troquei no dash valor homologado por valor recebido
+contratos_merged= arredonda_valores(contratos_merged)
 
 # Salvar a base de dados combinada
 contratos_merged.to_csv('contratos_ordenados_completo.csv', index=False) # ajustei estava ('contratos_ordenados_completos.csv')

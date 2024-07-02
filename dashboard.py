@@ -19,7 +19,7 @@ anos_unicos = df_ordenado['Ano da Compra'].unique()
 anos_unicos = ['Todos'] + list(anos_unicos)
 
 with st.container():
-    st.subheader("PAINEL ITERATIVO SOBRE OS GASTOS GOVERNAMENTAIS COM DISPENSA DE LICITAÇÃO")
+    st.subheader("PAINEL INTERATIVO SOBRE OS GASTOS GOVERNAMENTAIS COM DISPENSA DE LICITAÇÃO")
     st.write('Informações sobre contratos')
     st.write("Quer saber mais sobre nosso projeto? [clique aqui](www.unb.br)")
     st.write('---')
@@ -38,14 +38,14 @@ if orgaos_unicos != 'Todos':
     
     df_filtered = df_filtered[df_filtered['Órgão Entidade'] == orgaos_unicos]
 
-df_filtered_gov_grouped = df_filtered.groupby(['Órgão Entidade','Código' ,'Empresa Contratada', 'Objeto da Compra'])['Valor Recebido'].sum().reset_index()
+df_filtered_gov_grouped = df_filtered.groupby(['Órgão Entidade','Código' ,'Empresa Contratada','CNPJ', 'Objeto da Compra'])['Valor Recebido'].sum().reset_index()
 df_filtered_gov_grouped_chart2 = df_filtered.groupby(['Órgão Entidade'])['Valor Recebido'].sum().reset_index()
 #df_filtered_gov_grouped_chart21 = df_filtered_gov_grouped_chart2[df_filtered_gov_grouped_chart2['Órgão Entidade'] == 'MINISTERIO DA SAUDE']
 
 #df_filtered_gov_grouped = df_filtered.groupby(['Órgão Entidade',  'Objeto da Compra'])['Valor Total Homologado'].sum().reset_index()
 df_filtered_gov_ordenado = df_filtered_gov_grouped.sort_values(by='Valor Recebido', ascending=False)
 df_filtered_gov_grouped_chart2=df_filtered_gov_grouped_chart2.sort_values(by='Valor Recebido', ascending=False)
-palavra_filtro = st.sidebar.text_input("Filtrar por Palavra na Coluna 'Objeto da Compra'")
+palavra_filtro = st.sidebar.text_input("Filtrar por Palavra na Coluna 'Objeto da Compra'. Ex: coffee break, lanche, abastecimento, etc" )
 
 #adicionado para inserir uma segunda tabela ao final do dashboard - impacta o 2º container
 df_filtered_gov_ordenado1=df_filtered_gov_ordenado
@@ -116,7 +116,7 @@ fig_orgao = px.bar(
     x='Órgão Entidade + Código',
     y='Valor Recebido',
     color='Órgão Entidade',
-    title='Contrato Campeão'
+    title='Contratos Campeões'
 )
 
 # Atualizar títulos dos eixos e layout
