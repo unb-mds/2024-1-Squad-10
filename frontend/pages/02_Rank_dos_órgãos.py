@@ -21,7 +21,7 @@ anos_unicos = ['Todos'] + list(anos_unicos)
 with st.container():
     st.subheader("PAINEL INTERATIVO SOBRE OS GASTOS GOVERNAMENTAIS COM DISPENSA DE LICITAÇÃO")
     st.write('Informações sobre contratos')
-    st.write("Quer saber mais sobre nosso projeto? [clique aqui](www.unb.br)")
+    st.write("Quer saber mais sobre nosso projeto? [clique aqui](https://unb-mds.github.io/2024-1-Squad-10/)")
     st.write('---')
 
 #df_ordenado = pd.read_csv('contratos_ordenados_completo.csv')
