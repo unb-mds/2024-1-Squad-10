@@ -116,12 +116,12 @@ fig_orgao = px.bar(
     x='Órgão Entidade + Código',
     y='Valor Recebido',
     color='Órgão Entidade',
-    title='Órgão Campeão'
+    title='Contrato Campeão'
 )
 
 # Atualizar títulos dos eixos e layout
-fig_orgao.update_xaxes(title_text='Órgão Contratante')
-fig_orgao.update_yaxes(title_text='Valores pagos por órgão')
+fig_orgao.update_xaxes(title_text='Órgão Contratante e Contrato')
+fig_orgao.update_yaxes(title_text='Valores pagos por órgão e Contrato')
 fig_orgao.update_layout(height=800)
 col1.plotly_chart(fig_orgao, use_container_width=True)
 
