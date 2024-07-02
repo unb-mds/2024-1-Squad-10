@@ -1,7 +1,7 @@
 # LicitaNow
 
 ## Sobre o projeto:
-<p>O projeto tem como objetivo principal garantir a transparência nos gastos públicos, proporcionando acesso fácil e compreensível às informações sobre contratos de dispensas de licitação do governo com empresas. Por meio da coleta de dados da API do Portal Nacional de Contratações Públicas (PNCP), o projeto visa criar rankings e dashboards que evidenciem quais empresas recebem mais recursos por meio dessa modalidade e quais órgãos públicos são os maiores investidores.</p>
+<p>O projeto tem como objetivo principal garantir a transparência nos gastos públicos, proporcionando acesso fácil e compreensível às informações sobre contratos de dispensas de licitação do governo com empresas no Distrito Federal. Por meio da coleta de dados da API do Portal Nacional de Contratações Públicas (PNCP), o projeto visa criar rankings e dashboards que evidenciem quais empresas recebem mais recursos por meio dessa modalidade e quais órgãos públicos são os maiores investidores.</p>
 
 <hr/>
 
