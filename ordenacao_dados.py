@@ -59,7 +59,7 @@ def read_file_contratos(df):
     contratos_fila = pd.DataFrame(new_rows)
 
     # Salvar o DataFrame resultante em um novo arquivo CSV
-    contratos_fila.to_csv('output1.csv', index=False)
+    contratos_fila.to_csv('output_arquivo_json.csv', index=False)
 
     # Retornar o DataFrame resultante
     return contratos_fila
@@ -125,8 +125,17 @@ def verificar_diferenca(df):
     resultado_final = contratos_fila.drop_duplicates(subset='Código', keep='first')
 
     # Salvar o DataFrame resultante em um novo arquivo CSV
-    resultado_final.to_csv('resultado_final_output2_diferenca.csv', index=False)
+    #resultado_final.to_csv('resultado_final_output2_diferenca limpo.csv', index=False)
     return resultado_final
+
+
+def remove_duplicadas(df):
+    # Remover duplicatas com base nas colunas especificadas
+    df_sem_duplicatas = df.drop_duplicates(subset=['Código', 'Órgão Entidade', 'Objeto da Compra', 'Ano da Compra', 'Valor Total Homologado', 'Empresa Contratada'], keep='first')
+    
+    return df_sem_duplicatas
+
+
 
 # Carregar o arquivo JSON
 with open('contratos_OFICIAL.json', 'r', encoding='utf-8') as file:
@@ -150,7 +159,7 @@ df.columns
 contratos_fila = read_file_contratos(df)
 contratos_cnpj = read_file_cnpj()
 contratos_merged = merge(contratos_fila, contratos_cnpj) #avaliar a necessidade de puxar o cadastro das empresas
-
+#contratos_merged=remove_duplicadas(contratos_merged) # desativado pq troquei no dash valor homologado por valor recebido
 
 # Salvar a base de dados combinada
 contratos_merged.to_csv('contratos_ordenados_completo.csv', index=False) # ajustei estava ('contratos_ordenados_completos.csv')
@@ -158,8 +167,8 @@ contratos_merged.to_csv('contratos_ordenados_completo.csv', index=False) # ajust
 # Verificar diferenças
 diferencas = verificar_diferenca(contratos_merged)
 
-# Salvar a base de dados resultante das diferenças
-diferencas.to_csv('resultado_final_output2_diferenca.csv', index=False)
+# Salvar a base de dados resultante das diferenças - usado para ratrear 
+#diferencas.to_csv('resultado_final_output2_diferenca.csv', index=False)
 
 
 
