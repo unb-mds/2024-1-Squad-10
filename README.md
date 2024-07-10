@@ -97,6 +97,14 @@ Contribuições são bem-vindas! Se você tiver sugestões ou encontrar problema
 
 <p>Clique <a href="https://www.figma.com/board/NBvsCarJ03JDQZUAZ24csy/Diagrama-de-Arquitetura?node-id=0-1&t=O5K8SFcl7e9Cseye-0">aqui</a> para acessar o diagrama de arquitetura do projeto.
 
+## 🗺 Story Map
+
+Para entender melhor o fluxo do projeto e seu desenvolvimento, acesse o nosso story map [aqui](https://www.canva.com/design/DAGDRLpXv2w/ICrDLJTkKSMOxNdR-kHDwQ/view?utm_content=DAGDRLpXv2w&utm_campaign=designshare&utm_medium=link&utm_source=editor).
+
+## 🖼 Protótipo
+
+O protótipo da página web pode ser visualizado [aqui](https://www.figma.com/proto/Z24Pysy6Zc8B9sEKRKZV0C/TELA-DE-LOGIN-SIMPLES?type=design&node-id=9-73&t=vp5l9rFdzZuA5h6D-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=9%3A73).
+
 ## Equipe
 
 | Nome                           |                           GitHub                           |
