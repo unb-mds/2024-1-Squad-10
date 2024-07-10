@@ -18,6 +18,80 @@
 ## Documentação:
 <p>Para acessar a documentação completa do projeto. <a href="https://unb-mds.github.io/2024-1-Squad-10/">Clique aqui.</a></p>
 
+## Tecnologias Utilizadas
+
+- **Linguagem de Programação:** Javascript, Python, HTML e CSS.
+- **Prototipação:** Figma.
+- **Framework Web:** Streamlit.
+- **Banco de Dados:** Armazenamos os dados apenas em arquivos CSV/JSON.
+
+## Clonar o Repositório
+
+Para clonar o repositório do projeto, utilize o seguinte comando:
+
+```bash
+git clone https://github.com/unb-mds/2024-1-Squad-10.git
+```
+
+## Dependências do Projeto
+
+Para rodar o projeto, você precisará das seguintes dependências:
+
+- **Python**: v3.10.12 (ou superior)
+- **Pip**: v22.0.2 (ou superior)
+
+#### Bibliotecas
+
+- **Streamlit**: v1.34.0
+- **Streamlit-Extras**: v0.4.3
+- **Pandas**: v2.2.2 (ou superior)
+- **Plotly Express**: v0.4.1 (ou superior)
+- **Plotly**: v5.22.0 (ou superior)
+- **Altair**: v5.3.0 (ou superior)
+
+## Instalação das Dependências
+
+Para instalar as dependências do projeto, utilize o seguinte comando:
+
+```bash
+pip install -r requirements.txt
+```
+
+Certifique-se de que o arquivo `requirements.txt` contenha as seguintes linhas:
+
+```
+streamlit==1.34.0
+streamlit-extras==0.4.3
+pandas>=2.2.2
+plotly-express>=0.4.1
+plotly>=5.22.0
+altair>=5.3.0
+```
+
+## Executando o Projeto
+
+Para executar o projeto, navegue até a pasta `frontend` e utilize o comando:
+
+```bash
+streamlit run Meny.py
+```
+
+## Estrutura do Projeto
+
+- **frontend/**: Contém os arquivos relacionados à interface criada com Streamlit.
+  - `Meny.py`: Script principal do Streamlit que carrega e visualiza os dados.
+
+- **data/**: Contém os arquivos CSV e JSON com os dados de dispensa de licitação.
+
+## Integração com HTML/CSS/JS
+
+O Streamlit permite a incorporação de código HTML, CSS e JavaScript diretamente nos scripts Python. Isso possibilita uma maior personalização da interface e a adição de funcionalidades avançadas que não são nativamente suportadas pelo Streamlit.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver sugestões ou encontrar problemas, por favor, abra uma issue ou envie um pull request.
+
+
 ## Diagrama de Arquitetura: 
 ![image](https://github.com/unb-mds/2024-1-Squad-10/assets/145598542/4850441c-f750-410b-a8d8-c478e8ece700)
 
