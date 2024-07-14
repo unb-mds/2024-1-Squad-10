@@ -103,7 +103,7 @@ Para entender melhor o fluxo do projeto e seu desenvolvimento, acesse o nosso st
 
 ## 🖼 Protótipo
 
-O protótipo da página web pode ser visualizado [aqui](https://www.figma.com/proto/Z24Pysy6Zc8B9sEKRKZV0C/TELA-DE-LOGIN-SIMPLES?type=design&node-id=9-73&t=vp5l9rFdzZuA5h6D-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=9%3A73).
+O protótipo da página web pode ser visualizado [aqui](https://www.figma.com/proto/FdTouUQQVWSi8HCBWYv3B5/Untitled?node-id=2-6&t=qYKrH8yqvtkBTpW2-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A6).
 
 ## Equipe
 
