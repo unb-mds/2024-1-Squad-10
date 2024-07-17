@@ -123,7 +123,7 @@ st.subheader("Gasto anual em dispensa de licitação por órgão")
 
 @st.cache_data
 def load_data():
-    with open('contratos_OFICIAL.json', 'r') as f:
+    with open('contratos_OFICIAL.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     return data
 
