@@ -244,31 +244,85 @@ Nesta Sprint, o grupo dedicou tempo para estudar e entender os conceitos relacio
 
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px; color: black;">
-  <summary style="font-weight: bold; color: black;">SPRINT 8</summary>
-  <h2 style="color: black;">Sprint 8</h2>
-  <p><strong>Período:</strong> 05/06/2024 a 12/06/2024</p>
+<details style="background-color: #f0f0f0; padding: 30px;" > 
+  <summary style="font-weigth: bold;">SPRINT 8</summary>
+<h2>Sprint 8 <h2>
+<p><strong>Período:</strong> 05/06/2024 a 10/07/2024</p>
 
-  <h3 style="color: black;">Título</h3>
-  <p><strong>Descrição:</strong><br>
-  </p>
+<h3> Reunião organizacional </h3>
+<p><strong>Descrição:</strong><br>
+Nessa reunião, o projeto foi apresentado pelo líder do grupo para a visualização de todos os participantes. Com isso, o grupo fez ponderações sobre o projeto. Após isso, foram repassadas as atividades da nova sprint: Estudar pipeline IC, estudar linter, aperfeiçoar o ReadME, estudar sobre integração de testes e organização do código.
+ </p>
+ 
+<h3>Reunião 9</h3>
+<p><strong>Data:</strong> 05/06/2024<br>
+<strong>Local:</strong> Discord</p>
 
-  <h3 style="color: black;">Reunião 9</h3>
-  <p><strong>Data:</strong> 05/06/2024<br>
-  <strong>Local:</strong> Discord</p>
+<h4>Tarefas Entregues:</h4>
+<ul>
+  <li>Incrementação de dashboards</li>
+  <li>Criação de páginas de informação</li>
+  <li>Melhorias na estilização do projeto</li>
+</ul>
 
-  <h4 style="color: black;">Tarefas Entregues:</h4>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
-
-  <h4 style="color: black;">Recursos de Estudo:</h4>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
+<h4>Recursos de Estudo:</h4>
+<ul>
+  <li>Streamlit</li>
+  <li>Figma</li>
+</ul>
 
 </details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" > 
+  <summary style="font-weigth: bold;">SPRINT 9</summary>
+<h2>Sprint 9 <h2>
+<p><strong>Período:</strong> 10/07/2024 a 17/07/2024</p>
+
+<h3> Reunião pós realease 1 oficial </h3>
+<p><strong>Descrição:</strong><br>
+Nessa reunião o grupo se encontrou brevemente para debater sobre o feedback da professora em relação ao projeto do grupo, após debaterem sobre os pontos positivos e negativos do projeto, o grupo decidiu as novas tarefas de cada participante para a nova sprint.
+ </p>
+ 
+<h3>Reunião 10</h3>
+<p><strong>Data:</strong> 10/07/2024<br>
+<strong>Local:</strong> Discord</p>
+
+<h4>Tarefas Entregues:</h4>
+<ul>
+  <li>Essa reunião consistiu apenas no debate sobre o feedback da professora</li>
+</ul>
+
+<h4>Recursos de Estudo:</h4>
+<ul>
+  <li>Streamlit</li>
+</ul>
+
+</details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" > 
+  <summary style="font-weigth: bold;">SPRINT 10</summary>
+<h2>Sprint 10 <h2>
+<p><strong>Período:</strong> 17/07/2024 a 23/07/2024</p>
+
+<h3> Melhorias no projeto pós R1 </h3>
+<p><strong>Descrição:</strong><br>
+Nesta reunião o grupo apresentou atualizações sobre o projeto que foram feitas no período da sprint e após revisão do projeto, o grupo demandou as novas tarefas para a nova sprint. Tais tarefas são: Implementação de testes unitários, utilização do Linter, reajustar o código de coleta da API, implementação do pytest e fazer automações de coleta e geração de arquivos.
+ </p>
+ 
+<h3>Reunião 11</h3>
+<p><strong>Data:</strong> 17/07/2024<br>
+<strong>Local:</strong> Discord</p>
+
+<h4>Tarefas Entregues:</h4>
+<ul>
+  <li>Issue templates</li>
+  <li>Testes de integração</li>
+  <li>Aprimoramento do projeto</li>
+</ul>
+
+<h4>Recursos de Estudo:</h4>
+<ul>
+  <li>Streamlit</li>
+  <li>Figma</li>
+  <li>GitHub Pages</li>
+</ul>
