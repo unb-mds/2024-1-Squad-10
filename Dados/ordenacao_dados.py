@@ -1,3 +1,8 @@
+# lê os arquivos ('infos_cnpj_OFICIAL.json')
+# ('contratos_OFICIAL.json', 'r', encoding='utf-8') 
+
+# segrega cada item por fornecedor e salva arquivo csv para que possa ser trabalhado depois em 
+#salva contratos_merged.to_csv('contratos_ordenados_completo.csv', index=False) 
 
 
 import pandas as pd
@@ -59,7 +64,8 @@ def read_file_contratos(df):
     contratos_fila = pd.DataFrame(new_rows)
 
     # Salvar o DataFrame resultante em um novo arquivo CSV
-    contratos_fila.to_csv('output_arquivo_json.csv', index=False)
+    # Parece que pode ser excluído
+    # contratos_fila.to_csv('output_arquivo_json.csv', index=False)
 
     # Retornar o DataFrame resultante
     return contratos_fila
