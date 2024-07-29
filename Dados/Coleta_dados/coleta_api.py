@@ -69,7 +69,7 @@ paginas_restantes =1
 dtInicial = str(anoDt) + '0'+ str(mes)+'0'+ str(diaDt) # 20220113
 dtFinal = str(ano_Dt) + '0'+ str(mes)+'0'+ str(diaDt-1)
 
-with open('contratos_OFICIAL_versao3.json', 'w', encoding='utf-8') as f:
+with open('../../frontend/contratos_OFICIAL_versao3.json', 'w', encoding='utf-8') as f:
     f.write('[\n')
 
     while ano_Dt <= 2025:

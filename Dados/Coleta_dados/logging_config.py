@@ -2,7 +2,7 @@ import logging
 
 def setup_logger():
     logging.basicConfig(level=logging.INFO,
-                        filename='info.log',
+                        filename='info_teste.log',
                         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
 
@@ -18,9 +18,9 @@ def setup_logger():
 
     return logger
 
-    def setup_logger_01():
+def setup_logger_01():
     logging.basicConfig(level=logging.INFO,
-                        filename='info_erros.log',
+                        filename='info_erros_teste.log',
                         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
 
