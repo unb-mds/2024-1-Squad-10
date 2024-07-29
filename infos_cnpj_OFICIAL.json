@@ -1,0 +1,248 @@
+[
+{
+    "CNPJ": "03231368000159",
+    "Razão social": "BETTA INSTALACAO, MANUTENCAO E COMERCIO LTDA",
+    "Porte": "",
+    "Nome Fantasia": "BETTA - TECNOLOGIA E SERVICOS",
+    "Situação Cadastral": "Ativa",
+    "Data da Situação Cadastral": "2005-11-03",
+    "CNAE fiscal principal": {
+        "codigo": 4322302,
+        "nome": "Instalação e manutenção de sistemas centrais de ar condicionado, de ventilação e refrigeração"
+    },
+    "Endereço UF": "DF",
+    "Endereço Município": "BRASILIA",
+    "Data de Início da Atividade": "1999-06-22",
+    "Sócios": [
+        {
+            "tipo": "Pessoa física",
+            "nome": "FRANCISCO DE OLIVEIRA FILHO",
+            "doc": "***865761**",
+            "qualificacao": "Sócio-Administrador",
+            "data_entrada": "2021-04-20",
+            "pais": "",
+            "faixa_etaria": "71 a 80 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        },
+        {
+            "tipo": "Pessoa física",
+            "nome": "SERGIO ROBERTO COELHO TEIXEIRA",
+            "doc": "***785017**",
+            "qualificacao": "Sócio",
+            "data_entrada": "2003-07-07",
+            "pais": "",
+            "faixa_etaria": "61 a 70 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        },
+        {
+            "tipo": "Pessoa física",
+            "nome": "DOMINGOS DO ROSARIO FERREIRA",
+            "doc": "***696201**",
+            "qualificacao": "Sócio-Administrador",
+            "data_entrada": "2021-04-20",
+            "pais": "",
+            "faixa_etaria": "61 a 70 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        }
+    ]
+},
+{
+    "CNPJ": "09070369000145",
+    "Razão social": "ELUMI COMERCIO DE EQUIPAMENTOS LTDA",
+    "Porte": "",
+    "Nome Fantasia": "ELUMI EQUIPAMENTOS",
+    "Situação Cadastral": "Ativa",
+    "Data da Situação Cadastral": "2007-08-16",
+    "CNAE fiscal principal": {
+        "codigo": 4761003,
+        "nome": "Comércio varejista de artigos de papelaria"
+    },
+    "Endereço UF": "PR",
+    "Endereço Município": "COLOMBO",
+    "Data de Início da Atividade": "2007-08-16",
+    "Sócios": [
+        {
+            "tipo": "Pessoa física",
+            "nome": "LUCELIA DE OLIVEIRA ZACARKIM",
+            "doc": "***800089**",
+            "qualificacao": "Sócio-Administrador",
+            "data_entrada": "2018-07-09",
+            "pais": "",
+            "faixa_etaria": "41 a 50 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        }
+    ]
+},
+{
+    "CNPJ": "41481191000138",
+    "Razão social": "JCG SOLUCOES LOGISTICAS LTDA",
+    "Porte": "ME",
+    "Nome Fantasia": "JCG SOLUCOES LOGISTICAS",
+    "Situação Cadastral": "Ativa",
+    "Data da Situação Cadastral": "2021-04-07",
+    "CNAE fiscal principal": {
+        "codigo": 4729699,
+        "nome": "Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente"
+    },
+    "Endereço UF": "GO",
+    "Endereço Município": "",
+    "Data de Início da Atividade": "2021-04-07",
+    "Sócios": [
+        {
+            "tipo": "Pessoa física",
+            "nome": "JORGE CLAUDIO GOMES",
+            "doc": "***620558**",
+            "qualificacao": "Sócio-Administrador",
+            "data_entrada": "2021-04-07",
+            "pais": "",
+            "faixa_etaria": "41 a 50 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        },
+        {
+            "tipo": "Pessoa física",
+            "nome": "CAROLINE FERREIRA PINTO",
+            "doc": "***553041**",
+            "qualificacao": "Administrador",
+            "data_entrada": "2022-06-03",
+            "pais": "",
+            "faixa_etaria": "21 a 30 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        }
+    ]
+},
+{
+    "CNPJ": "72649361000174",
+    "Razão social": "HBL CARIMBOS E PLACAS INDUSTRIA E COMERCIO LTDA",
+    "Porte": "",
+    "Nome Fantasia": "HBL CARIMBOS E PLACAS",
+    "Situação Cadastral": "Ativa",
+    "Data da Situação Cadastral": "2003-02-08",
+    "CNAE fiscal principal": {
+        "codigo": 8299703,
+        "nome": "Serviços de gravação de carimbos, exceto confecção"
+    },
+    "Endereço UF": "DF",
+    "Endereço Município": "BRASILIA",
+    "Data de Início da Atividade": "1995-03-14",
+    "Sócios": [
+        {
+            "tipo": "Pessoa física",
+            "nome": "JOSE RICARDO VIEIRA DA SILVA",
+            "doc": "***855041**",
+            "qualificacao": "Sócio-Administrador",
+            "data_entrada": "2021-04-30",
+            "pais": "",
+            "faixa_etaria": "41 a 50 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        },
+        {
+            "tipo": "Pessoa física",
+            "nome": "MARCOS RAIMUNDO VIEIRA DA SILVA",
+            "doc": "***831803**",
+            "qualificacao": "Sócio-Administrador",
+            "data_entrada": "2000-12-18",
+            "pais": "",
+            "faixa_etaria": "51 a 60 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        }
+    ]
+},
+{
+    "CNPJ": "35688983000185",
+    "Razão social": "CAMPANULA TECNOLOGIA LTDA",
+    "Porte": "",
+    "Nome Fantasia": "CAMPANULA TECNOLOGIA",
+    "Situação Cadastral": "Ativa",
+    "Data da Situação Cadastral": "2019-12-03",
+    "CNAE fiscal principal": {
+        "codigo": 4120400,
+        "nome": "Construção de edifícios"
+    },
+    "Endereço UF": "DF",
+    "Endereço Município": "BRASILIA",
+    "Data de Início da Atividade": "2019-12-03",
+    "Sócios": [
+        {
+            "tipo": "Pessoa física",
+            "nome": "EMERSON ANDRE PEREIRA DE OLIVEIRA",
+            "doc": "***978051**",
+            "qualificacao": "Sócio-Administrador",
+            "data_entrada": "2019-12-03",
+            "pais": "",
+            "faixa_etaria": "21 a 30 anos",
+            "representante_legal": {
+                "nome": "",
+                "doc": "***000000**",
+                "qualificacao": "Não informada"
+            }
+        }
+    ]
+},
+{
+    "CNPJ": "17469464000144",
+    "Razão social": "HUGO BRANDAO LIGORIO ALVES 16702510713",
+    "Porte": "ME",
+    "Nome Fantasia": "LIGORIO REPRESENTACOES",
+    "Situação Cadastral": "Ativa",
+    "Data da Situação Cadastral": "2013-01-25",
+    "CNAE fiscal principal": {
+        "codigo": 4781400,
+        "nome": "Comércio varejista de artigos do vestuário e acessórios"
+    },
+    "Endereço UF": "RJ",
+    "Endereço Município": "RIO DE JANEIRO",
+    "Data de Início da Atividade": "2013-01-25",
+    "Sócios": []
+},
+{
+    "CNPJ": "10793812000195",
+    "Razão social": "LS SERVICOS DE INFORMATICA E ELETRONICA LTDA",
+    "Porte": "",
+    "Nome Fantasia": "LS INFORMATICA E ELETRONICA",
+    "Situação Cadastral": "Ativa",
+    "Data da Situação Cadastral": "2009-04-29",
+    "CNAE fiscal principal": {
+        "codigo": 6209100,
+        "nome": "Suporte técnico, manutenção e outros serviços em tecnologia da informação"
+    },
+    "Endereço UF": "DF",
+    "Endereço Município": "BRASILIA",
+    "Data de Início da Atividade": "2009-04-29",
+    "Sócios": [
+        {
+            "tipo": "Pessoa física",
+            "nome": "ANTONIO CLEMILTON DO NASCIMENTO SILVA",
+            "doc": "***499911**",
+            "qualificacao": "Sócio"

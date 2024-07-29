@@ -5,10 +5,10 @@ import json
 import requests
 
 # Caminho do arquivo JSON
-with open('infos_cnpj_OFICIAL.json', 'w', encoding='utf-8') as f:
+with open('frontend/infos_cnpj_OFICIAL.json', 'w', encoding='utf-8') as f:
     f.write('[\n')
     # Abre o arquivo JSON para leitura
-    with open('contratos_OFICIAL.json', 'r', encoding='utf-8') as arquivo:
+    with open('frontend/contratos_OFICIAL.json', 'r', encoding='utf-8') as arquivo: # adicionei o frontend, pois não estava funcionando no meu pc
         # Carrega o conteúdo do arquivo como um objeto Python
         dados_json = json.load(arquivo)
 

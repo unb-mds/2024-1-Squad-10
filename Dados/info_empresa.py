@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Carrega o arquivo JSON original
-with open('contratos_OFICIAL.json', 'r', encoding='utf-8') as file:
+with open('frontend/contratos_OFICIAL.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 # Lista para armazenar os novos dicionários
@@ -32,6 +32,8 @@ for contrato in dados:
 df = pd.DataFrame(nova_estrutura)
 
 df.to_csv('x_empresas_contratadas.csv', index=False, encoding='utf-8')
+import os
+print(f"O arquivo foi salvo em: {os.path.abspath('x_empresas_contratadas.csv')}")
 
 print("Arquivo CSV criado com sucesso!")
 
