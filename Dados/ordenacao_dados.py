@@ -175,7 +175,7 @@ contratos_merged = merge(contratos_fila, contratos_cnpj) #avaliar a necessidade 
 contratos_merged= arredonda_valores(contratos_merged)
 
 # Salvar a base de dados combinada
-contratos_merged.to_csv('contratos_ordenados_completo.csv', index=False) # ajustei estava ('contratos_ordenados_completos.csv')
+contratos_merged.to_csv('frontend/contratos_ordenados_completo.csv', index=False) # ajustei estava ('contratos_ordenados_completos.csv')
 
 # Verificar diferenças
 diferencas = verificar_diferenca(contratos_merged)
