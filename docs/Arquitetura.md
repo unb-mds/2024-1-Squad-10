@@ -64,3 +64,38 @@ O projeto LicitaNow visa verificar e mostrar aos usuários os gastos públicos d
 ### Conclusão
 
 A combinação de HTML, CSS e JavaScript para a estrutura e estilo inicial, junto com a biblioteca Streamlit para funcionalidades interativas e visualizações de dados, nos permitiu criar uma aplicação robusta e fácil de usar. Esta abordagem nos permitiu oferecer uma melhor combinação entre: a flexibilidade e personalização do desenvolvimento web tradicional, e a simplicidade e eficiência do Streamlit para análise de dados.
+
+### Índice de Arquivos
+
+#### coleta_api.py
+Faz buscas no API do PNCP, como resultado, ele gera um arquivo Json
+
+#### coleta_cnpj.py
+Faz buscas do casdastro de CNPJ no API https://api.cnpjs.dev/v1 utilizando o arquivo 'contratos_OFICIAL.json' e adiciona a ele o resultado das buscas
+
+#### contratos_final_excel.py
+Organiza o arquivo Json para que possa ser lido pelo "ordenacao_dados.py"
+
+#### ordenacao_dados.py
+Organiza o arquivo Json para que possa ser lido pelo dashboard, consolida com as informações do arquivo "contrato_final1.xlsx", além de possíbilitar ao usuário que o baixe para trabalhá-lo em planilha Excel > Gera o arquivo "contratos_ordenados_completo.csv"
+
+#### info_empresa.py
+verificar a necessidade de manter este arquivo, pois parece que não tem mais utilidade para o projeto
+
+- Lê o arquivo"x_empresas_contratadas.json" e gera o arquivo 'x_empresas_contratadas.csv'
+
+#### Rank_empresas.py
+Página de arquivos do ranking das empresas
+
+
+#### Rank_dos_órgãos.py
+Página de arquivos do ranking dos órgãos conntratantes
+
+#### Contato.py
+Contato do organização do projeto
+
+#### Sobre.py
+Sobre nós
+
+#### Menu.py
+Menu do Dashboard Interativo
