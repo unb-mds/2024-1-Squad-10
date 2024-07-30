@@ -178,7 +178,7 @@ if search_term:
                 st.write(f'<h3><u style="color:white;">Valor anual gasto em dispensa de licitação por:</u> {selected_organ}</h3>', unsafe_allow_html=True)
                 for _, row in df_grouped.iterrows():
                     st.markdown(f"<p style='font-size:16px;'><u style='color:white;'>Ano {row['Ano da Compra']}:</u> R$ {row['Valor Total Homologado']:,.2f}</p>", unsafe_allow_html=True)
-                st.write("A primeria versão do Portal Nacional de Contratações Públicas [(PNCP)](https://www.gov.br/pncp/pt-br) somente foi lançada em Agosto de 2021 portanto, os dados desse ano podem estar imcompletos.")
+                st.write("A primeria versão do Portal Nacional de Contratações Públicas [(PNCP)](https://www.gov.br/pncp/pt-br) somente foi lançada em Agosto de 2021 portanto, os dados desse ano podem estar incompletos.")
                 st.write('<hr>', unsafe_allow_html=True)
                 
 else:
