@@ -1,5 +1,6 @@
 import requests
 import json
+import sys
 from logging_config import setup_logger #importamos a função setup_logger
 import time
 
@@ -58,90 +59,99 @@ def get_resultados(contrato):
         return None
 
 pag =1
-diaDt = 2
-anoDt = 2021
-ano_Dt=2022
-mes = 1
+#diaDt = 2
+#anoDt = 2021
+#ano_Dt=2022
+#mes = 1
 
 tentativas = 5
 paginas_restantes =1
 
-dtInicial = str(anoDt) + '0'+ str(mes)+'0'+ str(diaDt) # 20220113
-dtFinal = str(ano_Dt) + '0'+ str(mes)+'0'+ str(diaDt-1)
+dtInicial = sys.argv[1]
+dtFinal = sys.argv[2]
 
-with open('../../frontend/contratos_OFICIAL_versao3.json', 'w', encoding='utf-8') as f:
-    f.write('[\n')
-
-    while ano_Dt <= 2025:
+with open('contratos_OFICIAL_versao3.json', sys.argv[3], encoding='utf-8') as f:
+    f.write(sys.argv[4])
         
    
-        while paginas_restantes>0:
-            url = 'https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao'
-            params = {
-                'dataInicial': dtInicial,
-                'dataFinal': dtFinal,
-                'codigoModalidadeContratacao': '8',
-                'uf' : 'df',
-                'pagina': str(pag)
-                #'tamanhoPagina': '50'
-                }
-            wait_time = 1 # Tempo de espera em caso de falha na requisição
+    while paginas_restantes>0:
+        url = 'https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao'
+        params = {
+            'dataInicial': dtInicial,
+            'dataFinal': dtFinal,
+            'codigoModalidadeContratacao': '8',
+            'uf' : 'df',
+            'pagina': str(pag)
+            #'tamanhoPagina': '50'
+            }
+        wait_time = 1 # Tempo de espera em caso de falha na requisição
 
-            for tentativa in range(tentativas): # Ele irá tentar 3 vezes fazer o request novamente em caso de falha
-                try:
-                    response = requests.get(url, params=params)
-                    response.raise_for_status()
-                    dados = response.json()
+        for tentativa in range(tentativas): # Ele irá tentar 3 vezes fazer o request novamente em caso de falha
+            try:
+                response = requests.get(url, params=params)
+                response.raise_for_status()
+                dados = response.json()
 
-                    total_paginas = dados.get('totalPaginas')
-                    numero_pagina = dados.get('numeroPagina')
-                    paginas_restantes = dados.get('paginasRestantes')
-                    total_registros = dados.get('totalRegistros')
+                total_paginas = dados.get('totalPaginas')
+                numero_pagina = dados.get('numeroPagina')
+                paginas_restantes = dados.get('paginasRestantes')
+                total_registros = dados.get('totalRegistros')
 
-                    print (f"Total de páginas: {total_paginas} --- Paginas restantes {paginas_restantes} --- Numero da pagina: {numero_pagina} --- Total de Registos {total_registros}")
-                
-                    for contrato in dados['data']:
-                        if contrato['valorTotalHomologado'] is not None:
-                            empresasContratadas = get_resultados(contrato)
+                print (f"Total de páginas: {total_paginas} --- Paginas restantes {paginas_restantes} --- Numero da pagina: {numero_pagina} --- Total de Registos {total_registros}")
 
-                            if empresasContratadas:
-                                
 
-                                contrato_data = {
-                                    "Modalidade" : contrato["modalidadeNome"],
-                                    "Código" : contrato["numeroControlePNCP"],
-                                    "UF" : contrato["unidadeOrgao"]["ufNome"],
-                                    "Órgão Entidade": contrato['orgaoEntidade']['razaoSocial'],
-                                    "Objeto da Compra": contrato['objetoCompra'],
-                                    "Ano da Compra": contrato['anoCompra'],
-                                    "Valor Total Estimado": contrato['valorTotalEstimado'],
-                                    "Valor Total Homologado": contrato['valorTotalHomologado'],
-                                    "Empresas Contratadas" : empresasContratadas
-                                }
-                                numeroControlePNCP = contrato["numeroControlePNCP"]
-                                print(numeroControlePNCP)
-                                json.dump(contrato_data, f, ensure_ascii=False, indent=4)
-                                f.write(',\n')
-                        
+            
+                for contrato in dados['data']:
+                    if contrato['valorTotalHomologado'] is not None:
+                        empresasContratadas = get_resultados(contrato)
+
+                        if empresasContratadas:
+                            
+
+                            contrato_data = {
+                                "Modalidade" : contrato["modalidadeNome"],
+                                "Código" : contrato["numeroControlePNCP"],
+                                "UF" : contrato["unidadeOrgao"]["ufNome"],
+                                "Órgão Entidade": contrato['orgaoEntidade']['razaoSocial'],
+                                "Objeto da Compra": contrato['objetoCompra'],
+                                "Ano da Compra": contrato['anoCompra'],
+                                "Valor Total Estimado": contrato['valorTotalEstimado'],
+                                "Valor Total Homologado": contrato['valorTotalHomologado'],
+                                "Empresas Contratadas" : empresasContratadas
+                            }
+                            numeroControlePNCP = contrato["numeroControlePNCP"]
+                            print(numeroControlePNCP)
+                            json.dump(contrato_data, f, ensure_ascii=False, indent=4)
+                            f.write(',\n')
+                    
+                pag +=1
+                break
+            except:
+                if (tentativa < tentativas - 1):
+                    time.sleep(wait_time) # Espera o wait time para fazer a próxima requisição
+                    wait_time *= 2 # Dobra o tempo de espera para a próxima tentativa de requisição (caso exista)
+                    print(f"Tentativa número {tentativa} do requeste da pagina: {pag}, da data inicial {dtInicial} e data final {dtFinal}")
+                else:
+                    logger.error(f"Nao foi possivel fazer o requeste da pagina: {pag}, da data inicial {dtInicial} e data final {dtFinal}")
+                    print(f"Nao foi possivel fazer o requeste da pagina: {pag}, da data inicial {dtInicial} e data final {dtFinal}")
                     pag +=1
-                    break
-                except:
-                    if (tentativa < tentativas - 1):
-                        time.sleep(wait_time) # Espera o wait time para fazer a próxima requisição
-                        wait_time *= 2 # Dobra o tempo de espera para a próxima tentativa de requisição (caso exista)
-                        print(f"Tentativa número {tentativa} do requeste da pagina: {pag}, da data inicial {dtInicial} e data final {dtFinal}")
-                    else:
-                        logger.error(f"Nao foi possivel fazer o requeste da pagina: {pag}, da data inicial {dtInicial} e data final {dtFinal}")
-                        print(f"Nao foi possivel fazer o requeste da pagina: {pag}, da data inicial {dtInicial} e data final {dtFinal}")
-                        pag +=1
         
-        paginas_restantes =1
-        pag = 1
-        anoDt = ano_Dt
-        ano_Dt += 1
-        dtInicial = str(anoDt) + '0'+ str(mes)+'0'+ str(diaDt)
-        dtFinal = str(ano_Dt) + '0'+ str(mes)+'0'+ str(diaDt-1)
+        
     f.seek(f.tell() - 3)  # Move o cursor de escrita de volta 3 caracteres
     f.truncate()  # Remove o último caractere (a vírgula)
-    f.write('\n]')  # Escreve o fechamento da lista
+    f.write(sys.argv[5])  # Escreve o fechamento da lista
     
+
+# Sys agr, nessa ordem:
+# python coleta_API.py "20210201" "20220101" "w" "[\n" ","
+# python coleta_API.py "20220201" "20230101" "a" "\n" ","
+# python coleta_API.py "20230201" "20240101" "a" "\n" ","
+# python coleta_API.py "20240201" "20250101" "a" "\n" ","
+# python coleta_API.py "20250201" "20260101" "a" "\n" "\n]"
+
+# Elemento 0 = coleta_API.py 
+# Elemento 1 = data inicial
+# Elemento 2 = data final
+# Elemento 3 = w ou a (método para abertura do arquivo)
+# Elemento 4 = como o arquivo começa
+# Elemento 5 = como o arquivo termina
