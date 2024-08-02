@@ -50,5 +50,5 @@ jobs:
                 git pull 
                 git add .
                 git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
-                git push
+                git push origin mateus
                

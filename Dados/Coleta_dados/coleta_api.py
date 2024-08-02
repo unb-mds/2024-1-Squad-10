@@ -70,7 +70,7 @@ paginas_restantes =1
 dtInicial = sys.argv[1]
 dtFinal = sys.argv[2]
 
-with open('../../frontend/contratos_OFICIAL_versao3.json', sys.argv[3], encoding='utf-8') as f:
+with open('frontend/contratos_OFICIAL_versao3.json', sys.argv[3], encoding='utf-8') as f:
     f.write(sys.argv[4])
         
    
