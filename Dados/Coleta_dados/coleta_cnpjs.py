@@ -11,14 +11,14 @@ def lista_cnpjs (arquivo):
     with open(arquivo,'r',encoding='utf-8') as file:
         dados_json = csv.reader(file)
         lista = [linha[-3] for linha in dados_json if (linha[-3].isnumeric() and len(linha[-3])==14)] # faz uma lista com o elemento -3, que corresponde ao cnpj
-        lista_oficial = list(set(lista))
-        lista_oficial.sort()
+        lista_oficial = list(set(lista)) # retira os cnpjs duplicados
+        lista_oficial.sort() # ordena em ordem crescente
     return lista_oficial
 
 # Pega a lista e divide em 3 listas de tamanhos iguais
 def lista_3_listas(lista):
     tamanho = len(lista) // 3
-    return [lista[i * tamanho: (i + 1) * tamanho] for i in range(3)]
+    return [lista[i * tamanho: (i + 1) * tamanho] for i in range(3)] # cria uma lista contendo 3 listas (cada uma com tamanhos semelhantes)
 
 
 # retorna a lista das empresas contratadas
@@ -79,7 +79,7 @@ with open('../../frontend/infos_cnpj_OFICIAL.json', sys.argv[2], encoding='utf-8
 
 
 # Entrada no terminal: 
-# python coleta_cnpj.py "0" "w" "\n[" ","
+# python coleta_cnpj.py "0" "w" "[\n" ","
 # python coleta_cnpj.py "1" "a" "\n" ","
 # python coleta_cnpj.py "2" "a" "\n" "\n]"
 

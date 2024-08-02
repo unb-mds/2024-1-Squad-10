@@ -143,11 +143,11 @@ with open('../../frontend/contratos_OFICIAL_versao3.json', sys.argv[3], encoding
     
 
 # Sys agr, nessa ordem:
-# python coleta_API.py "20210201" "20220101" "w" "[\n" ","
-# python coleta_API.py "20220201" "20230101" "a" "\n" ","
-# python coleta_API.py "20230201" "20240101" "a" "\n" ","
-# python coleta_API.py "20240201" "20250101" "a" "\n" ","
-# python coleta_API.py "20250201" "20260101" "a" "\n" "\n]"
+# python coleta_API.py "20210102" "20220101" "w" "[\n" ","
+# python coleta_API.py "20220102" "20230101" "a" "\n" ","
+# python coleta_API.py "20230102" "20240101" "a" "\n" ","
+# python coleta_API.py "20240102" "20250101" "a" "\n" ","
+# python coleta_API.py "20250102" "20260101" "a" "\n" "\n]"
 
 # Elemento 0 = coleta_API.py 
 # Elemento 1 = data inicial
