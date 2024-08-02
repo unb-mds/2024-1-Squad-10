@@ -30,7 +30,7 @@ posicao = int(sys.argv[1])
 
 print(len(listas_cnpjs[posicao])) # printa o tamanho da lista que iremos percorrer
 
-with open('../../frontend/infos_cnpj_OFICIAL.json', sys.argv[2], encoding='utf-8') as f:
+with open('../../frontend/infos_cnpj_OFICIAL1.json', sys.argv[2], encoding='utf-8') as f:
     f.write(sys.argv[3])
     for index,cnpj in enumerate(listas_cnpjs[posicao]):
         wait_time =1
