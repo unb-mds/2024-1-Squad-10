@@ -2,11 +2,10 @@ name: Atualizar contratos 24 25
 
 on:
     workflow_run:
-      workflows: ["Atualizar contratos 23 24"]
+      workflows: ["Atualizar contratos 23 24 2"]
       types:
         - completed
     workflow_dispatch:
-
 jobs:
     update-data:
         runs-on: ubuntu-latest
@@ -30,12 +29,12 @@ jobs:
 
             - name: Commit and push changes
               env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               run: |
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'noreply.github.com'
-                git pull origin mateus
+                git pull origin main
                 git add .
                 git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
-                git push origin mateus
+                git push
                

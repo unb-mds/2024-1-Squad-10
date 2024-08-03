@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'noreply.github.com'
-          git pull origin mateus 
+          git pull origin main
           git add .
           git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
-          git push origin mateus
+          git push origin main
