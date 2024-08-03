@@ -1,8 +1,8 @@
-name: Atualizar Info Empresa
+name: Atualizar contratos 25 26
 
 on:
   workflow_run:
-    workflows: ["Tratar erros"]
+    workflows: ["Atualizar contratos 24 25"]
     types:
       - completed
   workflow_dispatch:
@@ -24,10 +24,9 @@ jobs:
               run: |
                 python -m pip install --upgrade pip
                 pip install requests
-                pip install pandas
 
-            - name: Run info_empresa.py
-              run: python Dados/info_empresa.py
+            - name: Run update script 2025-2026
+              run: python Dados/Coleta_dados/coleta_api.py "20250102" "20260101" "a" "\n" "\n]"
 
             - name: Commit and push changes
               env:
@@ -39,3 +38,4 @@ jobs:
                 git add .
                 git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
                 git push origin mateus
+               

@@ -2,7 +2,7 @@ name: Tratar erros
 
 on:
   workflow_run:
-    workflows: ["Atualizar contratos"]
+    workflows: ["Atualizar contratos 25 26"]
     types:
       - completed
   workflow_dispatch:
