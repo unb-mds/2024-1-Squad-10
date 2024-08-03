@@ -2,7 +2,7 @@ name: Atualizar Info Empresa
 
 on:
   workflow_run:
-    workflows: ["Atualizar contratos"]
+    workflows: ["Tratar erros"]
     types:
       - completed
   workflow_dispatch:
