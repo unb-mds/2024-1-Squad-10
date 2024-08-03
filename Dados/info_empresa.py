@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Carrega o arquivo JSON original
-with open('../../frontend/contratos_OFICIAL_versao3.json', 'r', encoding='utf-8') as file:
+with open('frontend/contratos_OFICIAL_versao3.json', 'r', encoding='utf-8') as file:
     dados = json.load(file)
 
 # Lista para armazenar os novos dicionários
@@ -34,9 +34,10 @@ df = pd.DataFrame(nova_estrutura)
 df.to_csv('x_empresas_contratadas.csv', index=False, encoding='utf-8')
 
 print("Arquivo CSV criado com sucesso!")
-
+'''
 # Salva a nova estrutura em um novo arquivo JSON
 with open('x_empresas_contratadas.json', 'w', encoding='utf-8') as outfile:
     json.dump(nova_estrutura, outfile,ensure_ascii=False, indent=4)
 
 print("Novo arquivo JSON criado com sucesso!")
+'''

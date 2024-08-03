@@ -87,7 +87,7 @@ with open('info01.log', 'r') as arquivo_log:
 print(f"O tamanho da lista dos contratos é: {len(lista_contratos)}")
 #lista_contratoss= ["00348003000110-1-000004/2021","00394452000103-1-000319/2021","00394452000103-1-000719/2021","33583550000130-1-000004/2021","08829974000194-1-000007/2021","00394452000103-1-001017/2021"]
 
-with open("../../frontend/contratos_OFICIAL_versao3.json","a",encoding='utf-8') as f:
+with open("frontend/contratos_OFICIAL_versao3.json","a",encoding='utf-8') as f:
     f.write("\n")
     for contrato in lista_contratos:
         cnpj = contrato.split('-')[0]

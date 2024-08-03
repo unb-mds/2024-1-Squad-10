@@ -59,7 +59,7 @@ def read_file_contratos(df):
     contratos_fila = pd.DataFrame(new_rows)
 
     # Salvar o DataFrame resultante em um novo arquivo CSV
-    contratos_fila.to_csv('output_arquivo_json.csv', index=False)
+    #contratos_fila.to_csv('output_arquivo_json.csv', index=False)
 
     # Retornar o DataFrame resultante
     return contratos_fila
@@ -67,7 +67,7 @@ def read_file_contratos(df):
 def read_file_cnpj():
     #cnpj= pd.read_json('infos_cnpj_OFICIAL.json')
     #cadastros_cnpj = pd.read_csv('cnpj_oficial.csv', encoding='utf-8')
-    cadastros_cnpj= pd.read_json('infos_cnpj_OFICIAL.json')
+    cadastros_cnpj= pd.read_json('frontend/infos_cnpj_OFICIAL.json')
     cadastros_cnpj['Data de Início da Atividade'] = pd.to_datetime(cadastros_cnpj['Data de Início da Atividade'])
 
     # Extrair o ano e inserir a nova coluna imediatamente após 'Data de Início da Atividade'
@@ -144,7 +144,7 @@ def arredonda_valores(df):
 
 
 # Carregar o arquivo JSON
-with open('contratos_OFICIAL.json', 'r', encoding='utf-8') as file:
+with open('frontend/contratos_OFICIAL.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Substituir ';' por '/'
@@ -169,7 +169,7 @@ contratos_merged = merge(contratos_fila, contratos_cnpj) #avaliar a necessidade 
 contratos_merged= arredonda_valores(contratos_merged)
 
 # Salvar a base de dados combinada
-contratos_merged.to_csv('contratos_ordenados_completo.csv', index=False) # ajustei estava ('contratos_ordenados_completos.csv')
+contratos_merged.to_csv('frontend/contratos_ordenados_completo.csv', index=False) # ajustei estava ('contratos_ordenados_completos.csv')
 
 # Verificar diferenças
 diferencas = verificar_diferenca(contratos_merged)
