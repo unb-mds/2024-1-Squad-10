@@ -1,0 +1,40 @@
+name: Atualizar Info Empresa
+
+on:
+  workflow_run:
+    workflows: ["Atualizar contratos"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+    update-data:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                python-version: '3.x'
+
+            - name: Install dependencies
+              run: |
+                python -m pip install --upgrade pip
+                pip install requests
+
+            - name: Run info_empresa.py
+              run: python Dados/info_empresa.py
+
+            - name: Commit and push changes
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+              run: |
+                git config --global user.name 'GitHub Actions'
+                git config --global user.email 'noreply.github.com'
+                git pull origin mateus
+                git add .
+                git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
+                git push origin mateus
