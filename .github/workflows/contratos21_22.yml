@@ -1,4 +1,4 @@
-name: Atualizar contratos 21 22
+name: Atualizar_contratos_21_22
 
 on:
     schedule:
