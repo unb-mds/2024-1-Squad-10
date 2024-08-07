@@ -1,0 +1,33 @@
+name: Relatório para o code climate.
+
+on: 
+  pull_request:
+    branches: 
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests and generate coverage report
+        run: npm test -- --coverage
+
+      - name: Send coverage report to Code Climate
+        env:
+          CODECLIMATE_REPO_TOKEN: ${{ secrets.CODECLIMATE_REPO_TOKEN }}
+        run: |
+          npm install -g codeclimate-test-reporter
+          codeclimate-test-reporter format-coverage -t lcov -o coverage/codeclimate.json
+          codeclimate-test-reporter upload-coverage
