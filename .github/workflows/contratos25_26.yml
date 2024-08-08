@@ -1,11 +1,11 @@
-name: Atualizar contratos 24 25
+name: Atualizar contratos 25 26
 
 on:
-    workflow_run:
-      workflows: ["Atualizar contratos 23 24"]
-      types:
-        - completed
-    workflow_dispatch:
+  workflow_run:
+    workflows: ["Atualizar contratos 24 25"]
+    types:
+      - completed
+  workflow_dispatch:
 
 jobs:
     update-data:
@@ -25,8 +25,8 @@ jobs:
                 python -m pip install --upgrade pip
                 pip install requests
 
-            - name: Run update script 2024-2025
-              run: python Dados/Coleta_dados/coleta_api.py "20240102" "20250101" "a" "\n" ","
+            - name: Run update script 2025-2026
+              run: python Dados/Coleta_dados/coleta_api.py "20250102" "20260101" "a" "\n" "\n]"
 
             - name: Commit and push changes
               env:
@@ -34,8 +34,8 @@ jobs:
               run: |
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'noreply.github.com'
-                git pull origin mateus
+                git pull origin main
                 git add .
                 git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
-                git push origin mateus
+                git push 
                

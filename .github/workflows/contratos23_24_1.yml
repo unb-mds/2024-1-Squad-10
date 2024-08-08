@@ -1,4 +1,4 @@
-name: Atualizar contratos 23 24
+name: Atualizar contratos 23 24 1
 
 on:
     workflow_run:
@@ -25,16 +25,16 @@ jobs:
                 pip install requests
 
             - name: Run update script 2023-2024
-              run: python Dados/Coleta_dados/coleta_api.py "20230102" "20240101" "a" "\n" ","
-
-            - name: Commit and push changes
-              env:
+              run: python Dados/Coleta_dados/coleta_api.py "20230102" "20230702" "a" "\n" ","  
+                                                                                               
+            - name: Commit and push changes                                                    
+              env:                                                                             
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               run: |
                 git config --global user.name 'GitHub Actions'
                 git config --global user.email 'noreply.github.com'
-                git pull origin mateus
+                git pull origin main
                 git add .
                 git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
-                git push origin mateus
+                git push
                

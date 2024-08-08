@@ -3,8 +3,15 @@ import json
 import sys
 from logging_config import setup_logger #importamos a função setup_logger
 import time
+import codecs
 
 logger = setup_logger() # Configura e obtém o logger
+
+def decode_escape_sequences(input_string):
+    return codecs.escape_decode(bytes(input_string, "utf-8"))[0].decode("utf-8")
+
+start_string = decode_escape_sequences(sys.argv[4])
+end_string = decode_escape_sequences(sys.argv[5])
 
 def get_resultados(contrato):
     empresasContratadas = {}
@@ -71,7 +78,7 @@ dtInicial = sys.argv[1]
 dtFinal = sys.argv[2]
 
 with open('frontend/contratos_OFICIAL_versao3.json', sys.argv[3], encoding='utf-8') as f:
-    f.write(sys.argv[4])
+    f.write(start_string)
         
    
     while paginas_restantes>0:
@@ -139,7 +146,7 @@ with open('frontend/contratos_OFICIAL_versao3.json', sys.argv[3], encoding='utf-
         
     f.seek(f.tell() - 3)  # Move o cursor de escrita de volta 3 caracteres
     f.truncate()  # Remove o último caractere (a vírgula)
-    f.write(sys.argv[5])  # Escreve o fechamento da lista
+    f.write(end_string)  # Escreve o fechamento da lista
     
 
 # Sys agr, nessa ordem:
