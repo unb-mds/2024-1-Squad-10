@@ -1,3 +1,8 @@
+# lê os arquivos ('infos_cnpj_OFICIAL.json')
+# ('contratos_OFICIAL.json', 'r', encoding='utf-8') 
+
+# segrega cada item por fornecedor e salva arquivo csv para que possa ser trabalhado depois em 
+#salva contratos_merged.to_csv('contratos_ordenados_completo.csv', index=False) 
 
 
 import pandas as pd
@@ -60,7 +65,7 @@ def read_file_contratos(df):
 
     # Salvar o DataFrame resultante em um novo arquivo CSV
     #contratos_fila.to_csv('output_arquivo_json.csv', index=False)
-
+    
     # Retornar o DataFrame resultante
     return contratos_fila
 
@@ -177,5 +182,6 @@ diferencas = verificar_diferenca(contratos_merged)
 # Salvar a base de dados resultante das diferenças - usado para ratrear 
 #diferencas.to_csv('resultado_final_output2_diferenca.csv', index=False)
 
+print("ordenado com sucesso")
 
 

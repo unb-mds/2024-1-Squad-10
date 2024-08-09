@@ -99,7 +99,7 @@ Contribuições são bem-vindas! Se você tiver sugestões ou encontrar problema
 
 ## 🗺 Story Map
 
-Para entender melhor o fluxo do projeto e seu desenvolvimento, acesse o nosso story map [aqui](https://www.canva.com/design/DAGDRLpXv2w/ICrDLJTkKSMOxNdR-kHDwQ/view?utm_content=DAGDRLpXv2w&utm_campaign=designshare&utm_medium=link&utm_source=editor).
+Para entender melhor o fluxo do projeto e seu desenvolvimento, acesse o nosso story map [aqui](https://miro.com/app/board/uXjVKvBZxVI=/?share_link_id=515257449906).
 
 ## 🖼 Protótipo
 

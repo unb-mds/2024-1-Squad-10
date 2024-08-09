@@ -1,3 +1,5 @@
+#Faz buscas no API do PNCP, como resultado, ele gera um arquivo "frontend\contratos_OFICIAL.json"
+
 import requests
 import json
 import sys

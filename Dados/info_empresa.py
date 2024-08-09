@@ -31,10 +31,13 @@ for contrato in dados:
 
 df = pd.DataFrame(nova_estrutura)
 
-df.to_csv('x_empresas_contratadas.csv', index=False, encoding='utf-8')
+df.to_csv('frontend/x_empresas_contratadas.csv', index=False, encoding='utf-8')
+import os
+print(f"O arquivo foi salvo em: {os.path.abspath('x_empresas_contratadas.csv')}")
 
 print("Arquivo CSV criado com sucesso!")
-'''
+
+''' 
 # Salva a nova estrutura em um novo arquivo JSON
 with open('x_empresas_contratadas.json', 'w', encoding='utf-8') as outfile:
     json.dump(nova_estrutura, outfile,ensure_ascii=False, indent=4)

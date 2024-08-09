@@ -1,3 +1,5 @@
+#Faz buscas no API do CNPJ <https://api.cnpjs.dev>, como resultado, ele gera um arquivo "frontend\infos_CNPJ_OFICIAL.json"
+
 # ARQUIVO REFATORADO
 
 import json
