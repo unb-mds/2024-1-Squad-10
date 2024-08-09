@@ -1,0 +1,1574 @@
+2024-07-28 14:15:52,762 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000004/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:16:15,431 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000319/2021 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:16:37,703 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000004/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 70
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:17:00,897 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000516/2021 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 18
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:17:23,098 - logger_coleta_erros - ERROR - Erro ao obter contrato: 86900545000170-1-000001/2021 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:17:43,007 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000719/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:18:02,926 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33583550000130-1-000004/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:18:25,088 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989350000116-1-000006/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:18:45,760 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08829974000194-1-000007/2021 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:19:08,216 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000136/2021 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:19:30,181 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001017/2021 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:19:50,151 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001058/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:20:20,341 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000108/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:20:46,041 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001314/2021 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:21:07,801 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000015/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 72
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:21:31,372 - logger_coleta_erros - ERROR - Erro ao obter contrato: 86900545000170-1-000006/2021 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 35
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:21:53,168 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000171/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:22:13,821 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000196/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 30
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:22:36,217 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000185/2021 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:22:58,869 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001612/2021 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:23:20,909 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000211/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:23:42,846 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000195/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 46
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:24:07,035 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000217/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 17
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:24:29,038 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000223/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:24:49,683 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000225/2021 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:25:13,284 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000219/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:25:33,177 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000220/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:25:55,674 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000237/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 26
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:26:17,625 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000006/2021 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:26:38,020 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001825/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:26:57,647 - logger_coleta_erros - ERROR - Erro ao obter contrato: 01678363000143-1-000001/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:27:25,709 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001890/2021 devido à inconsistência no item número 22. Quantidade total de itens no contrato: 26
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:27:46,237 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000280/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 24
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:28:07,827 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00105650000100-1-000003/2021 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:28:28,175 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001981/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:28:49,388 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001982/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:29:11,213 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001983/2021 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:29:30,800 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115375000107-1-000002/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:29:50,389 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002040/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 36
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:30:10,567 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002045/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:30:31,917 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002047/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:30:59,884 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000311/2021 devido à inconsistência no item número 21. Quantidade total de itens no contrato: 51
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:31:21,468 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000012/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:31:42,003 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002097/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:32:10,796 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000327/2021 devido à inconsistência no item número 21. Quantidade total de itens no contrato: 34
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:32:33,680 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000342/2021 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:32:56,926 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000354/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:33:22,301 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000363/2021 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:33:47,661 - logger_coleta_erros - ERROR - Erro ao obter contrato: 01263896000164-1-000158/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:34:09,494 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-000170/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:34:29,512 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000076/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:34:50,256 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000077/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:35:11,324 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000380/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:35:32,882 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000080/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 26
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:35:56,306 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000081/2021 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 30
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:36:17,351 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000083/2021 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:36:43,793 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002410/2021 devido à inconsistência no item número 16. Quantidade total de itens no contrato: 36
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:37:05,682 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000028/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:37:26,670 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33787094000140-1-000036/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:37:47,201 - logger_coleta_erros - ERROR - Erro ao obter contrato: 42150664000187-1-000004/2021 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:38:10,943 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00105650000100-1-000001/2022 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:38:32,897 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000003/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:38:53,961 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000024/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:39:14,659 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000037/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:39:37,701 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000076/2022 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:39:59,112 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000199/2022 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 17
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:40:20,404 - logger_coleta_erros - ERROR - Erro ao obter contrato: 42422253000527-1-000001/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:40:41,492 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000213/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:41:02,769 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-000035/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:41:22,565 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000023/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:41:43,594 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000289/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:42:06,228 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000307/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:42:26,322 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000308/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:42:48,029 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000014/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:43:08,584 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000170/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:43:31,521 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000440/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:43:51,288 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000083/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:44:11,184 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000030/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:44:32,715 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000022/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:44:53,288 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000018/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:45:13,143 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000024/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:45:33,161 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000271/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:45:54,012 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000592/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:46:14,745 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000107/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:46:34,748 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000663/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:46:54,127 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000681/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:47:14,225 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000337/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:47:33,707 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000694/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:47:54,119 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000042/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 80
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:48:20,489 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000746/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:48:43,724 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000046/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 36
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:49:03,527 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000018/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:49:24,015 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000399/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:49:49,803 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000406/2022 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 28
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:50:10,427 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000471/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:50:31,119 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000474/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:50:50,682 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000955/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:51:09,680 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000048/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:51:30,271 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000575/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:51:51,033 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001049/2022 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:52:14,910 - logger_coleta_erros - ERROR - Erro ao obter contrato: 15126437000143-1-000120/2022 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:52:33,619 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001246/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:52:52,524 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001264/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:53:12,152 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000025/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:53:31,647 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001338/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 20
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:53:54,736 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03659166001931-1-000018/2022 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:54:15,339 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000231/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:54:38,764 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001086/2022 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 62
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:55:01,010 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00378257000181-1-000002/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:55:20,832 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001627/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:55:39,630 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001628/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:56:00,141 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001769/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:56:21,370 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001273/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:56:41,660 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000030/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:57:02,145 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000310/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:57:22,699 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000314/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:57:43,639 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002001/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:58:03,650 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002017/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:58:24,880 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001413/2022 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 42
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:58:45,675 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000099/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:59:05,496 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000350/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:59:26,901 - logger_coleta_erros - ERROR - Erro ao obter contrato: 60984473000100-1-000004/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 14:59:48,771 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000367/2022 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:00:09,091 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001656/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:00:32,359 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002423/2022 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:00:52,575 - logger_coleta_erros - ERROR - Erro ao obter contrato: 10791831000182-1-000003/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 144
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:01:13,872 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000050/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 73
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:01:34,716 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001851/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:01:59,501 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001928/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:02:26,005 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000041/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:02:55,997 - logger_coleta_erros - ERROR - Erro ao obter contrato: 10791831000182-1-000005/2022 devido à inconsistência no item número 26. Quantidade total de itens no contrato: 255
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:03:16,314 - logger_coleta_erros - ERROR - Erro ao obter contrato: 60984473000100-1-000011/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:03:39,006 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000008/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:03:59,636 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00105650000100-1-000005/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:04:20,532 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115367000160-1-000028/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:04:40,960 - logger_coleta_erros - ERROR - Erro ao obter contrato: 60984473000100-1-000016/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:05:00,601 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000054/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:05:20,336 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003030/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 17
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:05:40,616 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115383000153-1-000019/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:06:09,903 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002387/2022 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:06:30,080 - logger_coleta_erros - ERROR - Erro ao obter contrato: 27136980000100-1-000008/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:06:50,170 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003480/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:07:10,906 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000561/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:07:31,884 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003812/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:07:53,406 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004031/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:08:15,036 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004144/2022 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 133
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:08:48,096 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002973/2022 devido à inconsistência no item número 35. Quantidade total de itens no contrato: 57
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:09:19,510 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000618/2022 devido à inconsistência no item número 16. Quantidade total de itens no contrato: 34
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:09:39,919 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003082/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:10:00,319 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05448380000145-1-000007/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:10:20,013 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00414607000118-1-000011/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:10:40,662 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003220/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:11:01,520 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000672/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:11:21,131 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004586/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:11:45,280 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004589/2022 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:12:04,466 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-000541/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:12:25,002 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004594/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:12:45,470 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394536000139-1-000043/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:13:06,704 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004634/2022 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:13:26,619 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004637/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:13:48,014 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004676/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:14:12,008 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004765/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:14:38,315 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531954000120-1-000016/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:14:57,838 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004802/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:15:17,898 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004840/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:15:39,237 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000078/2022 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:15:58,303 - logger_coleta_erros - ERROR - Erro ao obter contrato: 01263896000164-1-000319/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:16:18,355 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005169/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:16:38,062 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000206/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:16:58,374 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000835/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:17:18,244 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005342/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:17:37,049 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00059311000126-1-000115/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 257
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:17:56,654 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004241/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:18:16,724 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005516/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:18:36,503 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531640000128-1-000007/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:18:58,252 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-000667/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:19:17,314 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000090/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:19:38,058 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-000685/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:20:04,000 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000063/2022 devido à inconsistência no item número 16. Quantidade total de itens no contrato: 24
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:20:27,991 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005895/2022 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 32
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:20:51,804 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000232/2022 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:21:13,489 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005967/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:21:35,730 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000942/2022 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 61
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:21:56,208 - logger_coleta_erros - ERROR - Erro ao obter contrato: 10898596000142-1-000037/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:22:17,012 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33874330000165-1-000003/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:22:37,825 - logger_coleta_erros - ERROR - Erro ao obter contrato: 01263896000164-1-000405/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:22:58,542 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-000963/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 66
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:23:19,810 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00105650000100-1-000006/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:23:41,232 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000309/2022 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:24:04,505 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989350000116-1-000061/2022 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:24:25,116 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-006294/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:24:44,768 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-006299/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:25:06,588 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005002/2022 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 28
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:25:26,895 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000263/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 51
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:25:46,333 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000264/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:26:06,150 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005385/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:26:25,994 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-006620/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:26:46,758 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000039/2022 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:27:07,211 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000284/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 20
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:27:27,482 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-000809/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:27:46,584 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03204421000122-1-000045/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:28:11,518 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000040/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:28:40,016 - logger_coleta_erros - ERROR - Erro ao obter contrato: 01263896000164-1-000473/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:29:01,889 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000068/2022 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 66
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:29:23,533 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000069/2022 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 28
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:29:44,783 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000076/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:30:07,001 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001207/2022 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:30:27,347 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005788/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:30:47,693 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000353/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:31:06,578 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000303/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:31:27,291 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007041/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:31:46,884 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115375000107-1-000004/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:32:10,080 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007221/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:32:36,178 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000389/2022 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 29
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:32:56,810 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-006220/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:33:16,800 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007338/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:33:38,310 - logger_coleta_erros - ERROR - Erro ao obter contrato: 07421906000129-1-000003/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 18
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:33:58,927 - logger_coleta_erros - ERROR - Erro ao obter contrato: 07421906000129-1-000004/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:34:19,454 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-006421/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:34:38,572 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007597/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:34:58,080 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007604/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:35:17,783 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000404/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:35:36,695 - logger_coleta_erros - ERROR - Erro ao obter contrato: 07421906000129-1-000006/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:35:56,040 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000343/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:36:15,369 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-006922/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 20
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:36:39,461 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007016/2022 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:37:04,169 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007121/2022 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:37:23,195 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000444/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:37:43,045 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000445/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:38:09,283 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007306/2022 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:38:29,825 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000457/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:38:53,101 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000459/2022 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 24
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:39:16,619 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007334/2022 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:39:36,616 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001398/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:39:56,297 - logger_coleta_erros - ERROR - Erro ao obter contrato: 60984473000100-1-000059/2022 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:40:17,588 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007643/2022 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:40:42,981 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001428/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:41:06,068 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007699/2022 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:41:26,087 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008268/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:41:44,605 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33781055000135-1-000391/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:42:13,283 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007908/2022 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:42:38,229 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008418/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:43:00,017 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008533/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:43:19,452 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008636/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:43:42,951 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000426/2022 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 48
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:44:03,747 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-008258/2022 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:44:23,610 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-008259/2022 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:44:43,312 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26474056000171-1-000145/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:45:03,957 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33787094000140-1-000020/2022 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 70
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:45:24,032 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26994558000123-1-000002/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:45:44,378 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-000027/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:46:07,884 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33654831000136-1-000013/2023 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:46:28,254 - logger_coleta_erros - ERROR - Erro ao obter contrato: 15126437000143-1-000062/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 42
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:46:47,593 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03657392000154-1-000003/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:47:08,619 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000162/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:47:29,771 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000003/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:47:53,434 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00418993000116-1-000004/2023 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:48:12,640 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000275/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:48:32,996 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394536000139-1-000030/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:48:54,221 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000014/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:49:14,986 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000015/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:49:35,108 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000023/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:49:55,668 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33654831000136-1-000026/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 50
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:50:17,087 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000025/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:50:37,301 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000013/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:50:56,487 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37753638000103-1-000003/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:51:15,455 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05526783000165-1-000004/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:51:34,445 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000803/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:51:58,305 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000823/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:52:17,558 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531640000128-1-000011/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:52:40,359 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000670/2023 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:52:59,998 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001023/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:53:21,919 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001151/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:53:53,871 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000017/2023 devido à inconsistência no item número 33. Quantidade total de itens no contrato: 37
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:54:23,195 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000032/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:54:43,051 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000046/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:55:02,533 - logger_coleta_erros - ERROR - Erro ao obter contrato: 23612685000122-1-000005/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:55:21,746 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000106/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:55:41,899 - logger_coleta_erros - ERROR - Erro ao obter contrato: 07421906000129-1-000011/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:56:01,159 - logger_coleta_erros - ERROR - Erro ao obter contrato: 29406625000130-1-000023/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:56:25,572 - logger_coleta_erros - ERROR - Erro ao obter contrato: 10791831000182-1-000004/2023 devido à inconsistência no item número 14. Quantidade total de itens no contrato: 18
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:56:45,517 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001589/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:57:06,089 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001593/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 28
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:57:28,981 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000040/2023 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 50
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:57:49,561 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00581009000133-1-000003/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:58:10,915 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001802/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:58:30,757 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001865/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:58:50,614 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001868/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:59:10,481 - logger_coleta_erros - ERROR - Erro ao obter contrato: 86900545000170-1-000025/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:59:31,153 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00489828000155-1-000004/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 15:59:53,517 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37753638000103-1-000010/2023 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:00:12,617 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509968000148-1-000404/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 35
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:00:34,085 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000093/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 34
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:00:53,559 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002384/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:01:14,005 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000036/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:01:34,654 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000037/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:01:54,253 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05448380000145-1-000012/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:02:14,971 - logger_coleta_erros - ERROR - Erro ao obter contrato: 15126437000143-1-000456/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:02:35,498 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000151/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:02:56,450 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531640000128-1-000022/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:03:16,602 - logger_coleta_erros - ERROR - Erro ao obter contrato: 10898596000142-1-000033/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:03:39,432 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002200/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:03:58,667 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000004/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:04:18,678 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000007/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:04:39,762 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00579987000140-1-000012/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:04:59,198 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003008/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 23
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:05:19,358 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000198/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 23
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:05:41,782 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003073/2023 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:06:02,910 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00889834000108-1-000006/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:06:22,265 - logger_coleta_erros - ERROR - Erro ao obter contrato: 27136980000100-1-000008/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:06:43,864 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003195/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:07:05,256 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000214/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:07:27,270 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000226/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 45
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:07:47,465 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002740/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:08:10,893 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37753638000103-1-000015/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:08:33,719 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531640000128-1-000030/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:08:53,562 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003736/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:09:15,063 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003747/2023 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:09:34,837 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115383000153-1-000019/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 17
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:09:56,629 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002975/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:10:16,360 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002981/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:10:40,192 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003892/2023 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:11:00,831 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003951/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:11:23,629 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-003978/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:11:44,766 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05526783000165-1-000026/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 116
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:12:08,362 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004145/2023 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:12:28,159 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000263/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:12:53,637 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000103/2023 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:13:18,375 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000280/2023 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:13:38,101 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003355/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:14:03,591 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003391/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:14:33,076 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003408/2023 devido à inconsistência no item número 21. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:14:54,549 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003482/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:15:17,009 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04039532000193-1-000004/2023 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 18
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:15:38,526 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04039532000193-1-000005/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 28
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:15:59,564 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000307/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:16:20,407 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000022/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:16:45,104 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000103/2023 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:17:12,250 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004760/2023 devido à inconsistência no item número 17. Quantidade total de itens no contrato: 52
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:17:35,522 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003646/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:17:56,067 - logger_coleta_erros - ERROR - Erro ao obter contrato: 44365866000171-1-000002/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:18:18,537 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000271/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:18:40,963 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000274/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:19:02,367 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000155/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 106
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:19:26,995 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004916/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:19:47,258 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000111/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:20:08,276 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003762/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 67
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:20:31,162 - logger_coleta_erros - ERROR - Erro ao obter contrato: 14702767000177-1-000006/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:20:54,404 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003966/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:21:14,951 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005350/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:21:35,924 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05448380000145-1-000030/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:21:57,989 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000139/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:22:19,003 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000120/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:22:41,283 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531954000120-1-000048/2023 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:23:08,460 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005812/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 23
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:23:28,506 - logger_coleta_erros - ERROR - Erro ao obter contrato: 07421906000129-1-000027/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:23:49,649 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000142/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:24:22,616 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00444232000139-1-000052/2023 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 24
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:24:48,695 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05526783000165-1-000030/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:25:10,026 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115383000153-1-000025/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:25:32,486 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000140/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:25:53,189 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-006356/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:26:14,747 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-006537/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:26:40,392 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03112386000111-1-000019/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:27:01,127 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000134/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:27:21,751 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000351/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:27:43,251 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000156/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:28:04,204 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000354/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:28:49,636 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00059311000126-1-000224/2023 devido à inconsistência no item número 54. Quantidade total de itens no contrato: 92
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:29:13,492 - logger_coleta_erros - ERROR - Erro ao obter contrato: 29979036000140-1-000026/2023 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:29:35,495 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00414607000118-1-000013/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:30:00,791 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007048/2023 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:30:21,063 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000225/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:30:41,808 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000094/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:31:03,147 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007472/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:31:29,095 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005568/2023 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 20
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:31:50,857 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394536000139-1-000188/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:32:11,606 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000162/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:32:33,072 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000057/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:32:56,300 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00038174000143-1-000022/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 20
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:33:20,705 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000164/2023 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:33:40,837 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03658507000125-1-000018/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:34:07,270 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05448380000145-1-000036/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:34:28,851 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00444232000139-1-000066/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:34:49,840 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007997/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 40
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:35:11,861 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-006002/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:35:31,659 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08829974000194-1-000031/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:35:52,728 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000177/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:36:13,244 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008218/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:36:33,936 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000565/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:36:55,018 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531954000120-1-000084/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:37:16,115 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00444232000139-1-000076/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:37:40,026 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26994558000123-1-000100/2023 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 17
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:38:00,919 - logger_coleta_erros - ERROR - Erro ao obter contrato: 60984473000100-1-000062/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:38:21,119 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000187/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:38:45,185 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000189/2023 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 20
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:39:06,176 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001063/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:39:28,176 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001068/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:39:48,145 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000026/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:40:08,259 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-009024/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 30
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:40:28,864 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000479/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:40:49,961 - logger_coleta_erros - ERROR - Erro ao obter contrato: 15126437000143-1-001843/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:41:11,233 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000117/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:41:32,552 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000632/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:41:56,279 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007266/2023 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:42:17,133 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000198/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:42:38,322 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000127/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 49
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:42:58,868 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-009703/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:43:19,120 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000096/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:43:40,862 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000672/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:44:00,314 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03658507000125-1-000031/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:44:21,205 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000212/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:44:41,715 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00038174000143-1-000029/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:45:04,114 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000219/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:45:28,294 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000133/2023 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 25
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:45:50,898 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000716/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:46:11,629 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000231/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:46:32,277 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001405/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:46:54,464 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000292/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:47:19,787 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000141/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 29
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:47:40,625 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04903587000108-1-000035/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:48:01,295 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00530352000159-1-000005/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 20
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:48:20,755 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531640000128-1-000110/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:48:58,100 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000263/2023 devido à inconsistência no item número 45. Quantidade total de itens no contrato: 58
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:49:18,373 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000309/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:49:38,777 - logger_coleta_erros - ERROR - Erro ao obter contrato: 14981648000109-1-000013/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:49:59,904 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000379/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:50:26,035 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000270/2023 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:50:49,508 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-008860/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:51:08,753 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011116/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:51:28,805 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05448380000145-1-000052/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:51:48,951 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000323/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:52:15,070 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000276/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:52:43,737 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00534560000126-1-000070/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:53:06,158 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00531640000128-1-000126/2023 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:53:29,970 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000150/2023 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:53:57,989 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001694/2023 devido à inconsistência no item número 21. Quantidade total de itens no contrato: 26
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:54:28,912 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-009093/2023 devido à inconsistência no item número 24. Quantidade total de itens no contrato: 100
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:54:50,569 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000327/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 38
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:55:11,356 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011399/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:55:31,741 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00038174000143-1-000033/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:55:54,323 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001712/2023 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:56:14,947 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26994558000123-1-000149/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:56:36,826 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000331/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 37
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:56:57,800 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26474056000171-1-000359/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 24
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:57:20,607 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000164/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 18
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:57:41,686 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000683/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:58:02,070 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011878/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:58:25,923 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011879/2023 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:58:47,622 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-009654/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:59:12,950 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-009667/2023 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:59:35,547 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-012088/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 16:59:57,919 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000307/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:00:18,252 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394445000101-1-000104/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 83
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:00:37,994 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000172/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:00:58,788 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-009974/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:01:20,243 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26664015000148-1-000066/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:01:40,437 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001863/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:02:12,240 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-010447/2023 devido à inconsistência no item número 27. Quantidade total de itens no contrato: 27
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:02:32,715 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33874330000165-1-000034/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:02:53,438 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-010572/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:03:15,399 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26474056000171-1-000432/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:03:40,786 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001907/2023 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:04:00,520 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-001909/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:04:21,968 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509018000113-1-001701/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:04:42,074 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000449/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494000136/compras/2022/000449/itens/1
+2024-07-28 17:05:04,174 - logger_coleta_erros - ERROR - Erro ao obter contrato: 02270669000129-1-000085/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:05:26,319 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03658507000125-1-000047/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 43
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:05:46,604 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000197/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 34
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:06:08,748 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000041/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:06:33,110 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04898488000177-1-000042/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:06:53,226 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-013046/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:07:13,320 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00894355000171-1-000008/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:07:34,566 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000500/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:07:58,071 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-011380/2023 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 43
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:08:20,096 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509018000113-1-001775/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:08:42,619 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000340/2023 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:09:01,725 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000208/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394411000109/compras/2023/000208/itens/1
+2024-07-28 17:09:28,157 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000412/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:09:48,970 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-011694/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 20
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:10:09,115 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00399857000126-1-000032/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:10:29,123 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000803/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:10:49,028 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000811/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 34
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:11:10,058 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-011973/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:11:31,549 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-013539/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 64
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:11:51,584 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04039532000193-1-000013/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/04039532000193/compras/2023/000013/itens/1
+2024-07-28 17:12:17,730 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-012043/2023 devido à inconsistência no item número 15. Quantidade total de itens no contrato: 18
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:12:37,117 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509968000148-1-002031/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00509968000148/compras/2023/002031/itens/3
+2024-07-28 17:13:00,254 - logger_coleta_erros - ERROR - Erro ao obter contrato: 27136980000100-1-000022/2023 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:13:20,350 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000417/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:13:41,790 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000828/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:14:02,989 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-002067/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:14:23,798 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-002068/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:14:43,008 - logger_coleta_erros - ERROR - Erro ao obter contrato: 15126437000143-1-002896/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:15:07,935 - logger_coleta_erros - ERROR - Erro ao obter contrato: 07947821000189-1-000033/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:15:32,768 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33654831000136-1-000306/2023 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 59
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:15:52,445 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000466/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:16:13,210 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008835/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394452000103/compras/2022/008835/itens/1
+2024-07-28 17:16:32,654 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000245/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:16:52,584 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000584/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:17:12,356 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000246/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:17:33,148 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00534560000126-1-000089/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 17
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:17:53,180 - logger_coleta_erros - ERROR - Erro ao obter contrato: 10791831000182-1-000035/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 35
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:18:13,509 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000593/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 40
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:18:36,370 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000595/2023 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 44
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:18:55,598 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-002163/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:19:20,547 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-012517/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:19:50,608 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-014201/2023 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:20:10,491 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00627612000109-1-000067/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00627612000109/compras/2023/000067/itens/1
+2024-07-28 17:20:29,971 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000621/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:20:50,679 - logger_coleta_erros - ERROR - Erro ao obter contrato: 02030715000112-1-000215/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/02030715000112/compras/2023/000215/itens/1
+2024-07-28 17:21:12,589 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00418993000116-1-000053/2023 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:21:33,414 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000934/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494000136/compras/2023/000934/itens/1
+2024-07-28 17:21:57,187 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115375000107-1-000021/2023 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:22:31,425 - logger_coleta_erros - ERROR - Erro ao obter contrato: 01263896000164-1-001103/2023 devido à inconsistência no item número 22. Quantidade total de itens no contrato: 30
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/01263896000164/compras/2023/001103/itens/22
+2024-07-28 17:22:58,635 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-012690/2023 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 13
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394502000144/compras/2023/012690/itens/9
+2024-07-28 17:23:20,014 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000461/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:23:40,238 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000487/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:24:00,984 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000208/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:24:26,044 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000960/2023 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:24:47,261 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000491/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494010441/compras/2023/000491/itens/1
+2024-07-28 17:25:08,798 - logger_coleta_erros - ERROR - Erro ao obter contrato: 01263896000164-1-001118/2023 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 20
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/01263896000164/compras/2023/001118/itens/5
+2024-07-28 17:25:32,516 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-002231/2023 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:25:52,212 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000554/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:26:12,652 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-002237/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:26:50,696 - logger_coleta_erros - ERROR - Erro ao obter contrato: 60984473000100-1-000095/2023 devido à inconsistência no item número 42. Quantidade total de itens no contrato: 44
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:27:15,424 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000213/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:27:35,718 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000561/2023 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:27:56,043 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26994558000123-1-000074/2022 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/26994558000123/compras/2022/000074/itens/1
+2024-07-28 17:28:15,649 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000003/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:28:35,242 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000014/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:29:00,769 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00534560000126-1-000005/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:29:22,863 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00396895000125-1-000008/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 24
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:29:42,083 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37753638000103-1-000002/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:30:02,299 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115342000167-1-000069/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/37115342000167/compras/2023/000069/itens/1
+2024-07-28 17:30:21,899 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000021/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494010441/compras/2024/000021/itens/1
+2024-07-28 17:30:41,449 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000020/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:31:01,374 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001388/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2023/001388/itens/2
+2024-07-28 17:31:22,536 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000231/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:31:44,059 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000025/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:32:04,744 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-000258/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:32:23,936 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000002/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:32:43,323 - logger_coleta_erros - ERROR - Erro ao obter contrato: 34061135000189-1-000003/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:33:15,176 - logger_coleta_erros - ERROR - Erro ao obter contrato: 34061135000189-1-000007/2024 devido à inconsistência no item número 19. Quantidade total de itens no contrato: 41
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:33:40,884 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000099/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000099/itens/1
+2024-07-28 17:34:00,615 - logger_coleta_erros - ERROR - Erro ao obter contrato: 44365866000171-1-000002/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:34:20,938 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00720532000101-1-000003/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:34:40,737 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000067/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494000136/compras/2024/000067/itens/1
+2024-07-28 17:35:00,513 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000611/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:35:20,015 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000041/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494010441/compras/2024/000041/itens/1
+2024-07-28 17:35:39,962 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000128/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000128/itens/1
+2024-07-28 17:35:59,863 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000630/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:36:19,319 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000712/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:36:41,858 - logger_coleta_erros - ERROR - Erro ao obter contrato: 34061135000189-1-000008/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:37:04,075 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000141/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:37:23,956 - logger_coleta_erros - ERROR - Erro ao obter contrato: 01678363000143-1-000001/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:37:44,281 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00375114000116-1-000030/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00375114000116/compras/2024/000030/itens/1
+2024-07-28 17:38:04,291 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509018000113-1-000247/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:38:23,994 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-000944/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:38:45,212 - logger_coleta_erros - ERROR - Erro ao obter contrato: 33683111000107-1-000006/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:39:05,076 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000172/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 7
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000172/itens/2
+2024-07-28 17:39:25,292 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001409/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2023/001409/itens/1
+2024-07-28 17:39:45,468 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001110/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:40:05,671 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000181/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000181/itens/1
+2024-07-28 17:40:26,060 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001412/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2023/001412/itens/1
+2024-07-28 17:40:48,731 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03353358000196-1-000003/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:41:08,742 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001362/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:41:29,788 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-001394/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:41:51,198 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000119/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 36
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:42:10,603 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000208/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000208/itens/1
+2024-07-28 17:42:32,309 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00627612000109-1-000018/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:42:53,404 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115342000167-1-000014/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:43:12,741 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394429000100-1-002339/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394429000100/compras/2023/002339/itens/1
+2024-07-28 17:43:42,863 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001097/2024 devido à inconsistência no item número 27. Quantidade total de itens no contrato: 27
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:44:02,670 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04039532000193-1-000022/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/04039532000193/compras/2023/000022/itens/1
+2024-07-28 17:44:21,359 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000990/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494000136/compras/2023/000990/itens/1
+2024-07-28 17:44:42,000 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000191/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:45:01,446 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00375114000116-1-000038/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:45:21,397 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001423/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2023/001423/itens/2
+2024-07-28 17:45:41,821 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509968000148-1-000439/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:46:02,541 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000028/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:46:27,636 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001389/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:46:47,674 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001407/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394502000144/compras/2024/001407/itens/1
+2024-07-28 17:47:07,288 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002510/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:47:27,863 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509968000148-1-000497/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:47:49,070 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002573/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:48:17,134 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115342000167-1-000016/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 58
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:48:37,816 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002654/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:48:57,756 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002704/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:49:17,367 - logger_coleta_erros - ERROR - Erro ao obter contrato: 07947821000189-1-000033/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:49:38,082 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000074/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:49:58,246 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000047/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:50:17,862 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-002825/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:50:37,356 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509968000148-1-000545/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 41
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:50:57,834 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001434/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2023/001434/itens/2
+2024-07-28 17:51:17,729 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00038174000143-1-000036/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00038174000143/compras/2024/000036/itens/1
+2024-07-28 17:51:36,821 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00414607000118-1-000054/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00414607000118/compras/2024/000054/itens/1
+2024-07-28 17:51:57,296 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000321/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000321/itens/3
+2024-07-28 17:52:17,285 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000080/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/03277610000125/compras/2024/000080/itens/1
+2024-07-28 17:52:36,964 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-000358/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394460000141/compras/2024/000358/itens/1
+2024-07-28 17:53:06,810 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-001911/2024 devido à inconsistência no item número 24. Quantidade total de itens no contrato: 30
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:53:26,218 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05448380000145-1-000011/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:53:45,828 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00038174000143-1-000040/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00038174000143/compras/2024/000040/itens/1
+2024-07-28 17:54:06,657 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000334/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000334/itens/2
+2024-07-28 17:54:26,462 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000104/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:54:47,042 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00414607000118-1-000056/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:55:07,002 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000094/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:55:26,428 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002122/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 31
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:55:45,998 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00038174000143-1-000045/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00038174000143/compras/2024/000045/itens/1
+2024-07-28 17:56:09,182 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002136/2024 devido à inconsistência no item número 11. Quantidade total de itens no contrato: 38
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:56:29,080 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001442/2023 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2023/001442/itens/4
+2024-07-28 17:56:50,018 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004171/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:57:09,683 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004319/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:57:31,945 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004345/2024 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:57:52,468 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002330/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394502000144/compras/2024/002330/itens/2
+2024-07-28 17:58:15,682 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002335/2024 devido à inconsistência no item número 11. Quantidade total de itens no contrato: 36
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:58:38,195 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002382/2024 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:58:57,707 - logger_coleta_erros - ERROR - Erro ao obter contrato: 27136980000100-1-000030/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/27136980000100/compras/2023/000030/itens/1
+2024-07-28 17:59:19,540 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00508903000188-1-000543/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:59:39,435 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002462/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 17:59:59,647 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000019/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000019/itens/1
+2024-07-28 18:00:33,434 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002550/2024 devido à inconsistência no item número 32. Quantidade total de itens no contrato: 36
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:00:55,039 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004705/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:01:15,446 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000127/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:01:36,587 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002693/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:01:56,846 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00581009000133-1-000002/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:02:17,170 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509018000113-1-000816/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:02:36,862 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002770/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394502000144/compras/2024/002770/itens/1
+2024-07-28 18:02:56,498 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002784/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:03:17,575 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00444232000139-1-000146/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:03:37,827 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002802/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:03:58,605 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-002803/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:04:23,886 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-004994/2024 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 30
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:04:44,514 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000452/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:05:04,649 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000429/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000429/itens/3
+2024-07-28 18:05:25,666 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000129/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:05:46,554 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005043/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:06:06,944 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000027/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000027/itens/1
+2024-07-28 18:06:32,721 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000435/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000435/itens/3
+2024-07-28 18:06:53,507 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05526783000165-1-000032/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 16
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:07:12,888 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00038174000143-1-000058/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00038174000143/compras/2024/000058/itens/1
+2024-07-28 18:07:34,224 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000442/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000442/itens/4
+2024-07-28 18:07:55,664 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000443/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000443/itens/4
+2024-07-28 18:08:16,469 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-005224/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:08:39,808 - logger_coleta_erros - ERROR - Erro ao obter contrato: 07947821000189-1-000048/2024 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:09:00,746 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04204444000108-1-000009/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:09:22,188 - logger_coleta_erros - ERROR - Erro ao obter contrato: 10898596000142-1-000059/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:09:41,943 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003202/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:10:01,994 - logger_coleta_erros - ERROR - Erro ao obter contrato: 60984473000100-1-000019/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:10:24,816 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000082/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:10:44,513 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003336/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:11:03,760 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000035/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000035/itens/1
+2024-07-28 18:11:28,162 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00894355000171-1-000002/2024 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 21
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00894355000171/compras/2024/000002/itens/10
+2024-07-28 18:11:47,912 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003618/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:12:12,588 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-006640/2024 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 31
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:12:32,126 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00444232000139-1-000193/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00444232000139/compras/2024/000193/itens/1
+2024-07-28 18:12:51,375 - logger_coleta_erros - ERROR - Erro ao obter contrato: 29406625000130-1-000038/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/29406625000130/compras/2024/000038/itens/1
+2024-07-28 18:13:11,872 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003745/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 24
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:13:47,395 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000193/2024 devido à inconsistência no item número 37. Quantidade total de itens no contrato: 41
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:14:10,445 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37753638000103-1-000019/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:14:37,470 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000149/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:15:14,129 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00497560000101-1-000139/2024 devido à inconsistência no item número 42. Quantidade total de itens no contrato: 48
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:15:33,545 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003806/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:15:54,787 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00038174000143-1-000074/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:16:15,195 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000581/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000581/itens/4
+2024-07-28 18:16:37,154 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394445000101-1-000073/2024 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:16:59,971 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003931/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:17:20,514 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003932/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:17:41,634 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000588/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000588/itens/2
+2024-07-28 18:18:01,459 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-003978/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:18:21,184 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394460000141-1-001671/2023 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:18:46,357 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004043/2024 devido à inconsistência no item número 12. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:19:06,818 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004052/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:19:26,606 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00488478000102-1-000203/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:19:46,538 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000510/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:20:06,389 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000623/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000623/itens/1
+2024-07-28 18:20:27,069 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000665/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:20:47,668 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04892707000100-1-000347/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:21:09,119 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004298/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:21:32,898 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-007828/2024 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:21:54,641 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000448/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:22:17,827 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000449/2024 devido à inconsistência no item número 8. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:22:40,466 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004431/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:23:01,618 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00348003000110-1-000192/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:23:21,627 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008071/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:23:43,831 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008084/2024 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:24:06,376 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004509/2024 devido à inconsistência no item número 7. Quantidade total de itens no contrato: 21
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:24:26,119 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008140/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:24:45,481 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000044/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000044/itens/1
+2024-07-28 18:25:05,412 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000046/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000046/itens/1
+2024-07-28 18:25:29,203 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394684000153-1-000525/2024 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:25:49,549 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004564/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:26:09,944 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004599/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 27
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:26:30,235 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000253/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494010441/compras/2024/000253/itens/1
+2024-07-28 18:26:49,800 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494010441-1-000254/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494010441/compras/2024/000254/itens/1
+2024-07-28 18:27:09,509 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00579987000140-1-000019/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:27:30,506 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004761/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:27:50,417 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-004787/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:28:09,346 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26994558000123-1-000087/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:28:41,540 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008776/2024 devido à inconsistência no item número 32. Quantidade total de itens no contrato: 33
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:29:00,643 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000707/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000707/itens/2
+2024-07-28 18:29:21,907 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008912/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:29:41,629 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-008924/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:30:03,384 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00720532000101-1-000011/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:30:28,470 - logger_coleta_erros - ERROR - Erro ao obter contrato: 04312401000138-1-000034/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 25
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:30:51,222 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000720/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000720/itens/2
+2024-07-28 18:31:12,726 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000180/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:31:32,938 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394411000109-1-000111/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:31:54,327 - logger_coleta_erros - ERROR - Erro ao obter contrato: 02342553000158-1-000001/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:32:17,095 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-009184/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:32:37,224 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005106/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:32:59,150 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-009307/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 7
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:33:19,481 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005109/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:33:39,048 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000052/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000052/itens/1
+2024-07-28 18:33:58,981 - logger_coleta_erros - ERROR - Erro ao obter contrato: 29406625000130-1-000045/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/29406625000130/compras/2024/000045/itens/1
+2024-07-28 18:34:18,801 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005128/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:34:40,394 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005131/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 18
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:35:01,888 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00489828000155-1-000047/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:35:22,296 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000517/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:35:48,470 - logger_coleta_erros - ERROR - Erro ao obter contrato: 05448380000145-1-000035/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:36:09,194 - logger_coleta_erros - ERROR - Erro ao obter contrato: 02030715000112-1-000100/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:36:31,192 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005220/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:36:51,522 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000761/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000761/itens/2
+2024-07-28 18:37:12,096 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005274/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:37:34,178 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005281/2024 devido à inconsistência no item número 6. Quantidade total de itens no contrato: 10
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:37:54,606 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-009751/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:38:15,078 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005374/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:38:34,786 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-000868/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:39:01,438 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005472/2024 devido à inconsistência no item número 17. Quantidade total de itens no contrato: 23
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:39:20,906 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000057/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000057/itens/1
+2024-07-28 18:39:45,078 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37115375000107-1-000023/2024 devido à inconsistência no item número 10. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:40:04,323 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005588/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 23
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:40:25,757 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005590/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:40:50,455 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-010099/2024 devido à inconsistência no item número 14. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:41:14,159 - logger_coleta_erros - ERROR - Erro ao obter contrato: 19462211000174-1-000014/2024 devido à inconsistência no item número 11. Quantidade total de itens no contrato: 14
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:41:33,321 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000061/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000061/itens/1
+2024-07-28 18:41:54,225 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-005940/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:42:13,979 - logger_coleta_erros - ERROR - Erro ao obter contrato: 08584392000195-1-000063/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/08584392000195/compras/2024/000063/itens/1
+2024-07-28 18:42:33,883 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00530352000159-1-000055/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:43:04,532 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-006057/2024 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 33
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:43:35,251 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00375114000116-1-000141/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:43:57,140 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-001026/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:44:21,988 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00581009000133-1-000007/2024 devido à inconsistência no item número 13. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:44:43,072 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26461699000180-1-000137/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:45:04,962 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000605/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 22
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:45:25,588 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000446/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/03277610000125/compras/2023/000446/itens/1
+2024-07-28 18:45:46,932 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000900/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000900/itens/3
+2024-07-28 18:46:09,042 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-006374/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:46:28,568 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000610/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:46:50,341 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000612/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:47:11,553 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011231/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:47:31,502 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26989715000102-1-001068/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 8
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:47:55,592 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00489828000155-1-000064/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00489828000155/compras/2024/000064/itens/1
+2024-07-28 18:48:16,095 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000916/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 3
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000916/itens/2
+2024-07-28 18:48:37,609 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011289/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:49:04,096 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000615/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 25
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:49:37,948 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-006553/2024 devido à inconsistência no item número 34. Quantidade total de itens no contrato: 86
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:50:01,148 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-006573/2024 devido à inconsistência no item número 11. Quantidade total de itens no contrato: 15
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:50:20,723 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00375114000116-1-000146/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:50:46,455 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03277610000125-1-000254/2024 devido à inconsistência no item número 14. Quantidade total de itens no contrato: 17
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:51:07,771 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011486/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394452000103/compras/2024/011486/itens/1
+2024-07-28 18:51:28,772 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011543/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:51:48,213 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-000943/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/000943/itens/2
+2024-07-28 18:52:09,722 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-011636/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 9
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:52:30,025 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-000632/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 18
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:52:51,650 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37753638000103-1-000035/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:53:13,003 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007060/2024 devido à inconsistência no item número 4. Quantidade total de itens no contrato: 13
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:53:33,718 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00509968000148-1-001940/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 3
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:53:53,586 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007392/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 6
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:54:15,277 - logger_coleta_erros - ERROR - Erro ao obter contrato: 37753638000103-1-000037/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 4
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:54:36,185 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007433/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 12
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:54:57,477 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394502000144-1-007571/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 19
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:55:18,119 - logger_coleta_erros - ERROR - Erro ao obter contrato: 26664015000148-1-000023/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:55:38,447 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001055/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 5
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/001055/itens/2
+2024-07-28 18:55:58,668 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394494000136-1-001022/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394494000136/compras/2023/001022/itens/1
+2024-07-28 18:56:19,071 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-012634/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 5
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:56:42,787 - logger_coleta_erros - ERROR - Erro ao obter contrato: 19462211000174-1-000017/2024 devido à inconsistência no item número 9. Quantidade total de itens no contrato: 11
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:57:03,369 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001068/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/001068/itens/1
+2024-07-28 18:57:34,288 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001070/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/001070/itens/1
+2024-07-28 18:57:56,586 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001071/2024 devido à inconsistência no item número 5. Quantidade total de itens no contrato: 6
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/001071/itens/5
+2024-07-28 18:58:17,652 - logger_coleta_erros - ERROR - Erro ao obter contrato: 03204421000122-1-000176/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/03204421000122/compras/2024/000176/itens/1
+2024-07-28 18:58:38,089 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-012751/2024 devido à inconsistência no item número 2. Quantidade total de itens no contrato: 2
+Erro: Expecting value: line 1 column 1 (char 0)
+2024-07-28 18:58:58,516 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-015367/2023 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 1
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394452000103/compras/2023/015367/itens/1
+2024-07-28 18:59:19,625 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394452000103-1-013201/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394452000103/compras/2024/013201/itens/1
+2024-07-28 18:59:40,070 - logger_coleta_erros - ERROR - Erro ao obter contrato: 29979036000140-1-000068/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/29979036000140/compras/2024/000068/itens/1
+2024-07-28 19:00:01,170 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001166/2024 devido à inconsistência no item número 1. Quantidade total de itens no contrato: 2
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/001166/itens/1
+2024-07-28 19:00:22,174 - logger_coleta_erros - ERROR - Erro ao obter contrato: 00394544000185-1-001176/2024 devido à inconsistência no item número 3. Quantidade total de itens no contrato: 3
+Erro: 404 Client Error: Not Found for url: https://pncp.gov.br/api/pncp/v1/orgaos/00394544000185/compras/2024/001176/itens/3

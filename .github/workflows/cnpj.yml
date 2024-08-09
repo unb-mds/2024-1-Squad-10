@@ -1,0 +1,50 @@
+name: Atualizar CNPJs
+
+on:
+  workflow_run:
+    workflows: ["Atualizar Info Empresa"]
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cnpjs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run CNPJ script
+        run: python Dados/Coleta_dados/coleta_cnpjs.py "0" "w" "[\n" ","
+
+      - name: Run CNPJ script
+        run: python Dados/Coleta_dados/coleta_cnpjs.py "1" "a" "\n" ","
+
+      - name: Run CNPJ script
+        run: python Dados/Coleta_dados/coleta_cnpjs.py "2" "a" "\n" "\n]"
+
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'noreply.github.com'
+          git pull origin main
+          git add Dados/contratos_OFICIAL.json
+          git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
+          git push

@@ -64,9 +64,8 @@ def read_file_contratos(df):
     contratos_fila = pd.DataFrame(new_rows)
 
     # Salvar o DataFrame resultante em um novo arquivo CSV
-    # Parece que pode ser excluído
-    # contratos_fila.to_csv('output_arquivo_json.csv', index=False)
-
+    #contratos_fila.to_csv('output_arquivo_json.csv', index=False)
+    
     # Retornar o DataFrame resultante
     return contratos_fila
 
