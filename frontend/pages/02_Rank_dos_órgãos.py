@@ -71,7 +71,7 @@ if contrato_empresa_opcoes_filtro != 'Todos':
 valor_min = 0
 valor_max = int(df_filtered['Valor Recebido'].max() + 1000000)
 valor_min_selecionado = st.sidebar.number_input('De:', min_value=valor_min, max_value=valor_max, value=valor_min)
-valor_max_selecionado = st.sidebar.number_input('Até:', min_value=valor_min, max_value=valor_max, value=valor_max,format="%.0f")  # Formata como número inteiro)
+valor_max_selecionado = st.sidebar.number_input('Até:', min_value=valor_min, max_value=valor_max, value=valor_max)  # Formata como número inteiro)
 
 df_filtered = df_filtered[(df_filtered['Valor Recebido'] >= valor_min_selecionado) & (df_filtered['Valor Recebido'] <= valor_max_selecionado)]
 
