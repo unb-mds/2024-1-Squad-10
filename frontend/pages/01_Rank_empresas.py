@@ -70,9 +70,21 @@ def change_page(change):
     st.session_state.page += change
     st.rerun()
 
+def colunas_dataFrame(data_frame, *colunas):
+    """
+    Essa função transforma um dataframe em um novo dataframe filtrado apenas com as colunas desejadas.
+    
+    - param data_frame: dataframe que iremos utilizar para filtrar colunas
+    - param colunas: Insira no mínimo 2 colunas e no máximo 5
+    """
+    if len(colunas) < 2 or len(colunas) > 5:
+        raise ValueError("Insira no mínimo duas colunas e no máximo cinco")
+    
+    return data_frame[list(colunas)]
 
 # Filtrando os dados com base no intervalo de valores recebidos
-df = data[["Código", "Empresa Contratada", "Valor Recebido"]]
+#df = data[["Código", "Empresa Contratada", "Valor Recebido"]]
+df = colunas_dataFrame(data, "Código", "Empresa Contratada", "Valor Recebido")
 df_group = df.groupby(by=["Empresa Contratada"])["Valor Recebido"].sum().reset_index()
 df_group = df_group[(df_group["Valor Recebido"] >= min_value) & (df_group["Valor Recebido"] <= max_value)]
 df_group = df_group.sort_values(by="Valor Recebido", ascending=False)
@@ -88,24 +100,39 @@ df_grafico = df[df["Empresa Contratada"].isin(df_group_list)]
 altura_grafico = max(400, len(df_group_list) * 35)  #Ajusta a altura conforme a lista for aumentando
 
 # Criando o gráfico de barras empilhadas
-chart = alt.Chart(df_grafico).mark_bar().encode(
-    x=alt.X('sum(Valor Recebido):Q', title='Valor Total Recebido ($)'),
-    y=alt.Y('Empresa Contratada:N', sort=df_group_list, title='Empresas Contratadas por Dispensa de Licitação', axis=alt.Axis(labelLimit=170)),
-    color=alt.Color('Código:N', legend=None), # legend=alt.Legend(title="Contratos")
-    order=alt.Order('Código:N', sort='ascending')
-).properties(
-    title= alt.TitleParams(
-        text='Soma dos Valores Recebidos por Contrato',
-        anchor= "middle", 
-        color = 'rgba(255, 255, 255, 0.5)' , 
-        fontSize=20, 
-        fontStyle='oblique',
-    )
-).properties(
-    height=altura_grafico  # Define a altura do gráfico
-)
+def criar_grafico_barra(df_grafico, df_group_list, altura_grafico, titulo_grafico='Soma dos Valores Recebidos por Contrato', cor_texto='rgba(255, 255, 255, 0.5)', tamanho_fonte=20):
+    """
+    Essa função cria o gráfico de barras laterais em que será mostrado a quantidade de contratos que cada em presa tem.
 
-st.altair_chart(chart, use_container_width=True)
+    - param df_grafico: dataframe contendo as empresas, o id dos contratos e os valores recebidos
+    - param df_group_list: lista das empresas que serão mostradas no eixo Y com base na paginação
+    - param altura_grafico: altura em pixels, já definida
+    - param titulo_grafico (OPCIONAL): título, já está pré-definido, mas pode ser alterado
+    - param cor_texto (OPCIONAL): cor em rgb do título
+    - param tamanho_fonte (OPCIONAL): tamanho da fonte do título, já está pré-definido, mas pode ser alterado
+
+    """
+    chart = alt.Chart(df_grafico).mark_bar().encode(
+        x=alt.X('sum(Valor Recebido):Q', title='Valor Total Recebido ($)'),
+        y=alt.Y('Empresa Contratada:N', sort=df_group_list, title='Empresas Contratadas por Dispensa de Licitação', axis=alt.Axis(labelLimit=170)),
+        color=alt.Color('Código:N', legend=None), 
+        order=alt.Order('Código:N', sort='ascending')
+    ).properties(
+        title=alt.TitleParams(
+            text=titulo_grafico,
+            anchor="middle", 
+            color=cor_texto,
+            fontSize=tamanho_fonte, 
+            fontStyle='oblique',
+        )
+    ).properties(
+        height=altura_grafico  # Define a altura do gráfico
+    )
+    
+    return chart
+
+grafico = criar_grafico_barra(df_grafico, df_group_list, altura_grafico)
+st.altair_chart(grafico, use_container_width=True)
 
 # Adiciona o botão "Próxima página" abaixo do gráfico
 col1, col2 = st.columns([1, 1])
