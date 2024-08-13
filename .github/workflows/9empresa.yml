@@ -2,7 +2,7 @@ name: Atualizar Info Empresa
 
 on:
   workflow_run:
-    workflows: ["Tratar erros"]
+    workflows: ["Rename and Commit Official Contracts File"]
     types:
       - completed
   workflow_dispatch:

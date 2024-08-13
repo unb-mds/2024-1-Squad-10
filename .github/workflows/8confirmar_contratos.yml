@@ -1,0 +1,31 @@
+name: Rename and Commit Official Contracts File
+
+on:
+  workflow_dispatch:
+
+jobs:
+  rename_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Remove existing contratos_OFICIAL.json
+      run: |
+        if [ -f frontend/contratos_OFICIAL.json ]; then
+          rm contratos_OFICIAL.json
+        fi
+
+    - name: Rename contracts file
+      run: |
+        mv frontend/contratos_OFICIAL_versao3.json frontend/contratos_OFICIAL.json
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'noreply.github.com'
+        git pull origin main
+        git add .
+        git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
+        git push origin main

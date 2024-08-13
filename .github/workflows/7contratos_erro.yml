@@ -41,3 +41,15 @@ jobs:
           git add .
           git commit -m "Atualização automática: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nada para commitar"
           git push origin main
+        
+      - name: Notify via GitHub Issue
+        uses: actions/github-script@v6
+        with:
+         script: |
+          await github.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: "Novo arquivo de contratos gerado",
+            body: "O arquivo `contratos_OFICIAL_versao3.json` foi gerado. Execute o workflow de renomeação quando estiver pronto para revisão.",
+            assignees: ["davi-aguiar-vieira", "mat054"]
+          });
