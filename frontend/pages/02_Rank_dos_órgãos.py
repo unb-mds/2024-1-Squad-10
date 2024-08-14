@@ -77,7 +77,7 @@ df_filtered = df_filtered[(df_filtered['Valor Recebido'] >= valor_min_selecionad
 
 # Controle de paginação
 total_barras = len(df_filtered)
-barras_por_pagina = 10
+barras_por_pagina = 40
 num_paginas = total_barras // barras_por_pagina + (total_barras % barras_por_pagina > 0)
 pagina = st.sidebar.number_input(f"Página ... de {num_paginas}", min_value=1, max_value=num_paginas, value=1)
 
@@ -89,16 +89,20 @@ df_paginado = df_filtered.iloc[inicio:fim].sort_values(by='Valor Recebido', asce
 df_paginado['Órgão Entidade + Código'] = df_paginado['Órgão Entidade'] + ' ' + df_paginado['Código']
 
 # Gráficos
-col1 = st.columns(1)[0]
 col2 = st.columns(1)[0]
+col1 = st.columns(1)[0]
 #col1, col2 = st.columns(2)
 
 # Gráfico 1
+
+df_paginado_sorted = df_paginado.sort_values(by='Valor Recebido', ascending=False)
+
 fig_orgao = px.bar(
-    df_paginado,
+    df_paginado_sorted,
     x='Órgão Entidade + Código',
+    #x='Órgão Entidade',
     y='Valor Recebido',
-    color='Órgão Entidade',
+    color='Código',
     title='Contratos Campeões'
 )
 fig_orgao.update_xaxes(title_text='Órgão Contratante e Contrato')
@@ -106,9 +110,13 @@ fig_orgao.update_yaxes(title_text='Valores pagos por órgão e Contrato')
 fig_orgao.update_layout(height=800)
 col1.plotly_chart(fig_orgao, use_container_width=True)
 
+
+
 # Gráfico 2
 df_grouped_chart2 = df_filtered.groupby(['Órgão Entidade'])['Valor Recebido'].sum().reset_index().sort_values(by='Valor Recebido', ascending=False)
-fig_orgao2 = px.bar(df_grouped_chart2, x='Órgão Entidade', y='Valor Recebido', color='Órgão Entidade', title='Órgão Campeão')
+# Selecionar apenas os 20 primeiros
+df_grouped_chart2_top20 = df_grouped_chart2.head(15)
+fig_orgao2 = px.bar(df_grouped_chart2_top20, x='Órgão Entidade', y='Valor Recebido', color='Órgão Entidade', title='Órgão Campeão')
 fig_orgao2.update_xaxes(title_text='Órgão Contratante')
 fig_orgao2.update_yaxes(title_text='Valores pagos por órgão')
 fig_orgao2.update_layout(height=800)
