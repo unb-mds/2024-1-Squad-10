@@ -39,7 +39,7 @@ anos_unicos = ['Todos'] + list(df_ordenado['Ano da Compra'].unique())
 # Layout e filtros
 with st.container():
     st.subheader("PAINEL INTERATIVO SOBRE OS GASTOS GOVERNAMENTAIS COM DISPENSA DE LICITAÇÃO")
-    st.write('Informações sobre contratos')
+    st.write('Informações sobre contratos de Dispensa de Licitação')
     st.write("Quer saber mais sobre nosso projeto? [clique aqui](https://unb-mds.github.io/2024-1-Squad-10/)")
     st.write('---')
 
@@ -116,7 +116,7 @@ col1.plotly_chart(fig_orgao, use_container_width=True)
 df_grouped_chart2 = df_filtered.groupby(['Órgão Entidade'])['Valor Recebido'].sum().reset_index().sort_values(by='Valor Recebido', ascending=False)
 # Selecionar apenas os 20 primeiros
 df_grouped_chart2_top20 = df_grouped_chart2.head(15)
-fig_orgao2 = px.bar(df_grouped_chart2_top20, x='Órgão Entidade', y='Valor Recebido', color='Órgão Entidade', title='Órgão Campeão')
+fig_orgao2 = px.bar(df_grouped_chart2_top20, x='Órgão Entidade', y='Valor Recebido', color='Órgão Entidade', title='Órgãos Campeões')
 fig_orgao2.update_xaxes(title_text='Órgão Contratante')
 fig_orgao2.update_yaxes(title_text='Valores pagos por órgão')
 fig_orgao2.update_layout(height=800)
