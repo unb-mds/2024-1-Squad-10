@@ -1,5 +1,5 @@
 import pytest
-from Dados.info_empresa1 import processar_contratos
+from Dados.info_empresa import processar_contratos
 
 def test_processar_contratos():
     # Dados fictícios para simular a entrada
