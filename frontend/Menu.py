@@ -1,17 +1,44 @@
-import streamlit as st
+"""
+Este módulo utiliza a biblioteca Streamlit para criar uma interface de 
+usuário interativa com navegação entre páginas.
+"""
+
+import base64  # Importação da biblioteca padrão
+import streamlit as st  # Importação de bibliotecas de terceiros
 import streamlit.components.v1 as components
-import base64
-from streamlit_extras.switch_page_button import switch_page
+from streamlit_extras.switch_page_button import switch_page  # pylint: disable=import-error
+
 
 st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 
 # Função para carregar o conteúdo do arquivo
 def load_file(file_path):
+    """
+    Carrega o conteúdo de um arquivo dado o caminho especificado.
+
+    Args:
+        file_path (str): O caminho para o arquivo que será carregado.
+
+    Returns:
+        str: O conteúdo do arquivo como uma string.
+    """
+
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
 # Função para carregar uma imagem e convertê-la para base64
 def load_image_base64(image_path):
+    """
+    Carrega uma imagem do caminho especificado e a codifica em uma string base64.
+
+    Args:
+        image_path (str): O caminho para o arquivo da imagem a ser carregada.
+
+    Returns:
+        str: A imagem codificada em base64 como uma string.
+    """
+    # Código principal aqui
+
     try:
         with open(image_path, 'rb') as img_file:
             return base64.b64encode(img_file.read()).decode()
@@ -28,7 +55,11 @@ licitacao_base64 = load_image_base64('images/licitacao.png')
 
 # Atualizar o HTML com as imagens base64
 html_content = html_content.replace('images/licitanow.png', f'data:image/png;base64,{logo_base64}')
-html_content = html_content.replace('images/licitacao.png', f'data:image/png;base64,{licitacao_base64}')
+html_content = html_content.replace(
+    'images/licitacao.png',
+    f'data:image/png;base64,{licitacao_base64}'
+)
+
 
 # Injetar o CSS no HTML
 html_with_css = f"""
