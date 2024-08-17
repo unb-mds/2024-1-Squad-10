@@ -3,13 +3,13 @@ Este módulo utiliza a biblioteca Streamlit para criar uma interface de
 usuário interativa com navegação entre páginas.
 """
 
+import os  # Importação da biblioteca padrão
 import base64  # Importação da biblioteca padrão
 import streamlit as st  # Importação de bibliotecas de terceiros
 import streamlit.components.v1 as components
 from streamlit_extras.switch_page_button import switch_page  # pylint: disable=import-error
 
-
-st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
+st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 # Função para carregar o conteúdo do arquivo
 def load_file(file_path):
@@ -22,7 +22,6 @@ def load_file(file_path):
     Returns:
         str: O conteúdo do arquivo como uma string.
     """
-
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
@@ -37,21 +36,28 @@ def load_image_base64(image_path):
     Returns:
         str: A imagem codificada em base64 como uma string.
     """
-    # Código principal aqui
-
     try:
         with open(image_path, 'rb') as img_file:
             return base64.b64encode(img_file.read()).decode()
     except FileNotFoundError:
         return None
 
+# Determinar o diretório atual (onde este script está localizado)
+current_dir = os.path.dirname(__file__)
+
+# Montar os caminhos dos arquivos relativos ao diretório atual
+html_file_path = os.path.join(current_dir, 'index.html')
+css_file_path = os.path.join(current_dir, 'style.css')
+logo_image_path = os.path.join(current_dir, 'images', 'licitanow.png')
+licitacao_image_path = os.path.join(current_dir, 'images', 'licitacao.png')
+
 # Carregar o HTML e CSS
-html_content = load_file('index.html')
-css_content = load_file('style.css')
+html_content = load_file(html_file_path)
+css_content = load_file(css_file_path)
 
 # Carregar e codificar as imagens
-logo_base64 = load_image_base64('images/licitanow.png')
-licitacao_base64 = load_image_base64('images/licitacao.png')
+logo_base64 = load_image_base64(logo_image_path)
+licitacao_base64 = load_image_base64(licitacao_image_path)
 
 # Atualizar o HTML com as imagens base64
 html_content = html_content.replace('images/licitanow.png', f'data:image/png;base64,{logo_base64}')
@@ -59,7 +65,6 @@ html_content = html_content.replace(
     'images/licitacao.png',
     f'data:image/png;base64,{licitacao_base64}'
 )
-
 
 # Injetar o CSS no HTML
 html_with_css = f"""
@@ -70,7 +75,7 @@ html_with_css = f"""
 """
 
 # Crie as colunas
-col ,col1, col2, col3, col4 = st.columns(5)
+col, col1, col2, col3, col4 = st.columns(5)
 
 # Manipula os cliques nos botões
 with col1:
@@ -80,6 +85,7 @@ with col1:
 with col2:
     if st.button("Ranking Empresas"):
         switch_page("rank_empresas")
+
 with col3:
     if st.button("Ranking Órgãos"):
         switch_page("Rank_dos_órgãos")
