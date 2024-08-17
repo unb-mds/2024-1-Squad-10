@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import plotly_express as px
-
+import os
 st.set_page_config(page_title="Queridinhas da Licitação", layout='wide')
 
 tipos_de_dados = {
@@ -13,22 +13,26 @@ tipos_de_dados = {
     "Descrição": str
 }
 
+caminho_arquivo = os.path.join(os.path.dirname(__file__), '..', 'x_empresas_contratadas.csv')
+caminho_arquivo1 = os.path.join(os.path.dirname(__file__), '..', 'contratos_OFICIAL.json')
+caminho_arquivo2 = os.path.join(os.path.dirname(__file__), '..', 'infos_cnpj_OFICIAL.json')
+
 @st.cache_data
 def carregar_dados():
-    tabela = pd.read_csv("x_empresas_contratadas.csv", dtype=tipos_de_dados)
+    tabela = pd.read_csv(caminho_arquivo, dtype=tipos_de_dados)
     tabela = tabela.sort_values(by="Valor Recebido", ascending=False).reset_index()
     tabela = tabela.drop("index", axis=1)
     return tabela
 
 @st.cache_data
 def carregar_dados1():
-    tabela = pd.read_json("contratos_OFICIAL.json")
+    tabela = pd.read_json(caminho_arquivo1)
     tabela = tabela.drop("Empresas Contratadas", axis=1)
     return tabela
 
 @st.cache_data
 def carregar_dados2():
-    tabela = pd.read_json("infos_cnpj_OFICIAL.json", encoding='utf-8')
+    tabela = pd.read_json(caminho_arquivo2, encoding='utf-8')
     return tabela
 
 # Função para inicializar o estado da sessão

@@ -3,13 +3,30 @@ import pandas as pd
 import plotly.express as px
 import json
 import unidecode
+import os
 st.set_page_config(page_title="Gastos de Dispensa por Órgão", layout='wide')
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('contratos_ordenados_completo.csv')
+    # Construindo o caminho absoluto para o arquivo CSV
+    file_path = os.path.join(os.path.dirname(__file__), '..', 'contratos_ordenados_completo.csv')
+    
+    # Carrega o arquivo CSV usando pandas
+    df = pd.read_csv(file_path)
     return df
 
+@st.cache_data
+def load_data1():
+    # Construindo o caminho absoluto para o arquivo JSON
+    file_path = os.path.join(os.path.dirname(__file__), '..', 'contratos_OFICIAL.json')
+    
+    # Carrega o arquivo JSON
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return data
+
+# Construindo o caminho absoluto para o arquivo CSV
+file_path = os.path.join(os.path.dirname(__file__), '..', 'contratos_ordenados_completo.csv')
 df_ordenado = load_data()
 df_ordenado = df_ordenado.sort_values("Ano da Compra")
 anos_unicos = df_ordenado['Ano da Compra'].unique()
@@ -21,7 +38,7 @@ with st.container():
     st.write("Quer saber mais sobre nosso projeto? [clique aqui](https://unb-mds.github.io/2024-1-Squad-10/)")
     st.write('---')
 
-df_ordenado = pd.read_csv('contratos_ordenados_completo.csv')
+df_ordenado = pd.read_csv(file_path)
 df_ordenado = df_ordenado.sort_values("Ano da Compra")
 anos_unicos = df_ordenado['Ano da Compra'].unique()
 anos_unicos = ['Todos'] + list(anos_unicos)  # Adicionando a opção "Todos" à lista de anos únicos
@@ -121,13 +138,7 @@ with st.container():
 
 st.subheader("Gasto anual em dispensa de licitação por órgão")
 
-@st.cache_data
-def load_data():
-    with open('contratos_OFICIAL.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return data
-
-data = load_data()
+data = load_data1()
 
 # Transformar os dados em um DataFrame
 rows = []
