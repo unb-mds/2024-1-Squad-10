@@ -53533,6 +53533,86 @@
 },
 {
     "Modalidade": "Dispensa",
+    "Código": "00530352000159-1-000001/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "CAMARA DOS DEPUTADOS",
+    "Objeto da Compra": "Aquisição de carperte, com construção \"tufting\" com pelo cortado mesclado para substituição do piso de gabinetes. ",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 44256.0,
+    "Valor Total Homologado": 44256.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "SANTOS & CABRAL LONDON PISOS LTDA",
+        "CNPJ -1": "08240183000124",
+        "Valor Recebido -1": 44256.0,
+        "Descrição -1": "Carpete"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "05448380000145-1-000004/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "FUNDO CONSTITUCIONAL DO DISTRITO FEDERAL - FCDF",
+    "Objeto da Compra": "Manutenção de Foco cirúrgico - marca KSS, modelo SKY LED 160 com 2 (dois) braços e 2 (duas) cúpulas - Tombamentos: 087889, 087890 e 087891 - Serviços à serem realizados - Reparo nos braços objetivando a sustentação das luminárias - Reparo nos braços solucionando vazamento hidráulico.  Instalar cúpula de proteção.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 2700.0,
+    "Valor Total Homologado": 2700.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "RKM ASSISTENCIA E MANUTENCAO HOSPITALAR LTDA",
+        "CNPJ -1": "11028928000109",
+        "Valor Recebido -1": 2700.0,
+        "Descrição -1": "Manutenção e Reparo em Equipamento - Uso Médico"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "00508903000188-1-000130/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "JUSTICA FEDERAL DE PRIMEIRA INSTANCIA",
+    "Objeto da Compra": "Aquisição de máquina de lavagem de alta pressão, visando a estruturação da oficina mecânica da SJDF.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 0.0,
+    "Valor Total Homologado": 1849.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "41.224.937 ARTHUR JUAN DOS SANTOS GUEDES",
+        "CNPJ -1": "41224937000128",
+        "Valor Recebido -1": 1849.0,
+        "Descrição -1": "Lavadora Alta Pressão"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "05448380000145-1-000005/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "FUNDO CONSTITUCIONAL DO DISTRITO FEDERAL - FCDF",
+    "Objeto da Compra": "Aquisição de equipamento tipo Boroscópio para realização de inspeção visual",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 39742.56,
+    "Valor Total Homologado": 23000.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "PROTON ENGENHARIA, COMERCIO E DISTRIBUICAO LTDA",
+        "CNPJ -1": "16887672000109",
+        "Valor Recebido -1": 23000.0,
+        "Descrição -1": "Peças / Acessórios Equipamentos Especializados"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "00375114000116-1-000041/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "DEFENSORIA PUBLICA DA UNIAO",
+    "Objeto da Compra": "Contratação de empresa especializada no serviço de limpeza de caixa de gordura para atender às necessidades da Defensoria Pública da União em Umuarama/PR.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 200.0,
+    "Valor Total Homologado": 200.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "AUTO FOSSA E DESENTUPIDORA FREGONEZI LTDA",
+        "CNPJ -1": "29801745000131",
+        "Valor Recebido -1": 200.0,
+        "Descrição -1": "Manutenção / higienização de reservatório de água potável"
+    }
+},
+{
+    "Modalidade": "Dispensa",
     "Código": "33654831000136-1-000037/2023",
     "UF": "Distrito Federal",
     "Órgão Entidade": "CONSELHO NACIONAL DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO-CNPQ",
@@ -53689,6 +53769,186 @@
         "CNPJ -6": "47208443000136",
         "Valor Recebido -6": 316.16,
         "Descrição -6": "Biscoito"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "00375114000116-1-000043/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "DEFENSORIA PUBLICA DA UNIAO",
+    "Objeto da Compra": "Contratação de empresa especializada em fornecimento e instalação de lixeira de calçada Defensoria Pública da União em Cascavel/PR.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 240.0,
+    "Valor Total Homologado": 240.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "R BARBOSA DA CUNHA UTENSILIOS EXTERNOS",
+        "CNPJ -1": "27870143000100",
+        "Valor Recebido -1": 240.0,
+        "Descrição -1": "Lixeira"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "00531640000128-1-000010/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "SUPREMO TRIBUNAL FEDERAL",
+    "Objeto da Compra": "Contratação de serviço de digitalização de documentos, sendo a indexação de 10.000 documentos por CPF  e os outros 130.000 documentos separados e indexados por processos de aproximadamente 200 páginas cada.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 35950.0,
+    "Valor Total Homologado": 20078.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "VOGATTA BRASIL M&D LTDA",
+        "CNPJ -1": "48123297000109",
+        "Valor Recebido -1": 5778.0,
+        "Descrição -1": "Serviços de digitalização / indexação de documentos",
+        "Empresa Contratada -2": "DOCUMENTALIZE GESTAO INTELIGENTE DE DOCUMENTOS LTDA",
+        "CNPJ -2": "24811635000137",
+        "Valor Recebido -2": 14300.0,
+        "Descrição -2": "Serviços de digitalização / indexação de documentos"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "00394452000103-1-000859/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "COMANDO DO EXERCITO",
+    "Objeto da Compra": "Aquisição de materiais e equipamentos energéticos, para atender as seções de Informática e de Pré-",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 51069.79,
+    "Valor Total Homologado": 38568.9,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "LUCAS EDUARDO FRANCISCO DA SILVA 15173633654",
+        "CNPJ -1": "36434865000103",
+        "Valor Recebido -1": 8400.0,
+        "Descrição -1": "Processador",
+        "Empresa Contratada -2": "THOMAS PIRRO ALVES SALES 03111010112",
+        "CNPJ -2": "40950887000101",
+        "Valor Recebido -2": 12040.0,
+        "Descrição -2": "Placa Controladora Vídeo",
+        "Empresa Contratada -3": "48.855.116 SULENE VANESSA ANDRADE DOS SANTOS",
+        "CNPJ -3": "48855116000139",
+        "Valor Recebido -3": 1236.45,
+        "Descrição -3": "Memória Ram",
+        "Empresa Contratada -4": "48.855.116 SULENE VANESSA ANDRADE DOS SANTOS",
+        "CNPJ -4": "48855116000139",
+        "Valor Recebido -4": 3336.9,
+        "Descrição -4": "Placa Mãe",
+        "Empresa Contratada -5": "EDUARDA CRISTINA DE SOUSA ROCHA 06247653182",
+        "CNPJ -5": "46672613000176",
+        "Valor Recebido -5": 924.85,
+        "Descrição -5": "Fonte Alimentação",
+        "Empresa Contratada -6": "M2Z SOLUCOES INTEGRADAS LTDA",
+        "CNPJ -6": "30870355000100",
+        "Valor Recebido -6": 974.85,
+        "Descrição -6": "Disco Magnético",
+        "Empresa Contratada -7": "22.285.270 SUZANA BORGES",
+        "CNPJ -7": "22285270000129",
+        "Valor Recebido -7": 984.8,
+        "Descrição -7": "Gabinete Para Computador",
+        "Empresa Contratada -8": "EDUARDA CRISTINA DE SOUSA ROCHA 06247653182",
+        "CNPJ -8": "46672613000176",
+        "Valor Recebido -8": 591.75,
+        "Descrição -8": "Roteador",
+        "Empresa Contratada -9": "EDUARDA CRISTINA DE SOUSA ROCHA 06247653182",
+        "CNPJ -9": "46672613000176",
+        "Valor Recebido -9": 1199.9,
+        "Descrição -9": "Patch Panel",
+        "Empresa Contratada -10": "3LS2 TERCEIRIZACAO IMPORTACAO E COMERCIALIZACAO LTDA",
+        "CNPJ -10": "44812602000119",
+        "Valor Recebido -10": 8879.4,
+        "Descrição -10": "Switch"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "03277610000125-1-000021/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "MINISTERIO DA DEFESA",
+    "Objeto da Compra": "Fornecimento de serviço de manutenção corretiva e revisão geral de veículos. ",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 21797.56,
+    "Valor Total Homologado": 20940.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "ARTHUR MEDEIROS 11316504689",
+        "CNPJ -1": "44420375000186",
+        "Valor Recebido -1": 12469.0,
+        "Descrição -1": "Manutenção de Veículos Leves e Pesados",
+        "Empresa Contratada -2": "ARTHUR MEDEIROS 11316504689",
+        "CNPJ -2": "44420375000186",
+        "Valor Recebido -2": 8471.0,
+        "Descrição -2": "Manutenção de Veículos Leves e Pesados"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "02270669000129-1-000001/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "AGENCIA NACIONAL DE ENERGIA ELETRICA - ANEEL",
+    "Objeto da Compra": "Contratação, por dispensa de licitação, de licenciamento de uso do software Survey Monkey, plano coletivo, equipe premium, pelo período de 12 meses.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 8700.0,
+    "Valor Total Homologado": 7187.7,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "VOGATTA BRASIL M&D LTDA",
+        "CNPJ -1": "48123297000109",
+        "Valor Recebido -1": 7187.7,
+        "Descrição -1": "Cessão Temporária de Direitos Sobre Programas de Computador Locação de Software"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "00394452000103-1-000860/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "COMANDO DO EXERCITO",
+    "Objeto da Compra": "Serviço de bordados para esta OM.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 14529.6,
+    "Valor Total Homologado": 10548.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "MARLON JOSE VALERIO DE JESUS",
+        "CNPJ -1": "26587509000176",
+        "Valor Recebido -1": 7430.4,
+        "Descrição -1": "Confecção - Bordado - Aviamento de Roupa / fardamento / camiseta",
+        "Empresa Contratada -2": "JANETE TEIXEIRA DE OLIVEIRA 06779364606",
+        "CNPJ -2": "42080834000102",
+        "Valor Recebido -2": 2217.6,
+        "Descrição -2": "Confecção - Bordado - Aviamento de Roupa / fardamento / camiseta",
+        "Empresa Contratada -3": "ADRIANA COSTA NOGUEIRA 00966017285",
+        "CNPJ -3": "18098757000125",
+        "Valor Recebido -3": 900.0,
+        "Descrição -3": "Confecção - Bordado - Aviamento de Roupa / fardamento / camiseta"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "07421906000129-1-000007/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "CONSELHO NACIONAL DE JUSTICA",
+    "Objeto da Compra": "Aquisição de 07 (sete) frigobares, 10 (dez) micro-ondas, 02 (duas) geladeiras e 01 (um) refrigerador expositor vertical.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 25750.85,
+    "Valor Total Homologado": 25750.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "JOSE NASCIMENTO DE CAMARGOS 72611170649",
+        "CNPJ -1": "47208443000136",
+        "Valor Recebido -1": 25750.0,
+        "Descrição -1": "Frigobar"
+    }
+},
+{
+    "Modalidade": "Dispensa",
+    "Código": "00394452000103-1-000874/2023",
+    "UF": "Distrito Federal",
+    "Órgão Entidade": "COMANDO DO EXERCITO",
+    "Objeto da Compra": "Dispensa de licitação para manutenção em câmara frigorífica.",
+    "Ano da Compra": 2023,
+    "Valor Total Estimado": 7000.0,
+    "Valor Total Homologado": 5700.0,
+    "Empresas Contratadas": {
+        "Empresa Contratada -1": "GPS FACILITY E CONSTRUCAO LTDA",
+        "CNPJ -1": "14842018000145",
+        "Valor Recebido -1": 5700.0,
+        "Descrição -1": "Manutenção de equipamentos de cozinha industrial"
     }
 },
 {

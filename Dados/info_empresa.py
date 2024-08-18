@@ -1,46 +1,58 @@
 import json
 import pandas as pd
-
-# Carrega o arquivo JSON original
-with open('frontend/contratos_OFICIAL_versao3.json', 'r', encoding='utf-8') as file:
-    dados = json.load(file)
-
-# Lista para armazenar os novos dicionários
-nova_estrutura = []
-
-# Processa cada contrato no arquivo original
-for contrato in dados:
-    codigo = contrato["Código"]
-    empresas_contratadas = contrato["Empresas Contratadas"]
-    
-    # Itera sobre as chaves de 'Empresas Contratadas'
-    for chave in empresas_contratadas:
-        if chave.startswith("Empresa Contratada"):
-            indice = chave.split(" -")[-1]  # Descobre o índice da chave
-            
-            novo_dict = {
-                "Código": codigo,
-                "Empresa Contratada": empresas_contratadas[f"Empresa Contratada -{indice}"],
-                "CNPJ": empresas_contratadas[f"CNPJ -{indice}"],
-                "Valor Recebido": empresas_contratadas[f"Valor Recebido -{indice}"],
-                "Descrição": empresas_contratadas[f"Descrição -{indice}"]
-            }
-            
-            # Adiciona o novo dicionário à lista
-            nova_estrutura.append(novo_dict)
-
-df = pd.DataFrame(nova_estrutura)
-
-df.to_csv('frontend/x_empresas_contratadas.csv', index=False, encoding='utf-8')
 import os
-print(f"O arquivo foi salvo em: {os.path.abspath('x_empresas_contratadas.csv')}")
 
-print("Arquivo CSV criado com sucesso!")
+def carregar_dados_json(caminho_arquivo_json):
+    """Carrega e retorna os dados de um arquivo JSON."""
+    with open(caminho_arquivo_json, 'r', encoding='utf-8') as file:
+        dados = json.load(file)
+    return dados
 
-''' 
-# Salva a nova estrutura em um novo arquivo JSON
-with open('x_empresas_contratadas.json', 'w', encoding='utf-8') as outfile:
-    json.dump(nova_estrutura, outfile,ensure_ascii=False, indent=4)
+def processar_contratos(dados):
+    """Processa os dados dos contratos para extrair a estrutura desejada."""
+    nova_estrutura = []
+    
+    for contrato in dados:
+        codigo = contrato["Código"]
+        empresas_contratadas = contrato["Empresas Contratadas"]
+        
+        for chave in empresas_contratadas:
+            if chave.startswith("Empresa Contratada"):
+                indice = chave.split(" -")[-1]
+                
+                novo_dict = {
+                    "Código": codigo,
+                    "Empresa Contratada": empresas_contratadas[f"Empresa Contratada -{indice}"],
+                    "CNPJ": empresas_contratadas[f"CNPJ -{indice}"],
+                    "Valor Recebido": empresas_contratadas[f"Valor Recebido -{indice}"],
+                    "Descrição": empresas_contratadas[f"Descrição -{indice}"]
+                }
+                
+                nova_estrutura.append(novo_dict)
+    
+    return nova_estrutura
 
-print("Novo arquivo JSON criado com sucesso!")
-'''
+def salvar_em_csv(dados, caminho_arquivo_csv):
+    """Salva os dados processados em um arquivo CSV."""
+    df = pd.DataFrame(dados)
+    df.to_csv(caminho_arquivo_csv, index=False, encoding='utf-8')
+    return os.path.abspath(caminho_arquivo_csv)
+
+def main():
+    caminho_arquivo_json = 'frontend/contratos_OFICIAL.json'
+    caminho_arquivo_csv = 'frontend/x_empresas_contratadas.csv'
+    
+    # Carrega os dados do arquivo JSON
+    dados = carregar_dados_json(caminho_arquivo_json)
+    
+    # Processa os dados dos contratos
+    nova_estrutura = processar_contratos(dados)
+    
+    # Salva os dados processados em um arquivo CSV
+    caminho_absoluto_csv = salvar_em_csv(nova_estrutura, caminho_arquivo_csv)
+    
+    print(f"O arquivo foi salvo em: {caminho_absoluto_csv}")
+    print("Arquivo CSV criado com sucesso!")
+
+if __name__ == "__main__":
+    main()
