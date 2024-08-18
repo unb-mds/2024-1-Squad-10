@@ -4,6 +4,7 @@ import plotly.express as px
 import json
 import unidecode
 import locale
+import os
 
 # Configura a localização para 'pt_BR' para utilizar o formato de números brasileiros
 #locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
@@ -12,26 +13,25 @@ st.set_page_config(page_title="Gastos de Dispensa por Órgão", layout='wide')
 
 @st.cache_data
 def load_csv_data():
-    df = pd.read_csv('contratos_ordenados_completo.csv')
+    # Construindo o caminho absoluto para o arquivo CSV
+    file_path = os.path.join(os.path.dirname(__file__), '..', 'contratos_ordenados_completo.csv')
+    
+    # Carrega o arquivo CSV usando pandas
+    df = pd.read_csv(file_path)
+
     df_sem_duplicatas = df.drop_duplicates()
     df = df_sem_duplicatas.sort_values("Valor Total Homologado",ascending=False)
     return df
 
 @st.cache_data
 def load_json_data():
-    with open('contratos_OFICIAL.json', 'r', encoding='utf-8') as f:
+    # Construindo o caminho absoluto para o arquivo JSON
+    file_path = os.path.join(os.path.dirname(__file__), '..', 'contratos_OFICIAL.json')
+    
+    # Carrega o arquivo JSON
+    with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    rows = [
-        {
-            "Ano da Compra": entry.get("Ano da Compra"),
-            "Órgão Entidade": entry.get("Órgão Entidade"),
-            "Valor Total Homologado": entry.get("Valor Total Homologado", 0)
-        }
-        for entry in data
-    ]
-    df = pd.DataFrame(rows)
-    df['Órgão Entidade Normalizado'] = df['Órgão Entidade'].apply(lambda x: unidecode.unidecode(x).lower())
-    return df
+    return data
 
 df_ordenado = load_csv_data()
 anos_unicos = ['Todos'] + list(df_ordenado['Ano da Compra'].unique())
@@ -128,31 +128,62 @@ with st.container():
     st.write(df_filtered)
     st.write('---')
 
-# Dados JSON
-df_json = load_json_data()
+st.subheader("Gasto anual em dispensa de licitação por órgão")
+
+data = load_json_data()
+
+# Transformar os dados em um DataFrame
+rows = []
+for entry in data:
+    ano = entry.get("Ano da Compra")
+    orgao = entry.get("Órgão Entidade")
+    valor_homologado = entry.get("Valor Total Homologado", 0)
+    
+    rows.append({
+        "Ano da Compra": ano,
+        "Órgão Entidade": orgao,
+        "Valor Total Homologado": valor_homologado
+    })
+
+df = pd.DataFrame(rows)
+
+# Normalizar strings para facilitar a pesquisa
+df['Órgão Entidade Normalizado'] = df['Órgão Entidade'].apply(lambda x: unidecode.unidecode(x).lower())
+
+# Campo de texto para pesquisa
 search_term = st.text_input("Digite o nome do Órgão")
 
 if search_term:
     search_term_normalized = unidecode.unidecode(search_term).lower()
-    matched_organs = df_json[df_json['Órgão Entidade Normalizado'].str.contains(search_term_normalized)]['Órgão Entidade'].unique()
+    # Buscar órgãos que contenham o termo pesquisado
+    matched_organs = df[df['Órgão Entidade Normalizado'].str.contains(search_term_normalized)]['Órgão Entidade'].unique()
     
-    if matched_organs:
+    if len(matched_organs) == 0:
+        st.write("Nenhum órgão encontrado com esse termo de pesquisa.")
+    else:
+        # Usar selectbox para permitir que o usuário selecione um órgão da lista encontrada
         selected_organ = st.selectbox("Selecione um órgão", matched_organs)
+        
         if selected_organ:
-            df_filtered_json = df_json[df_json['Órgão Entidade'] == selected_organ]
-            df_grouped = df_filtered_json.groupby(['Ano da Compra', 'Órgão Entidade'])['Valor Total Homologado'].sum().reset_index()
+            df_filtered = df[df['Órgão Entidade'] == selected_organ]
+            
+            # Agrupamento de dados por ano e órgão
+            df_grouped = df_filtered.groupby(['Ano da Compra', 'Órgão Entidade'])['Valor Total Homologado'].sum().reset_index()
 
+            # Criar gráfico de evolução temporal dos gastos
             fig_timeline = px.line(df_grouped, x='Ano da Compra', y='Valor Total Homologado', color='Órgão Entidade', title='Evolução dos Gastos Anuais por Órgão')
+
+            # Mostrar gráfico na interface
             st.plotly_chart(fig_timeline, use_container_width=True)
 
+            # Adicionar tabela de dados filtrados
             with st.container():
                 st.write(f'<h3><u style="color:white;">Valor anual gasto em dispensa de licitação por:</u> {selected_organ}</h3>', unsafe_allow_html=True)
                 for _, row in df_grouped.iterrows():
                     st.markdown(f"<p style='font-size:16px;'><u style='color:white;'>Ano {row['Ano da Compra']}:</u> R$ {row['Valor Total Homologado']:,.2f}</p>", unsafe_allow_html=True)
-                st.write("A primeira versão do Portal Nacional de Contratações Públicas [(PNCP)](https://www.gov.br/pncp/pt-br) somente foi lançada em Agosto de 2021 portanto, os dados desse ano podem estar incompletos.")
+                st.write("A primeria versão do Portal Nacional de Contratações Públicas [(PNCP)](https://www.gov.br/pncp/pt-br) somente foi lançada em Agosto de 2021 portanto, os dados desse ano podem estar incompletos.")
                 st.write('<hr>', unsafe_allow_html=True)
-    else:
-        st.write("Nenhum órgão encontrado com esse termo de pesquisa.")
+                
 else:
     st.write("Digite o nome de um órgão para começar a pesquisa.")
 
