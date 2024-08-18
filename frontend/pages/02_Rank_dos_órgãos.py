@@ -6,7 +6,7 @@ import unidecode
 import locale
 
 # Configura a localização para 'pt_BR' para utilizar o formato de números brasileiros
-locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+#locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 
 st.set_page_config(page_title="Gastos de Dispensa por Órgão", layout='wide')
 
