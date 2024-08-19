@@ -1,3 +1,5 @@
+
+
 import os
 
 # Define o caminho do diretório 'docs' onde a página será criada
