@@ -1,12 +1,9 @@
 
-
-import os
-
-# Define o caminho do diretório 'docs' onde a página será criada
+# Definir o diretório da documentação e o nome do arquivo da nova página
 docs_dir = "docs"
 page_filename = "mantenabilidade_desenvolvimento.md"
 
-# Cria o conteúdo da página
+# Conteúdo da nova página
 page_content = """
 # Mantenabilidade e Desenvolvimento
 
@@ -21,16 +18,16 @@ Esta página fornece diretrizes de codificação e uma visão geral da estrutura
    - Siga o padrão `snake_case` para nomes de variáveis e funções em Python e `CamelCase` para nomes de classes.
 
 2. **Documentação:**
-   - Todos os módulos, classes e funções devem ser documentados com docstrings que seguem o padrão do [PEP 257](https://www.python.org/dev/peps/pep-0257/).
-   - Adicione comentários esclarecendo blocos de código complexos ou decisões importantes.
+   - Documente todos os módulos, classes e funções com docstrings que seguem o padrão do PEP 257.
+   - Adicione comentários para esclarecer blocos de código complexos ou decisões importantes.
 
 3. **Formatação:**
-   - Utilize `black` como formatador de código para garantir consistência.
+   - Utilize `black` como formatador de código para garantir a consistência.
    - Limite o comprimento das linhas a 79 caracteres.
    - Separe blocos lógicos de código com uma linha em branco.
 
 4. **Tipagem:**
-   - Use tipagem estática (`type hints`) conforme descrito no [PEP 484](https://www.python.org/dev/peps/pep-0484/).
+   - Utilize tipagem estática (`type hints`) conforme o PEP 484.
    - Verifique o uso de tipagem com `mypy`.
 
 ### Boas Práticas e Recomendações
@@ -46,7 +43,7 @@ Esta página fornece diretrizes de codificação e uma visão geral da estrutura
 
 3. **Controle de Versão:**
    - Faça commits frequentes e com mensagens descritivas.
-   - Utilize branches para desenvolvimento de novas features ou correção de bugs, seguindo o fluxo [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/).
+   - Utilize branches para desenvolvimento de novas funcionalidades ou correção de bugs, seguindo o fluxo Git Flow.
 
 4. **Automação:**
    - Utilize GitHub Actions para automatizar tarefas de CI/CD, incluindo testes e verificação de qualidade de código.
