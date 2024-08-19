@@ -1,10 +1,4 @@
 
-# Definir o diretório da documentação e o nome do arquivo da nova página
-docs_dir = "docs"
-page_filename = "mantenabilidade_desenvolvimento.md"
-
-# Conteúdo da nova página
-page_content = """
 # Mantenabilidade e Desenvolvimento
 
 Esta página fornece diretrizes de codificação e uma visão geral da estrutura do repositório para garantir a qualidade, a consistência e a mantenabilidade do código ao longo do desenvolvimento do projeto.
