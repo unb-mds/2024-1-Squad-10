@@ -107,3 +107,24 @@ st.markdown(footer, unsafe_allow_html=True)
 
 # Adicionar suporte a ícones da Font Awesome
 st.markdown('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">', unsafe_allow_html=True)
+
+def apply_dark_mode_css():
+    st.markdown("""
+        <style>
+        body {
+            background-color: #0E1117;
+            color: white;
+        }
+        .stApp {
+            background-color: #0E1117;
+            color: white;
+        }
+        .stMarkdown, .stMarkdown p, .stHeader, .stText, .stTitle, .stSubtitle, .stImage, .caption {
+            color: white;
+        }
+        .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4, .stMarkdown h5, .stMarkdown h6 {
+            color: white;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+apply_dark_mode_css()
