@@ -108,12 +108,51 @@ O protótipo da página web pode ser visualizado [aqui](https://www.figma.com/pr
 
 ## Equipe
 
-| Nome                           |                           GitHub                           |
-| :----------------------------- | :--------------------------------------------------------: |
-| Davi Aguiar                    |[@davi-aguiar-vieira](https://github.com/davi-aguiar-vieira)|
-| Henrique Carvalho              |[@henriquecarv3](https://github.com/henriquecarv3)          |
-| Mateus de Castro               |[@mat054](https://github.com/mat054)                        |
-| Maria Clara Alves              |[@alvezclari](https://github.com/alvezclari)                |
-| Pedro Lock                     |[@PedroLock](https://github.com/PedroLock)                  |
-| Rafael Matuda                  |[@9livesgod](https://github.com/9livesgod)                  |
-| Romulo Reis                    |[@romuloreisdev](https://github.com/romuloreisdev)          |
+<center>
+<table style="margin-left: auto; margin-right: auto;">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/davi-aguiar-vieira">
+                <img style="border-radius: 50%;" src="https://github.com/davi-aguiar-vieira.png" width="150px;"/>
+                <h5 class="text-center">Davi Aguiar</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/henriquecarv3">
+                <img style="border-radius: 50%;" src="https://github.com/henriquecarv3.png" width="150px;"/>
+                <h5 class="text-center">Henrique Carvalho</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/mat054">
+                <img style="border-radius: 50%;" src="https://github.com/mat054.png" width="150px;"/>
+                <h5 class="text-center">Mateus de Castro</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/alvezclari">
+                <img style="border-radius: 50%;" src="https://github.com/alvezclari.png" width="150px;"/>
+                <h5 class="text-center">Maria Clara</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/PedroLock">
+                <img style="border-radius: 50%;" src="https://github.com/PedroLock.png" width="150px;"/>
+                <h5 class="text-center">Pedro Lock</h5>
+            </a>
+        </td>
+         <td align="center">
+            <a href="https://github.com/9livesgod">
+                <img style="border-radius: 50%;" src="https://github.com/9livesgod.png" width="150px;"/>
+                <h5 class="text-center">Rafael Matuda</h5>
+            </a>
+        </td>
+	<td align="center">
+            <a href="https://github.com/romuloreisdev">
+                <img style="border-radius: 50%;" src="https://github.com/romuloreisdev.png" width="150px;"/>
+                <h5 class="text-center">Romulo Reis</h5>
+            </a>
+        </td>
+</table>
+
+</center>
