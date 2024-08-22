@@ -1,0 +1,52 @@
+name: Linter
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Python dependencies
+      run: |
+        pip install pylint
+
+    - name: Run Python linter
+      run: |
+        pylint **/*.py
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install Node.js dependencies
+      run: |
+        npm install -g eslint stylelint markdownlint-cli
+
+    - name: Run JavaScript linter
+      run: |
+        eslint '**/*.js'
+
+    - name: Run CSS linter
+      run: |
+        stylelint '**/*.css'
+
+    - name: Run Markdown linter
+      run: |
+        markdownlint '**/*.md'
+
+    - name: Check JSON files
+      run: |
+        jq empty '**/*.json'
