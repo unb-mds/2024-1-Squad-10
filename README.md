@@ -67,6 +67,9 @@ pandas>=2.2.2
 plotly-express>=0.4.1
 plotly>=5.22.0
 altair>=5.3.0
+unidecode==1.3.8
+pytz==2024.1
+tzdata==2024.1
 ```
 
 ## Executando o Projeto
@@ -94,9 +97,10 @@ Contribuições são bem-vindas! Se você tiver sugestões ou encontrar problema
 
 
 ## Diagrama de Arquitetura: 
-![image](https://github.com/unb-mds/2024-1-Squad-10/assets/145598542/4850441c-f750-410b-a8d8-c478e8ece700)
+![image](https://github.com/user-attachments/assets/b7bcae6a-868b-4908-982a-758a2fc08d1a)
 
-<p>Clique <a href="https://www.figma.com/board/NBvsCarJ03JDQZUAZ24csy/Diagrama-de-Arquitetura?node-id=0-1&t=O5K8SFcl7e9Cseye-0">aqui</a> para acessar o diagrama de arquitetura do projeto.
+
+<p>Clique <a href="https://www.figma.com/board/NBvsCarJ03JDQZUAZ24csy/Diagrama-de-Arquitetura?node-id=0-1&t=tLTmGJIFRkiUKHN7-0">aqui</a> para acessar o diagrama de arquitetura do projeto.
 
 ## 🗺 Story Map
 
