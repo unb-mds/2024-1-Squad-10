@@ -1,4 +1,4 @@
-# DOCUMENTO DE ARQUITETURA DO PROJETO DE SOFTWARE
+# Arquitetura
 
 ## 1. Visão Geral
 Este documento descreve a arquitetura do projeto de software desenvolvido em Python, cujo objetivo é analisar os dados de dispensa de licitação do Distrito Federal, identificar as empresas mais beneficiadas e os órgãos públicos mais investidores. A coleta e a análise dos dados são realizadas através de diversas bibliotecas e ferramentas, com atualizações automatizadas semanalmente.
@@ -100,7 +100,7 @@ Este documento descreve a arquitetura do projeto de software desenvolvido em Pyt
 O projeto LicitaNow visa verificar e mostrar aos usuários os gastos públicos do Distrito Federal na modalidade dispensa de licitação. Tendo como objetivo apresentar, de forma organizada, quais empresas recebem mais dinheiro e quais são os órgãos públicos que gastam mais.
 
 ### Diagrama de arquitetura 
-![Diagrama](imagens/Diagrama.png)
+![image](https://github.com/user-attachments/assets/b7bcae6a-868b-4908-982a-758a2fc08d1a)
 
 ### Front-End
 
