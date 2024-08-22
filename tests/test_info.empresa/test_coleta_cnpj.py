@@ -47,3 +47,48 @@ def test_lista_cnpjs_valid(csv_content_valid):
         result = lista_cnpjs("mock_file.csv")
         expected_result = ["12345678901234", "98765432109876"]
         assert result == expected_result
+
+
+def test_lista_cnpjs_invalid_cnpj(csv_content_invalid_cnpj):
+    with patch("builtins.open", mock_open(read_data=csv_content_invalid_cnpj)):
+        result = lista_cnpjs("mock_file.csv")
+        expected_result = ["12345678901234"]
+        assert result == expected_result
+
+def test_lista_cnpjs_empty(csv_content_empty):
+    with patch("builtins.open", mock_open(read_data=csv_content_empty)):
+        result = lista_cnpjs("mock_file.csv")
+        expected_result = []
+        assert result == expected_result
+
+def test_lista_cnpjs_varied_length(csv_content_varied_length):
+    with patch("builtins.open", mock_open(read_data=csv_content_varied_length)):
+        result = lista_cnpjs("mock_file.csv")
+        expected_result = ["12345678901234"]
+        assert result == expected_result
+
+
+def test_lista_divisivel_por_3():
+    lista = [1, 2, 3, 4, 5, 6]
+    resultado = lista_3_listas(lista)
+    assert resultado == [[1, 2], [3, 4], [5, 6]]
+
+def test_lista_nao_divisivel_por_3():
+    lista = [1, 2, 3, 4, 5, 6, 7]
+    resultado = lista_3_listas(lista)
+    assert resultado == [[1, 2], [3, 4], [5, 6]]
+
+def test_lista_vazia():
+    lista = []
+    resultado = lista_3_listas(lista)
+    assert resultado == [[], [], []]
+
+def test_lista_um_elemento():
+    lista = [1]
+    resultado = lista_3_listas(lista)
+    assert resultado == [[], [], []]
+
+def test_lista_dois_elementos():
+    lista = [1, 2]
+    resultado = lista_3_listas(lista)
+    assert resultado == [[], [], []]
