@@ -27,7 +27,7 @@ def resize_image(image_path, size=(150, 150)):
     img = ImageOps.fit(img, size, Image.LANCZOS)
     return img
 
-apply_dark_mode_css()
+#apply_dark_mode_css()
 
 st.header('Sobre nós')
 st.write("""

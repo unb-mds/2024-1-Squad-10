@@ -315,4 +315,4 @@ def apply_dark_mode_css():
         }
         </style>
         """, unsafe_allow_html=True)
-apply_dark_mode_css()
+#apply_dark_mode_css()

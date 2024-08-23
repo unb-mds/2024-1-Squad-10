@@ -150,7 +150,7 @@ def apply_dark_mode_css():
 
 # Função principal para rodar a aplicação
 def main():
-    apply_dark_mode_css()
+    #apply_dark_mode_css()
     render_form_ui()
     render_footer()
 
