@@ -6,11 +6,11 @@ def apply_dark_mode_css():
     st.markdown("""
         <style>
         body {
-            background-color: #121212;
+            background-color: #0E1117;
             color: white;
         }
         .stApp {
-            background-color: #121212;
+            background-color: #0E1117;
             color: white;
         }
         .stMarkdown, .stMarkdown p, .stHeader, .stText, .stTitle, .stSubtitle, .stImage, .caption {
