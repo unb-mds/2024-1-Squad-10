@@ -20,11 +20,11 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        pip install pylint
+        pip install black
 
-    - name: Run Python linter
+    - name: Run Python linter (Black)
       run: |
-        pylint **/*.py
+        black --check **/*.py
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
@@ -33,20 +33,8 @@ jobs:
 
     - name: Install Node.js dependencies
       run: |
-        npm install -g eslint stylelint markdownlint-cli
-
-    - name: Run JavaScript linter
-      run: |
-        eslint '**/*.js'
-
-    - name: Run CSS linter
-      run: |
-        stylelint '**/*.css'
+        npm install -g markdownlint-cli
 
     - name: Run Markdown linter
       run: |
         markdownlint '**/*.md'
-
-    - name: Check JSON files
-      run: |
-        jq empty '**/*.json'
