@@ -4,7 +4,6 @@
 
 O objetivo principal desta pipeline é automatizar as requisições para a API do Portal Nacional de Contratações Públicas (PNCP), a manipulação dos dados coletados, as requisições para a API de dados das empresas envolvidas, e a automação dos testes. A pipeline foi projetada para executar uma série de etapas que garantem a coleta eficiente dos dados, o tratamento de erros, e o processamento dessas informações de forma organizada e manipulável. Além disso, a pipeline incorpora práticas de CI/CD para assegurar a qualidade do código e a automação do deploy da documentação.
 
-
 ## Estrutura da Pipeline
 
 ### 1. Coleta de Dados do PNCP
