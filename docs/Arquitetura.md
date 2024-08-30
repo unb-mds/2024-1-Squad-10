@@ -1,9 +1,11 @@
 # Arquitetura
 
 ## 1. Visão Geral
+
 Este documento descreve a arquitetura do projeto de software desenvolvido em Python, cujo objetivo é analisar os dados de dispensa de licitação do Distrito Federal, identificar as empresas mais beneficiadas e os órgãos públicos mais investidores. A coleta e a análise dos dados são realizadas através de diversas bibliotecas e ferramentas, com atualizações automatizadas semanalmente.
 
 ## 2. Objetivos
+
 - Analisar dados de dispensa de licitação no Distrito Federal.
 - Identificar as empresas mais beneficiadas e os órgãos públicos mais investidores.
 - Fornecer visualizações claras e intuitivas dos dados coletados.
@@ -11,31 +13,38 @@ Este documento descreve a arquitetura do projeto de software desenvolvido em Pyt
 ## 3. Arquitetura Geral
 
 ### 3.1. Fluxo de Trabalho
-- **1) Extração e Coleta dos Dados**
-     - **Coleta dos Contratos:** 
-        * Feita através de requisições ao Portal Nacional de Contratações Públicas (PNCP) utilizando a biblioteca requests. 
-        * Os dados são salvos em um arquivo JSON (contratos_OFICIAL.json).
-        * Erros de requisição são registrados em arquivos de log para tentativas subsequentes.
-     - **Coleta das Empresas:**
-        * Com base nos dados dos contratos, são realizadas requisições a uma API específica de empresas para coletar informações adicionais. 
-        * Os dados são salvos em um arquivo JSON (infos_cnpjs_OFICIAL.json).
 
-- **2) Salvamento dos Dados**
-     * Dados dos contratos salvos em contratos_OFICIAL.json.
-     * Dados das empresas salvos em infos_cnpjs_OFICIAL.json.
+#### 1) Extração e Coleta dos Dados
 
-- **3) Manipulação dos Dados**
-     * Geração de um arquivo CSV (x_empresas_contratadas.csv) a partir dos dados dos contratos para facilitar a leitura dos dados das empresas contratadas.
-     * Criação de um arquivo CSV (contratos_ordenados_completos.csv) que combina os dados dos contratos e das empresas, utilizando a biblioteca pandas.
+- **Coleta dos Contratos:**
+- Feita através de requisições ao Portal Nacional de Contratações Públicas (PNCP) utilizando a biblioteca requests.
+- Os dados são salvos em um arquivo JSON (contratos_OFICIAL.json).
+- Erros de requisição são registrados em arquivos de log para tentativas subsequentes.
+- **Coleta das Empresas:**
+- Com base nos dados dos contratos, são realizadas requisições a uma API específica de empresas para coletar informações adicionais.
+- Os dados são salvos em um arquivo JSON (infos_cnpjs_OFICIAL.json).
 
-- **4) Leitura dos Dados**
-     * Leitura dos arquivos CSV gerados para análise e visualização dos dados.
+#### 2) Salvamento dos Dados
 
-- **5) Análise e Visualização dos Dados**
-     * Utilização do streamlit para criar dashboards e gráficos.
-     * Outras bibliotecas utilizadas incluem altair e plotly_express para visualizações adicionais.
+- Dados dos contratos salvos em contratos_OFICIAL.json.
+- Dados das empresas salvos em infos_cnpjs_OFICIAL.json.
+
+#### 3) Manipulação dos Dados
+
+- Geração de um arquivo CSV (x_empresas_contratadas.csv) a partir dos dados dos contratos para facilitar a leitura dos dados das empresas contratadas.
+- Criação de um arquivo CSV (contratos_ordenados_completos.csv) que combina os dados dos contratos e das empresas, utilizando a biblioteca pandas.
+
+#### 4) Leitura dos Dados
+
+- Leitura dos arquivos CSV gerados para análise e visualização dos dados.
+
+#### 5) Análise e Visualização dos Dados
+
+- Utilização do streamlit para criar dashboards e gráficos.
+- Outras bibliotecas utilizadas incluem altair e plotly_express para visualizações adicionais.
 
 ### 3.2. Automação
+
 - **GitHub Actions:** Automação semanal para atualização dos dados. Scripts definidos em arquivos .yml no GitHub.
 
 ## 4. Estrutura do Projeto
@@ -80,10 +89,10 @@ Este documento descreve a arquitetura do projeto de software desenvolvido em Pyt
 
 - **Menu.py:** Script que define a página inicial de menu do dashboard.
 - **pages/**
-    - **01_Rank_empresas.py:** Página que exibe o ranking das empresas mais beneficiadas.
-    - **02_Rank_dos_órgãos.py:** Página que exibe o ranking dos órgãos públicos mais investidores.
-    - **03_Contato.py:** Página de contato.
-    - **04_Sobre.py:** Página com informações sobre o projeto.
+- **01_Rank_empresas.py:** Página que exibe o ranking das empresas mais beneficiadas.
+- **02_Rank_dos_órgãos.py:** Página que exibe o ranking dos órgãos públicos mais investidores.
+- **03_Contato.py:** Página de contato.
+- **04_Sobre.py:** Página com informações sobre o projeto.
 
 ## 6. Bibliotecas Utilizadas
 
@@ -95,20 +104,23 @@ Este documento descreve a arquitetura do projeto de software desenvolvido em Pyt
 - **json:** Para manipulação de arquivos JSON.
 - **unidecode:** Para normalização de texto.
 
+### Introdução
 
-### Introdução 
 O projeto LicitaNow visa verificar e mostrar aos usuários os gastos públicos do Distrito Federal na modalidade dispensa de licitação. Tendo como objetivo apresentar, de forma organizada, quais empresas recebem mais dinheiro e quais são os órgãos públicos que gastam mais.
 
-### Diagrama de arquitetura 
+### Diagrama de arquitetura
+
 ![image](https://github.com/user-attachments/assets/b7bcae6a-868b-4908-982a-758a2fc08d1a)
 
 ### Front-End
 
-#### HTML, CSS e JavaScript:
+#### HTML, CSS e JavaScript
+
 - *Estrutura e Estilo:* Para criar a interface inicial do nosso projeto, utilizamos HTML para estruturar o conteúdo e CSS para estilizar os elementos. Além disso, utilizamos JavaScript para adicionar interatividade à página.
 - *Conteúdo Principal:* O HTML define a estrutura básica da página, incluindo cabeçalho, seções de conteúdo, e rodapé. O CSS é responsável pela aparência visual, incluindo cores, espaçamentos, e fontes. O JavaScript adiciona comportamento dinâmico, como animações e reações a eventos de usuário.
 
-#### Integração com Streamlit:
+#### Integração com Streamlit
+
 - *Incorporação de HTML/CSS/JS no Streamlit:* Utilizamos a biblioteca streamlit.components.v1 para incorporar o nosso código HTML, CSS e JavaScript dentro do aplicativo Streamlit. Isso nos permitiu combinar a flexibilidade do desenvolvimento web tradicional com a simplicidade e o poder do Streamlit.
 - *Código de Integração:* O código abaixo demonstra como carregamos e incorporamos os arquivos HTML, CSS e JavaScript no Streamlit:
 
@@ -150,11 +162,13 @@ O projeto LicitaNow visa verificar e mostrar aos usuários os gastos públicos d
 
 ### Back-End
 
-#### Biblioteca Streamlit:
+#### Biblioteca Streamlit
+
 - *Criação de Interfaces Interativas:* Utilizamos a biblioteca Streamlit para desenvolver o restante da interface do usuário e das funcionalidades interativas. Streamlit é uma ferramenta poderosa para criar dashboards e aplicativos de dados de maneira rápida e eficiente.
 - *Funcionalidades:* Com Streamlit, implementamos funcionalidades como carregamento e visualização de dados, gráficos interativos, e controle de entradas do usuário (como sliders e botões).
 
-#### Fluxo de Trabalho:
+#### Fluxo de Trabalho
+
 - *Entrada de dados:* Os dados são carregados a partir de fontes especificadas (arquivos, APIs, etc.).
 - *Processamento e Análise:* Os dados são processados e analisados em tempo real, utilizando bibliotecas de manipulação de dados.
 - *Visualização:* Os resultados são apresentados de forma intuitiva através de gráficos, tabelas e outras visualizações interativas.
@@ -163,42 +177,48 @@ O projeto LicitaNow visa verificar e mostrar aos usuários os gastos públicos d
 
 A combinação de HTML, CSS e JavaScript para a estrutura e estilo inicial, junto com a biblioteca Streamlit para funcionalidades interativas e visualizações de dados, nos permitiu criar uma aplicação robusta e fácil de usar. Esta abordagem nos permitiu oferecer uma melhor combinação entre: a flexibilidade e personalização do desenvolvimento web tradicional, e a simplicidade e eficiência do Streamlit para análise de dados.
 
-
 ## 7. Automação e Atualização de Dados
 
 - **GitHub Actions:** Arquivos `.yml` configurados para executar scripts de coleta e atualização de dados semanalmente, garantindo que as informações estejam sempre atualizadas.
 
 Este documento detalha a arquitetura do projeto, incluindo o fluxo de trabalho, a estrutura de diretórios e scripts, além das bibliotecas e ferramentas utilizadas para alcançar os objetivos estabelecidos.
 
-
-
 ## Índice de Arquivos
 
-#### coleta_api.py
+### coleta_api.py
+
 Faz buscas no API do PNCP, como resultado, ele gera um arquivo Json
 
 #### coleta_cnpj.py
-Faz buscas do casdastro de CNPJ no API https://api.cnpjs.dev/v1 utilizando o arquivo 'contratos_OFICIAL.json' e adiciona a ele o resultado das buscas
+
+Faz buscas do cadastro de CNPJ na [API](https://api.cnpjs.dev/v1) utilizando o arquivo 'contratos_OFICIAL.json' e adiciona a ele o resultado das buscas.
 
 #### ordenacao_dados.py
+
 Organiza o arquivo Json para que possa ser lido pelo dashboard, consolida com as informações do arquivo "contrato_final1.xlsx", além de possíbilitar ao usuário que o baixe para trabalhá-lo em planilha Excel > Gera o arquivo "contratos_ordenados_completo.csv"
 
 #### info_empresa.py
-verificar a necessidade de manter este arquivo, pois parece que não tem mais utilidade para o projeto
+
+Verificar a necessidade de manter este arquivo, pois parece que não tem mais utilidade para o projeto
 
 - Lê o arquivo"x_empresas_contratadas.json" e gera o arquivo 'x_empresas_contratadas.csv'
 
 #### Rank_empresas.py
+
 Página de arquivos do ranking das empresas
 
 #### Rank_dos_órgãos.py
+
 Página de arquivos do ranking dos órgãos conntratantes
 
 #### Contato.py
+
 Contato do organização do projeto
 
 #### Sobre.py
+
 Sobre nós
 
 #### Menu.py
+
 Menu do Dashboard Interativo
