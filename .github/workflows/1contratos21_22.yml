@@ -2,7 +2,7 @@ name: Atualizar_contratos_21_22
 
 on:
     schedule:
-        - cron: '0 16 * * 4/2'
+        - cron: '0 16 1 * *'
     workflow_dispatch:
 
 jobs:
