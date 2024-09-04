@@ -1,0 +1,1607 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Desenvolvimento/">
+      
+      
+        <link rel="next" href="../como_contribuir/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Sprints - LicitaNow</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sprints" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="LicitaNow" class="md-header__button md-logo" aria-label="LicitaNow" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LicitaNow
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sprints
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  LicitaNow
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Arquitetura/" class="md-tabs__link">
+        
+  
+    
+  
+  Arquitetura
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Arquitetura_pipeline/" class="md-tabs__link">
+        
+  
+    
+  
+  Arquitetura da Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Desenvolvimento/" class="md-tabs__link">
+        
+  
+    
+  
+  Mantenabilidade e Desenvolvimento
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Sprints
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../como_contribuir/" class="md-tabs__link">
+        
+  
+    
+  
+  Contribuindo para o Licita Now
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../como_executar/" class="md-tabs__link">
+        
+  
+    
+  
+  Como Executar
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="LicitaNow" class="md-nav__button md-logo" aria-label="LicitaNow" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    LicitaNow
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LicitaNow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arquitetura_pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura da Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Desenvolvimento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mantenabilidade e Desenvolvimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 0
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-para-formacao-dos-grupos-e-definicao-dos-temas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião para formação dos grupos e definição dos temas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 1
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 0
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-0" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 0
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sprint-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-sobre-estudo-do-github-e-metodologia-agil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião sobre estudo do GitHub e metodologia ágil
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues Sprint 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 1
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sprint-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-sobre-estudo-do-querido-diario-raspagem-de-dados-e-metodologias-de-desenvolvimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião sobre estudo do Querido Diário, raspagem de dados e metodologias de desenvolvimento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sprint-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-sobre-alteracao-da-fonte-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião sobre alteração da fonte de dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 3
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 4
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-para-mostrar-novo-metodo-para-coletar-os-dados-do-pncp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião para mostrar novo método para coletar os dados do PNCP
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 4
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 4
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 5
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 5">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-de-demonstracao-do-codigo-streamlit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião de demonstração do código Streamlit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 6
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 5
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 6
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-de-retomada-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião de retomada do projeto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 7
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 6
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 6
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 7
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-para-aperfeicoamento-do-front-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião para aperfeiçoamento do Front-end
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 8
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 8">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 7
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 7
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 8
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 8">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-organizacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião organizacional
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 9
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 9">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 8
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 8
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 9
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 9">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-pos-release-1-oficial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião pós release 1 oficial
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 10
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 10">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 9
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 9
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 10
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 10">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-de-melhorias-no-projeto-pos-r1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião de melhorias no projeto pós R1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 11
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 10
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 10
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 11
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-de-alinhamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião de alinhamento
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 12
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 11
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 11
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      SPRINT 12
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SPRINT 12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-sobre-refatoracao-e-testes-unitarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião sobre refatoração e testes unitários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reuniao-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reunião 13
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reunião 13">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tarefas-entregues-sprint-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tarefas Entregues - Sprint 12
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recursos-de-estudo-sprint-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recursos de Estudo - Sprint 12
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../como_contribuir/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribuindo para o Licita Now
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../como_executar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Como Executar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="sprints">Sprints</h1>
+<h2 id="sprint-0">SPRINT 0</h2>
+<p><strong>Período:</strong> 18/03/2024 a 25/03/2024</p>
+<h3 id="reuniao-para-formacao-dos-grupos-e-definicao-dos-temas">Reunião para formação dos grupos e definição dos temas</h3>
+<p><strong>Descrição:</strong><br />
+Nesta Sprint, o grupo discutiu e decidiu que as reuniões serão realizadas semanalmente, mas podendo ser feitas mais de uma vez caso seja necessário, às segundas-feiras às 20:00 na plataforma Discord. Também foi explicado e discutido como o projeto seria conduzido, além de sugerir três possíveis temas para serem abordados no projeto.</p>
+<h3 id="reuniao-1">Reunião 1</h3>
+<p><strong>Data:</strong> 22/03/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-0">Tarefas Entregues - Sprint 0</h4>
+<ul>
+<li>Definir o horário, data e frequência das reuniões.</li>
+<li>Explicar o processo de trabalho do projeto.</li>
+<li>Sugerir três possíveis temas para o projeto.</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-0">Recursos de Estudo - Sprint 0</h4>
+<ul>
+<li>Notas da reunião onde foram formados os grupos.</li>
+<li>Anotações sobre os temas sugeridos.</li>
+</ul>
+<h3 id="sprint-1">SPRINT 1</h3>
+<p><strong>Período:</strong> 25/03/2024 a 01/04/2024</p>
+<h3 id="reuniao-sobre-estudo-do-github-e-metodologia-agil">Reunião sobre estudo do GitHub e metodologia ágil</h3>
+<p><strong>Descrição:</strong><br />
+Nesta Sprint, o grupo se concentrou em estudar o GitHub e a metodologia ágil para nos prepararmos para o desenvolvimento do projeto. Esta sprint foi dedicada a compreender os princípios básicos de controle de versão, colaboração em equipe e práticas ágeis de desenvolvimento de software.</p>
+<h3 id="reuniao-2">Reunião 2</h3>
+<p><strong>Data:</strong> 25/03/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-1">Tarefas Entregues Sprint 1</h4>
+<ul>
+<li>Estudar o funcionamento básico do GitHub.</li>
+<li>Criar e clonar repositórios no GitHub.</li>
+<li>Realizar commits, push e pull requests.</li>
+<li>Entender o conceito de branch e merge.</li>
+<li>Familiarizar-se com a metodologia ágil e seus princípios.</li>
+<li>Pesquisar e discutir sobre as práticas ágeis mais relevantes para o nosso projeto.</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-1">Recursos de Estudo - Sprint 1</h4>
+<ul>
+<li>Tutoriais e documentação do GitHub.</li>
+<li>Livros e artigos sobre metodologia ágil.</li>
+<li>Material de referência sobre controle de versão e colaboração em equipe.</li>
+</ul>
+<h3 id="sprint-2">SPRINT 2</h3>
+<p><strong>Período:</strong> 01/04/2024 a 08/04/2024</p>
+<h3 id="reuniao-sobre-estudo-do-querido-diario-raspagem-de-dados-e-metodologias-de-desenvolvimento">Reunião sobre estudo do Querido Diário, raspagem de dados e metodologias de desenvolvimento</h3>
+<p><strong>Descrição:</strong><br />
+  Nesta Sprint, o grupo dedicou tempo para estudar e entender os conceitos relacionados à contribuição para o projeto Querido Diário, além de aprofundar os conhecimentos em raspagem de dados, criação de spiders, utilização do Scrapy e práticas de desenvolvimento colaborativo como Git Flow, GitHub e Scrum.</p>
+<h3 id="reuniao-3">Reunião 3</h3>
+<p><strong>Data:</strong> 01/04/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-2">Tarefas Entregues - Sprint 2</h4>
+<ul>
+<li>Pesquisar e compreender o projeto Querido Diário e suas diretrizes para contribuição.</li>
+<li>Estudar os princípios e técnicas de raspagem de dados.</li>
+<li>Explorar a criação de spiders para coleta de informações.</li>
+<li>Aprender sobre o funcionamento do Scrapy como ferramenta de scraping.</li>
+<li>Entender os conceitos e fluxos de trabalho do Git Flow.</li>
+<li>Praticar a utilização avançada do GitHub para colaboração em equipe.</li>
+<li>Aprofundar os conhecimentos sobre Scrum e sua aplicação no contexto do projeto.</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-2">Recursos de Estudo - Sprint 2</h4>
+<ul>
+<li>Documentação do Querido Diário.</li>
+<li>Tutoriais e materiais sobre raspagem de dados.</li>
+<li>Documentação oficial do Scrapy.</li>
+<li>Livros e artigos sobre Git Flow e GitHub.</li>
+<li>Recursos sobre metodologia Scrum.</li>
+</ul>
+<h3 id="sprint-3">SPRINT 3</h3>
+<p><strong>Período:</strong> 08/04/2024 a 15/04/2024</p>
+<h3 id="reuniao-sobre-alteracao-da-fonte-de-dados">Reunião sobre alteração da fonte de dados</h3>
+<p><strong>Descrição:</strong><br />
+Nesta Sprint, o grupo decidiu não utilizar mais o Querido Diário como a fonte de dados do projeto. Foi decidido então utilizar o Portal Nacional de Contratações Públicas (PNCP) como nossa fonte de dados. Além disso, o grupo também revisou mais alguns comandos do Git para que fossem feitas melhores aplicações no nosso projeto. Ademais, estudamos mais sobre web scraping, pois será bastante utilizado para que seja feita a raspagem de dados do PNCP. Por fim, foi decidido o que cada participante faria até a próxima sprint, que seria: utilização do Figma para criação da página do projeto, web scraping para raspar dados do PNCP, implementação da arquitetura do nosso projeto e criação do diagrama da arquitetura.</p>
+<h3 id="reuniao-4">Reunião 4</h3>
+<p><strong>Data:</strong> 10/04/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-3">Tarefas Entregues - Sprint 3</h4>
+<ul>
+<li>Revisar comandos do Git.</li>
+<li>Estudar e aperfeiçoar como fazer web scraping.</li>
+<li>Entender quais dados coletar do Portal Nacional de Contratações Públicas.</li>
+<li>Utilizar o Figma para fazer o design e a arquitetura do projeto.</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-3">Recursos de Estudo - Sprint 3</h4>
+<ul>
+<li>Aula de revisão ministrada pelo líder do grupo sobre comandos de Git.</li>
+<li>Análise do site do Portal Nacional de Contratações Públicas.</li>
+<li>Documentação oficial do Scrapy.</li>
+<li>Utilização da ferramenta de design Figma.</li>
+</ul>
+<h2 id="sprint-4">SPRINT 4</h2>
+<p><strong>Período:</strong> 15/04/2024 a 22/04/2024</p>
+<h3 id="reuniao-para-mostrar-novo-metodo-para-coletar-os-dados-do-pncp">Reunião para mostrar novo método para coletar os dados do PNCP</h3>
+<p><strong>Descrição:</strong><br />
+Nesta Sprint, inicialmente, cada participante apresentou para o grupo o que realizou durante a semana e como está o andamento do projeto. Após isso, foi apresentada a nova maneira que seria feita a coleta de dados do PCNP, que não consistiria mais em fazer uma raspagem direta dos dados do PNCP e sim da API fornecida pelo próprio Portal. Após isso, foram passadas as novas tarefas, que seriam essas: Consumir os dados da API do PNCP e implementá-los os dados do arquivo JSON para um banco de dados, desenvolvimento da lógica para recuperar os dados de maiores valores das empresas, implementação e melhoria do site do projeto e desenvolvimento do cadastro e do login do usuário.</p>
+<h3 id="reuniao-5">Reunião 5</h3>
+<p><strong>Data:</strong> 17/04/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-4">Tarefas Entregues - Sprint 4</h4>
+<ul>
+<li>Criação do esboço do site no Figma</li>
+<li>Diagrama da arquitetura</li>
+<li>Molde da arquitetura do projeto</li>
+<li>Apresentação da API do PNCP</li>
+<li>Criação do código de cadastro e login do usuário</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-4">Recursos de Estudo - Sprint 4</h4>
+<ul>
+<li>API do Portal Nacional de Contratações Públicas</li>
+<li>Figma</li>
+</ul>
+<h2 id="sprint-5">SPRINT 5</h2>
+<p><strong>Período:</strong> 15/04/2024 a 29/04/2024</p>
+<h3 id="reuniao-de-demonstracao-do-codigo-streamlit">Reunião de demonstração do código Streamlit</h3>
+<p><strong>Descrição:</strong><br />
+Nesta Sprint, foram apresentadas as dashboards feitas em Streamlit e também foi criada a GitPage do projeto com o objetivo de mostrar a documentação e organizar as sprints do projeto. Após isso, foram determinadas as novas orientações, que foram: aperfeiçoar o código Streamlit, aperfeiçoar os gráficos, aperfeiçoar o ranking e alterar a organização dos dados.</p>
+<h3 id="reuniao-6">Reunião 6</h3>
+<p><strong>Data:</strong> 29/04/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-5">Tarefas Entregues - Sprint 5</h4>
+<ul>
+<li>Criação de dashboards usando Streamlit</li>
+<li>Explicação das dashboards</li>
+<li>Demonstração de GitActions</li>
+<li>Aperfeiçoamento do workflow</li>
+<li>Criação de GitPage</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-5">Recursos de Estudo - Sprint 5</h4>
+<ul>
+<li>GitPage</li>
+<li>Figma</li>
+<li>Streamlit</li>
+<li>Markdown</li>
+</ul>
+<h2 id="sprint-6">SPRINT 6</h2>
+<p><strong>Período:</strong> 22/05/2024 a 29/05/2024</p>
+<h3 id="reuniao-de-retomada-do-projeto">Reunião de retomada do projeto</h3>
+<p><strong>Descrição:</strong><br />
+Nesta Sprint, o grupo se reuniu novamente após um período sem reuniões, pois todos os integrantes estavam em período de provas. Logo após, foram passadas as novas orientações para os participantes, sendo elas: implementação das multipages dentro do Streamlit, implementação de uma área de contato com coleta de dados e interação do usuário com a equipe, ajuste das dashboards, implementação do cadastro e login dentro do Streamlit, implementação do HTML e CSS dentro do Streamlit e atualização/organização das sprints e da arquitetura.</p>
+<h3 id="reuniao-7">Reunião 7</h3>
+<p><strong>Data:</strong> 22/05/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-6">Tarefas Entregues - Sprint 6</h4>
+<ul>
+<li>Aperfeiçoamento das dashboards</li>
+<li>Aperfeiçoamento dos gráficos</li>
+<li>Aperfeiçoamento do ranking</li>
+<li>Alteração da organização dos dados</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-6">Recursos de Estudo - Sprint 6</h4>
+<ul>
+<li>Streamlit</li>
+<li>HTML, CSS e JavaScript</li>
+</ul>
+<h2 id="sprint-7">SPRINT 7</h2>
+<p><strong>Período:</strong> 29/05/2024 a 05/06/2024</p>
+<h3 id="reuniao-para-aperfeicoamento-do-front-end">Reunião para aperfeiçoamento do Front-end</h3>
+<p><strong>Descrição:</strong><br />
+Nesta Sprint, foi apresentado tudo que foi feito e aperfeiçoado no que se diz respeito ao Front-end do projeto. Após apresentação e revisão dessa parte, foram passadas as novas atividades para os participantes, sendo estas: implementação de mais utilidades no código usando Streamlit, continuar incrementando as dashboards, criação de páginas sobre informações das empresas e continuar a estilização do projeto.</p>
+<h3 id="reuniao-8">Reunião 8</h3>
+<p><strong>Data:</strong> 29/05/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-7">Tarefas Entregues - Sprint 7</h4>
+<ul>
+<li>Implementação do HTML e CSS dentro do Streamlit</li>
+<li>Organização do projeto</li>
+<li>Implementação do cadastro e do login no Streamlit</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-7">Recursos de Estudo - Sprint 7</h4>
+<ul>
+<li>Streamlit</li>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+<h2 id="sprint-8">SPRINT 8</h2>
+<p><strong>Período:</strong> 05/06/2024 a 10/07/2024</p>
+<h3 id="reuniao-organizacional">Reunião organizacional</h3>
+<p><strong>Descrição:</strong><br />
+Nessa reunião, o projeto foi apresentado pelo líder do grupo para a visualização de todos os participantes. Com isso, o grupo fez ponderações sobre o projeto. Após isso, foram repassadas as atividades da nova sprint: estudar pipeline IC, estudar linter, aperfeiçoar o ReadME, estudar sobre integração de testes e organização do código.</p>
+<h3 id="reuniao-9">Reunião 9</h3>
+<p><strong>Data:</strong> 05/06/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-8">Tarefas Entregues - Sprint 8</h4>
+<ul>
+<li>Incrementação de dashboards</li>
+<li>Criação de páginas de informação</li>
+<li>Melhorias na estilização do projeto</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-8">Recursos de Estudo - Sprint 8</h4>
+<ul>
+<li>Streamlit</li>
+<li>Figma</li>
+</ul>
+<h2 id="sprint-9">SPRINT 9</h2>
+<p><strong>Período:</strong> 10/07/2024 a 17/07/2024</p>
+<h3 id="reuniao-pos-release-1-oficial">Reunião pós release 1 oficial</h3>
+<p><strong>Descrição:</strong><br />
+Nessa reunião, o grupo se encontrou brevemente para debater sobre o feedback da professora em relação ao projeto do grupo. Após debaterem sobre os pontos positivos e negativos do projeto, o grupo decidiu as novas tarefas de cada participante para a nova sprint.</p>
+<h3 id="reuniao-10">Reunião 10</h3>
+<p><strong>Data:</strong> 10/07/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-9">Tarefas Entregues - Sprint 9</h4>
+<ul>
+<li>Essa reunião consistiu apenas no debate sobre o feedback da professora</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-9">Recursos de Estudo - Sprint 9</h4>
+<ul>
+<li>Streamlit</li>
+</ul>
+<h2 id="sprint-10">SPRINT 10</h2>
+<p><strong>Período:</strong> 17/07/2024 a 23/07/2024</p>
+<h3 id="reuniao-de-melhorias-no-projeto-pos-r1">Reunião de melhorias no projeto pós R1</h3>
+<p><strong>Descrição:</strong><br />
+Nesta reunião, o grupo apresentou atualizações sobre o projeto que foram feitas no período da sprint e, após revisão do projeto, o grupo demandou as novas tarefas para a nova sprint. Tais tarefas são: implementação de testes unitários, utilização do Linter, reajustar o código de coleta da API, implementação do pytest e fazer automações de coleta e geração de arquivos.</p>
+<h3 id="reuniao-11">Reunião 11</h3>
+<p><strong>Data:</strong> 17/07/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-10">Tarefas Entregues - Sprint 10</h4>
+<ul>
+<li>Issue templates</li>
+<li>Testes de integração</li>
+<li>Aprimoramento do projeto</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-10">Recursos de Estudo - Sprint 10</h4>
+<ul>
+<li>Streamlit</li>
+<li>Figma</li>
+<li>GitHub Pages</li>
+</ul>
+<h2 id="sprint-11">SPRINT 11</h2>
+<p><strong>Período:</strong> 24/07/2024 a 14/08/2024</p>
+<h3 id="reuniao-de-alinhamento">Reunião de alinhamento</h3>
+<p><strong>Descrição:</strong><br />
+Nesta reunião, o grupo apresentou novas atualizações sobre o projeto que foram feitas durante o período da sprint. A reunião aconteceu de maneira mais curta, e o grupo debateu um pouco sobre o projeto e logo em seguida definiu as novas tarefas a serem feitas. Tais tarefas foram: estudar testes unitários, atualizar a documentação do projeto, estudar testes de integração, utilizar pylint e estudar e aplicar linter necessário.</p>
+<h3 id="reuniao-12">Reunião 12</h3>
+<p><strong>Data:</strong> 24/07/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-11">Tarefas Entregues - Sprint 11</h4>
+<ul>
+<li>Reajuste do código de API</li>
+<li>Automação de coleta</li>
+<li>Aprimoramento do projeto</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-11">Recursos de Estudo - Sprint 11</h4>
+<ul>
+<li>Streamlit</li>
+<li>Figma</li>
+<li>GitHub Pages</li>
+</ul>
+<h2 id="sprint-12">SPRINT 12</h2>
+<p><strong>Período:</strong> 14/08/2024 a 21/08/2024</p>
+<h3 id="reuniao-sobre-refatoracao-e-testes-unitarios">Reunião sobre refatoração e testes unitários</h3>
+<p><strong>Descrição:</strong><br />
+Nesta reunião 13, foi apresentado ao grupo como é feita a aplicação de testes unitários em partes específicas do projeto. Além disso, foi apresentado ao grupo como ficou a refatoração de alguns arquivos em Python e em Markdown utilizandos linters específicos para fazer os ajustes necessários. Para a próxima sprint foram manejadas as respectivas funções: Refatoração do código de ranking de órgãos, atualizar a parte "como contribuir" do projeto, aplicação de testes unitários para a função "carregar_dados", também para a função "processar_contratos" e continuar a refatoração de arquivos faltantes.</p>
+<h3 id="reuniao-13">Reunião 13</h3>
+<p><strong>Data:</strong> 14/08/2024<br />
+<strong>Local:</strong> Discord</p>
+<h4 id="tarefas-entregues-sprint-12">Tarefas Entregues - Sprint 12</h4>
+<ul>
+<li>Aplicação do Pylint para refatoração do projeto</li>
+<li>Aplicação do Markdownlint para refatoração dos arquivos em Markdown</li>
+<li>Ajuste e formatação dos tópicos no GitHub Pages</li>
+</ul>
+<h4 id="recursos-de-estudo-sprint-12">Recursos de Estudo - Sprint 12</h4>
+<ul>
+<li>Streamlit</li>
+<li>GitHub Pages</li>
+<li>Pylint</li>
+<li>Markdownlint</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>

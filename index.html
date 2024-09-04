@@ -1,0 +1,904 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="Arquitetura/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>LicitaNow</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#licitanow" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="LicitaNow" class="md-header__button md-logo" aria-label="LicitaNow" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LicitaNow
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LicitaNow
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  LicitaNow
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Arquitetura/" class="md-tabs__link">
+        
+  
+    
+  
+  Arquitetura
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Arquitetura_pipeline/" class="md-tabs__link">
+        
+  
+    
+  
+  Arquitetura da Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Desenvolvimento/" class="md-tabs__link">
+        
+  
+    
+  
+  Mantenabilidade e Desenvolvimento
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Sprint/" class="md-tabs__link">
+        
+  
+    
+  
+  Sprints
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="como_contribuir/" class="md-tabs__link">
+        
+  
+    
+  
+  Contribuindo para o Licita Now
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="como_executar/" class="md-tabs__link">
+        
+  
+    
+  
+  Como Executar
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="LicitaNow" class="md-nav__button md-logo" aria-label="LicitaNow" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    LicitaNow
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    LicitaNow
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    LicitaNow
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#projeto-de-transparencia-nos-gastos-publicos-mds-unb" class="md-nav__link">
+    <span class="md-ellipsis">
+      Projeto de Transparência nos Gastos Públicos - MDS UnB
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Projeto de Transparência nos Gastos Públicos - MDS UnB">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#documento-do-produto-projeto-de-transparencia-nos-gastos-publicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documento do Produto - Projeto de Transparência nos Gastos Públicos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documento do Produto - Projeto de Transparência nos Gastos Públicos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visao-geral-do-produto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão Geral do Produto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proposito" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propósito
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidades-principais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidades Principais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beneficios-para-os-usuarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefícios para os Usuários
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionamento-da-pagina-rank-empresas-e-rank-dos-orgaos" class="md-nav__link">
+    <span class="md-ellipsis">
+      FUNCIONAMENTO DA PÁGINA "RANK EMPRESAS" E "RANK DOS ÓRGÃOS"
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FUNCIONAMENTO DA PÁGINA "RANK EMPRESAS" E "RANK DOS ÓRGÃOS"">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-funciona-a-pagina-rank-empresas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como Funciona a Página "Rank Empresas"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-funciona-a-pagina-rank-dos-orgaos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como Funciona a Página "Rank dos Órgãos"
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#participantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Participantes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Arquitetura_pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura da Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Desenvolvimento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mantenabilidade e Desenvolvimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Sprint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="como_contribuir/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribuindo para o Licita Now
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="como_executar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Como Executar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="licitanow">LicitaNow</h1>
+<h2 id="projeto-de-transparencia-nos-gastos-publicos-mds-unb">Projeto de Transparência nos Gastos Públicos - MDS UnB</h2>
+<h3 id="documento-do-produto-projeto-de-transparencia-nos-gastos-publicos">Documento do Produto - Projeto de Transparência nos Gastos Públicos</h3>
+<h4 id="visao-geral-do-produto">Visão Geral do Produto</h4>
+<p>O projeto de Transparência nos Gastos Públicos tem como objetivo proporcionar um acesso claro, fácil e compreensível às informações relacionadas aos contratos de dispensas de licitação entre o governo do Distrito Federal e empresas. Por meio da coleta de dados da API do Portal Nacional de Contratações Públicas (PNCP), o projeto se concentra em criar uma plataforma que facilite a visualização e análise desses dados, promovendo uma maior transparência e fiscalização das ações governamentais.</p>
+<h4 id="proposito">Propósito</h4>
+<p>O propósito do projeto é democratizar o acesso às informações sobre os gastos públicos, permitindo que cidadãos, jornalistas, pesquisadores e demais interessados possam acompanhar e entender como os recursos públicos estão sendo aplicados. O foco principal está em evidenciar a utilização das dispensas de licitação, uma modalidade frequentemente utilizada em contratos governamentais, e como essa prática impacta a distribuição de recursos no Distrito Federal.</p>
+<h4 id="funcionalidades-principais">Funcionalidades Principais</h4>
+<ol>
+<li>
+<p><strong>Coleta Automatizada de Dados:</strong></p>
+<ul>
+<li>Integração com a API do Portal Nacional de Contratações Públicas (PNCP) para a extração contínua de dados atualizados sobre contratos de dispensas de licitação.</li>
+</ul>
+</li>
+<li>
+<p><strong>Rankings de Empresas e Órgãos Públicos:</strong></p>
+<ul>
+<li>Geração de rankings que destacam as empresas que mais recebem recursos através de dispensas de licitação.</li>
+<li>Listagem dos órgãos públicos que mais investem nessa modalidade, permitindo a análise de padrões e tendências.</li>
+</ul>
+</li>
+<li>
+<p><strong>Dashboards Interativos:</strong></p>
+<ul>
+<li>Criação de dashboards visuais e interativos que permitem aos usuários filtrar e explorar os dados de forma intuitiva.</li>
+<li>Ferramentas de comparação para análise detalhada entre diferentes empresas e órgãos públicos.</li>
+</ul>
+</li>
+<li>
+<p><strong>Visualizações Gráficas:</strong></p>
+<ul>
+<li>Gráficos dinâmicos que facilitam a compreensão dos dados financeiros, mostrando, por exemplo, a evolução dos valores contratados ao longo do tempo e a distribuição geográfica dos contratos.</li>
+</ul>
+</li>
+<li>
+<p><strong>Exportação de Dados:</strong></p>
+<ul>
+<li>Opção de exportar os dados para diferentes formatos (CSV, Excel, PDF), permitindo que usuários realizem análises independentes ou utilizem os dados em outras plataformas.</li>
+</ul>
+</li>
+</ol>
+<h4 id="beneficios-para-os-usuarios">Benefícios para os Usuários</h4>
+<ul>
+<li>
+<p><strong>Transparência e Acesso à Informação:</strong> O projeto empodera os cidadãos com acesso simplificado às informações sobre os gastos públicos, promovendo a transparência e a accountability do governo.</p>
+</li>
+<li>
+<p><strong>Facilidade de Uso:</strong> A plataforma foi desenvolvida com uma interface amigável, permitindo que usuários de diferentes níveis de conhecimento técnico possam navegar e entender os dados sem dificuldades.</p>
+</li>
+<li>
+<p><strong>Ferramenta de Fiscalização e Pesquisa:</strong> Jornalistas, pesquisadores e organizações da sociedade civil podem utilizar os rankings e dashboards para monitorar as práticas governamentais, identificar possíveis irregularidades e embasar reportagens ou estudos.</p>
+</li>
+<li>
+<p><strong>Tomada de Decisões Informadas:</strong> Os dados disponibilizados pela plataforma permitem que tomadores de decisão, tanto no setor público quanto privado, realizem análises fundamentadas sobre os contratos de dispensas de licitação, influenciando políticas públicas e estratégias de negócios.</p>
+</li>
+</ul>
+<hr />
+<h2 id="funcionamento-da-pagina-rank-empresas-e-rank-dos-orgaos">FUNCIONAMENTO DA PÁGINA "RANK EMPRESAS" E "RANK DOS ÓRGÃOS"</h2>
+<h3 id="como-funciona-a-pagina-rank-empresas">Como Funciona a Página "Rank Empresas"</h3>
+<p>A página "Rank Empresas" é uma ferramenta que mostra quais empresas mais receberam dinheiro do governo do Distrito Federal através de contratos sem licitação. Esses contratos são feitos diretamente, sem um processo competitivo de escolha (como acontece em uma licitação tradicional).</p>
+<p><strong>O que você vê na página:</strong></p>
+<ul>
+<li>
+<p><strong>Gráfico de Barras:</strong> No gráfico à direita, você pode ver uma lista das empresas que mais receberam recursos. As barras coloridas mostram quanto cada empresa recebeu em contratos. Quanto maior a barra, mais dinheiro a empresa recebeu.</p>
+</li>
+<li>
+<p><strong>Filtros para Personalização:</strong></p>
+</li>
+<li>
+<p>Você pode selecionar a quantidade de empresas que deseja ver no gráfico, por exemplo, as 5, 10, ou 20 empresas que mais receberam dinheiro.</p>
+</li>
+<li>
+<p>Também é possível ajustar os valores mínimos e máximos recebidos, para focar em empresas que receberam mais ou menos do que um certo valor.</p>
+</li>
+<li>
+<p><strong>Escolha Detalhes Específicos:</strong> </p>
+</li>
+<li>Na parte de baixo da página, você pode escolher uma empresa específica para ver mais detalhes sobre os contratos que ela participou. Basta selecionar a empresa ou digitar o nome dela no campo correspondente.</li>
+</ul>
+<p>Essa página ajuda você a entender para onde vai o dinheiro público e quais empresas estão mais envolvidas com o governo em contratos diretos. É uma ferramenta poderosa para quem quer acompanhar e fiscalizar o uso dos recursos públicos.</p>
+<h3 id="como-funciona-a-pagina-rank-dos-orgaos">Como Funciona a Página "Rank dos Órgãos"</h3>
+<p>A página "Rank dos Órgãos" é parte do projeto de Transparência nos Gastos Públicos e foi projetada para ajudar você a entender quais órgãos do governo do Distrito Federal mais utilizam contratos por dispensa de licitação. </p>
+<p><strong>Elementos da Página:</strong></p>
+<ol>
+<li>
+<p><strong>Gráfico dos "Órgãos Campeões":</strong></p>
+<ul>
+<li><strong>O que é:</strong> Este gráfico mostra quais órgãos governamentais mais gastaram em contratos sem licitação.</li>
+<li><strong>Como usar:</strong> As barras representam os valores gastos por cada órgão. As cores diferentes ajudam a identificar cada órgão listado na legenda ao lado do gráfico.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gráfico de "Contratos Campeões":</strong></p>
+<ul>
+<li><strong>O que é:</strong> Este gráfico exibe os contratos mais caros feitos por órgãos do governo, ajudando a identificar quais foram as maiores transações.</li>
+<li><strong>Como usar:</strong> Aqui, você pode ver quais contratos específicos tiveram os valores mais altos, proporcionando uma visão clara das grandes movimentações financeiras.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gráfico de "Gasto Anual em Dispensa de Licitação por Órgão":</strong></p>
+<ul>
+<li><strong>O que é:</strong> Este gráfico mostra quanto cada órgão gastou em dispensas de licitação ao longo dos anos.</li>
+<li><strong>Como usar:</strong> Para visualizar o gráfico, você precisa digitar o nome do órgão de interesse. Isso permite uma pesquisa direcionada, mostrando as tendências de gastos desse órgão ao longo do tempo.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tabela de "Dados Compilados":</strong></p>
+<ul>
+<li><strong>O que é:</strong> Esta tabela resume todas as informações relevantes sobre os contratos, incluindo valores, datas, empresas contratadas e os órgãos envolvidos.</li>
+<li><strong>Como usar:</strong> A tabela é uma ferramenta poderosa para quem precisa de uma visão detalhada e compilada dos dados. Você pode usar os filtros disponíveis para buscar informações específicas.</li>
+</ul>
+</li>
+<li>
+<p><strong>Filtros Personalizáveis:</strong></p>
+<ul>
+<li><strong>Ano da Dispensa:</strong> Permite selecionar contratos de anos específicos.</li>
+<li><strong>Órgão Contratante:</strong> Filtra os dados por um órgão governamental específico.</li>
+<li><strong>Palavra-Chave no Objeto da Compra:</strong> Você pode filtrar contratos por palavras-chave que aparecem na descrição da compra, como "coffee break", "lanche", etc.</li>
+<li><strong>Nome da Empresa Contratada:</strong> Permite ver apenas os contratos de uma determinada empresa.</li>
+</ul>
+</li>
+<li>
+<p><strong>Navegação entre Páginas:</strong></p>
+<ul>
+<li>A interface permite que você navegue entre diferentes páginas de dados para visualizar mais informações detalhadas caso elas não caibam em uma única página.</li>
+<li>A página "Rank dos Órgãos" é uma ferramenta interativa que te dá uma visão detalhada e filtrada dos gastos públicos por diferentes órgãos governamentais no Distrito Federal. Ela permite acompanhar quais órgãos gastam mais em dispensas de licitação, visualizar os contratos mais caros, e analisar como esses gastos se distribuem ao longo do tempo.</li>
+</ul>
+</li>
+</ol>
+<h2 id="participantes">Participantes</h2>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <div style="display: flex; flex-wrap: wrap;">
+        <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
+                <img src="imagens/mateus.png" alt="Mateus" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p>Mateus de Castro</p>
+        </div>
+        <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
+                <img src="imagens/romulo.png" alt="Romulo" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p>Rômulo de Araújo</p>
+        </div>
+        <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
+                <img src="imagens/lindo.png" alt="Davi" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p>Davi de Aguiar</p>
+        </div>
+        <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
+                <img src="imagens/henrique.jpeg" alt="Henrique" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p>Henrique Carvalho</p>
+        </div>
+    </div>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <div style="display: flex; flex-wrap: wrap;">
+        <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
+                <img src="imagens/rafa.png" alt="Rafael" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p>Rafael Melo</p>
+        </div>
+        <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
+                <img src="imagens/Pedrolock.jpeg" alt="Pedro" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p>Pedro Lock</p>
+        </div>
+        <div style="text-align: center; margin-right: 20px; margin-bottom: 20px;">
+            <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-bottom: 5px;">
+                <img src="imagens/clara.jpeg" alt="Maria Clara" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p>Maria Clara</p>
+        </div>
+    </div>
+</div>
+
+<p>Para ver o projeto completo visite nosso repositório no <a href="https://github.com/unb-mds/2024-1-Squad-10">GitHub</a>.
+```</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>

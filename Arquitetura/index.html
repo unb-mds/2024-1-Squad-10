@@ -1,0 +1,1174 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../Arquitetura_pipeline/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Arquitetura - LicitaNow</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arquitetura" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="LicitaNow" class="md-header__button md-logo" aria-label="LicitaNow" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LicitaNow
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Arquitetura
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  LicitaNow
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Arquitetura
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Arquitetura_pipeline/" class="md-tabs__link">
+        
+  
+    
+  
+  Arquitetura da Pipeline
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Desenvolvimento/" class="md-tabs__link">
+        
+  
+    
+  
+  Mantenabilidade e Desenvolvimento
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Sprint/" class="md-tabs__link">
+        
+  
+    
+  
+  Sprints
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../como_contribuir/" class="md-tabs__link">
+        
+  
+    
+  
+  Contribuindo para o Licita Now
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../como_executar/" class="md-tabs__link">
+        
+  
+    
+  
+  Como Executar
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="LicitaNow" class="md-nav__button md-logo" aria-label="LicitaNow" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    LicitaNow
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LicitaNow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Arquitetura
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-visao-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Visão Geral
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-objetivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Objetivos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-arquitetura-geral" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Arquitetura Geral
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Arquitetura Geral">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1. Fluxo de Trabalho
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1. Fluxo de Trabalho">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-extracao-e-coleta-dos-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      1) Extração e Coleta dos Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-salvamento-dos-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      2) Salvamento dos Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-manipulacao-dos-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      3) Manipulação dos Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-leitura-dos-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      4) Leitura dos Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-analise-e-visualizacao-dos-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      5) Análise e Visualização dos Dados
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-automacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2. Automação
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-estrutura-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Estrutura do Projeto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-detalhamento-dos-componentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Detalhamento dos Componentes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Detalhamento dos Componentes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-coleta-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Coleta de Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-manipulacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2. Manipulação de Dados
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-frontend" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3. Frontend
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-bibliotecas-utilizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Bibliotecas Utilizadas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Bibliotecas Utilizadas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-arquitetura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de arquitetura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      Front-End
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Front-End">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#html-css-e-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTML, CSS e JavaScript
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integracao-com-streamlit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integração com Streamlit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#back-end" class="md-nav__link">
+    <span class="md-ellipsis">
+      Back-End
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Back-End">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#biblioteca-streamlit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Biblioteca Streamlit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fluxo de Trabalho
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusão
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-automacao-e-atualizacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Automação e Atualização de Dados
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indice-de-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Índice de Arquivos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Índice de Arquivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coleta_apipy" class="md-nav__link">
+    <span class="md-ellipsis">
+      coleta_api.py
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="coleta_api.py">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coleta_cnpjpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      coleta_cnpj.py
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ordenacao_dadospy" class="md-nav__link">
+    <span class="md-ellipsis">
+      ordenacao_dados.py
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#info_empresapy" class="md-nav__link">
+    <span class="md-ellipsis">
+      info_empresa.py
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rank_empresaspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rank_empresas.py
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rank_dos_orgaospy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rank_dos_órgãos.py
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contatopy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contato.py
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sobrepy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sobre.py
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menupy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Menu.py
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arquitetura_pipeline/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura da Pipeline
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Desenvolvimento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mantenabilidade e Desenvolvimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../como_contribuir/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribuindo para o Licita Now
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../como_executar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Como Executar
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="arquitetura">Arquitetura</h1>
+<h2 id="1-visao-geral">1. Visão Geral</h2>
+<p>Este documento descreve a arquitetura do projeto de software desenvolvido em Python, cujo objetivo é analisar os dados de dispensa de licitação do Distrito Federal, identificar as empresas mais beneficiadas e os órgãos públicos mais investidores. A coleta e a análise dos dados são realizadas através de diversas bibliotecas e ferramentas, com atualizações automatizadas semanalmente.</p>
+<h2 id="2-objetivos">2. Objetivos</h2>
+<ul>
+<li>Analisar dados de dispensa de licitação no Distrito Federal.</li>
+<li>Identificar as empresas mais beneficiadas e os órgãos públicos mais investidores.</li>
+<li>Fornecer visualizações claras e intuitivas dos dados coletados.</li>
+</ul>
+<h2 id="3-arquitetura-geral">3. Arquitetura Geral</h2>
+<h3 id="31-fluxo-de-trabalho">3.1. Fluxo de Trabalho</h3>
+<h4 id="1-extracao-e-coleta-dos-dados">1) Extração e Coleta dos Dados</h4>
+<ul>
+<li><strong>Coleta dos Contratos:</strong></li>
+<li>Feita através de requisições ao Portal Nacional de Contratações Públicas (PNCP) utilizando a biblioteca requests.</li>
+<li>Os dados são salvos em um arquivo JSON (contratos_OFICIAL.json).</li>
+<li>Erros de requisição são registrados em arquivos de log para tentativas subsequentes.</li>
+<li><strong>Coleta das Empresas:</strong></li>
+<li>Com base nos dados dos contratos, são realizadas requisições a uma API específica de empresas para coletar informações adicionais.</li>
+<li>Os dados são salvos em um arquivo JSON (infos_cnpjs_OFICIAL.json).</li>
+</ul>
+<h4 id="2-salvamento-dos-dados">2) Salvamento dos Dados</h4>
+<ul>
+<li>Dados dos contratos salvos em contratos_OFICIAL.json.</li>
+<li>Dados das empresas salvos em infos_cnpjs_OFICIAL.json.</li>
+</ul>
+<h4 id="3-manipulacao-dos-dados">3) Manipulação dos Dados</h4>
+<ul>
+<li>Geração de um arquivo CSV (x_empresas_contratadas.csv) a partir dos dados dos contratos para facilitar a leitura dos dados das empresas contratadas.</li>
+<li>Criação de um arquivo CSV (contratos_ordenados_completos.csv) que combina os dados dos contratos e das empresas, utilizando a biblioteca pandas.</li>
+</ul>
+<h4 id="4-leitura-dos-dados">4) Leitura dos Dados</h4>
+<ul>
+<li>Leitura dos arquivos CSV gerados para análise e visualização dos dados.</li>
+</ul>
+<h4 id="5-analise-e-visualizacao-dos-dados">5) Análise e Visualização dos Dados</h4>
+<ul>
+<li>Utilização do streamlit para criar dashboards e gráficos.</li>
+<li>Outras bibliotecas utilizadas incluem altair e plotly_express para visualizações adicionais.</li>
+</ul>
+<h3 id="32-automacao">3.2. Automação</h3>
+<ul>
+<li><strong>GitHub Actions:</strong> Automação semanal para atualização dos dados. Scripts definidos em arquivos .yml no GitHub.</li>
+</ul>
+<h2 id="4-estrutura-do-projeto">4. Estrutura do Projeto</h2>
+<pre><code>├── Dados
+│   ├── Coleta_dados
+│   │   ├── coleta_api.py
+│   │   ├── coleta_cnpjs.py
+│   │   ├── coleta_contratosERRO.py
+│   │   ├── info.log
+│   │   ├── info_erros.log
+│   │   └── logging_config.py
+│   ├── info_empresa.py
+│   └── ordenacao_dados.py
+└── frontend
+    ├── Menu.py
+    └── pages
+        ├── 01_Rank_empresas.py
+        ├── 02_Rank_dos_órgãos.py
+        ├── 03_Contato.py
+        └── 04_Sobre.py
+</code></pre>
+<h2 id="5-detalhamento-dos-componentes">5. Detalhamento dos Componentes</h2>
+<h3 id="51-coleta-de-dados">5.1 Coleta de Dados</h3>
+<ul>
+<li><strong>coleta_api.py:</strong> Script responsável por fazer as requisições ao PNCP e salvar os dados dos contratos em <code>contratos_OFICIAL.json</code>.</li>
+<li><strong>coleta_cnpjs.py:</strong> Script que coleta informações adicionais das empresas a partir da API específica e salva os dados em <code>infos_cnpjs_OFICIAL.json</code>.</li>
+<li><strong>coleta_contratosERRO.py:</strong> Script que reexecuta requisições que falharam, baseando-se nos logs de erros (<code>info_erros.log</code>).</li>
+<li><strong>logging_config.py:</strong> Configuração de logs para registrar atividades e erros durante a coleta de dados.</li>
+<li><strong>info.log:</strong> Arquivo de log para registros de atividades normais.</li>
+<li><strong>info_erros.log:</strong> Arquivo de log para registros de erros.</li>
+</ul>
+<h3 id="52-manipulacao-de-dados">5.2. Manipulação de Dados</h3>
+<ul>
+<li><strong>info_empresa.py:</strong> Script que manipula os dados das empresas.</li>
+<li><strong>ordenacao_dados.py:</strong> Script que gera o arquivo <code>contratos_ordenados_completos.csv</code> combinando dados dos contratos e das empresas.</li>
+</ul>
+<h3 id="53-frontend">5.3. Frontend</h3>
+<ul>
+<li><strong>Menu.py:</strong> Script que define a página inicial de menu do dashboard.</li>
+<li><strong>pages/</strong></li>
+<li><strong>01_Rank_empresas.py:</strong> Página que exibe o ranking das empresas mais beneficiadas.</li>
+<li><strong>02_Rank_dos_órgãos.py:</strong> Página que exibe o ranking dos órgãos públicos mais investidores.</li>
+<li><strong>03_Contato.py:</strong> Página de contato.</li>
+<li><strong>04_Sobre.py:</strong> Página com informações sobre o projeto.</li>
+</ul>
+<h2 id="6-bibliotecas-utilizadas">6. Bibliotecas Utilizadas</h2>
+<ul>
+<li><strong>requests:</strong> Para fazer requisições HTTP e coletar dados.</li>
+<li><strong>pandas:</strong> Para manipulação e análise dos dados.</li>
+<li><strong>streamlit:</strong> Para criação de dashboards interativos.</li>
+<li><strong>altair:</strong> Para visualização de dados.</li>
+<li><strong>plotly_express:</strong> Para visualização de dados.</li>
+<li><strong>json:</strong> Para manipulação de arquivos JSON.</li>
+<li><strong>unidecode:</strong> Para normalização de texto.</li>
+</ul>
+<h3 id="introducao">Introdução</h3>
+<p>O projeto LicitaNow visa verificar e mostrar aos usuários os gastos públicos do Distrito Federal na modalidade dispensa de licitação. Tendo como objetivo apresentar, de forma organizada, quais empresas recebem mais dinheiro e quais são os órgãos públicos que gastam mais.</p>
+<h3 id="diagrama-de-arquitetura">Diagrama de arquitetura</h3>
+<p><img alt="image" src="https://github.com/user-attachments/assets/b7bcae6a-868b-4908-982a-758a2fc08d1a" /></p>
+<h3 id="front-end">Front-End</h3>
+<h4 id="html-css-e-javascript">HTML, CSS e JavaScript</h4>
+<ul>
+<li><em>Estrutura e Estilo:</em> Para criar a interface inicial do nosso projeto, utilizamos HTML para estruturar o conteúdo e CSS para estilizar os elementos. Além disso, utilizamos JavaScript para adicionar interatividade à página.</li>
+<li><em>Conteúdo Principal:</em> O HTML define a estrutura básica da página, incluindo cabeçalho, seções de conteúdo, e rodapé. O CSS é responsável pela aparência visual, incluindo cores, espaçamentos, e fontes. O JavaScript adiciona comportamento dinâmico, como animações e reações a eventos de usuário.</li>
+</ul>
+<h4 id="integracao-com-streamlit">Integração com Streamlit</h4>
+<ul>
+<li><em>Incorporação de HTML/CSS/JS no Streamlit:</em> Utilizamos a biblioteca streamlit.components.v1 para incorporar o nosso código HTML, CSS e JavaScript dentro do aplicativo Streamlit. Isso nos permitiu combinar a flexibilidade do desenvolvimento web tradicional com a simplicidade e o poder do Streamlit.</li>
+<li><em>Código de Integração:</em> O código abaixo demonstra como carregamos e incorporamos os arquivos HTML, CSS e JavaScript no Streamlit:<pre><code>import streamlit as st
+import streamlit.components.v1 as components
+
+st.set_page_config(layout="wide")
+
+# Função para carregar o conteúdo do arquivo
+def load_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return file.read()
+
+# Carregar o HTML, CSS e JavaScript
+html_content = load_file('index.html')
+css_content = load_file('style.css')
+js_content = load_file('script.js')
+
+# Injetar o CSS e JavaScript no HTML
+html_with_css_js = f"""
+    &lt;style&gt;
+    html, body, [class*="css"]  {{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }}
+    {css_content}
+    &lt;/style&gt;
+    &lt;div style="width:100vw; height:100vh; overflow: hidden;"&gt;
+        {html_content}
+    &lt;/div&gt;
+    &lt;script&gt;
+    {js_content}
+    &lt;/script&gt;
+# Exibir o HTML com CSS e JavaScript no Streamlit
+components.html(html_with_css_js, height=1000, scrolling=True)
+</code></pre>
+</li>
+</ul>
+<h3 id="back-end">Back-End</h3>
+<h4 id="biblioteca-streamlit">Biblioteca Streamlit</h4>
+<ul>
+<li><em>Criação de Interfaces Interativas:</em> Utilizamos a biblioteca Streamlit para desenvolver o restante da interface do usuário e das funcionalidades interativas. Streamlit é uma ferramenta poderosa para criar dashboards e aplicativos de dados de maneira rápida e eficiente.</li>
+<li><em>Funcionalidades:</em> Com Streamlit, implementamos funcionalidades como carregamento e visualização de dados, gráficos interativos, e controle de entradas do usuário (como sliders e botões).</li>
+</ul>
+<h4 id="fluxo-de-trabalho">Fluxo de Trabalho</h4>
+<ul>
+<li><em>Entrada de dados:</em> Os dados são carregados a partir de fontes especificadas (arquivos, APIs, etc.).</li>
+<li><em>Processamento e Análise:</em> Os dados são processados e analisados em tempo real, utilizando bibliotecas de manipulação de dados.</li>
+<li><em>Visualização:</em> Os resultados são apresentados de forma intuitiva através de gráficos, tabelas e outras visualizações interativas.</li>
+</ul>
+<h3 id="conclusao">Conclusão</h3>
+<p>A combinação de HTML, CSS e JavaScript para a estrutura e estilo inicial, junto com a biblioteca Streamlit para funcionalidades interativas e visualizações de dados, nos permitiu criar uma aplicação robusta e fácil de usar. Esta abordagem nos permitiu oferecer uma melhor combinação entre: a flexibilidade e personalização do desenvolvimento web tradicional, e a simplicidade e eficiência do Streamlit para análise de dados.</p>
+<h2 id="7-automacao-e-atualizacao-de-dados">7. Automação e Atualização de Dados</h2>
+<ul>
+<li><strong>GitHub Actions:</strong> Arquivos <code>.yml</code> configurados para executar scripts de coleta e atualização de dados semanalmente, garantindo que as informações estejam sempre atualizadas.</li>
+</ul>
+<p>Este documento detalha a arquitetura do projeto, incluindo o fluxo de trabalho, a estrutura de diretórios e scripts, além das bibliotecas e ferramentas utilizadas para alcançar os objetivos estabelecidos.</p>
+<h2 id="indice-de-arquivos">Índice de Arquivos</h2>
+<h3 id="coleta_apipy">coleta_api.py</h3>
+<p>Faz buscas no API do PNCP, como resultado, ele gera um arquivo Json</p>
+<h4 id="coleta_cnpjpy">coleta_cnpj.py</h4>
+<p>Faz buscas do cadastro de CNPJ na <a href="https://api.cnpjs.dev/v1">API</a> utilizando o arquivo 'contratos_OFICIAL.json' e adiciona a ele o resultado das buscas.</p>
+<h4 id="ordenacao_dadospy">ordenacao_dados.py</h4>
+<p>Organiza o arquivo Json para que possa ser lido pelo dashboard, consolida com as informações do arquivo "contrato_final1.xlsx", além de possíbilitar ao usuário que o baixe para trabalhá-lo em planilha Excel &gt; Gera o arquivo "contratos_ordenados_completo.csv"</p>
+<h4 id="info_empresapy">info_empresa.py</h4>
+<p>Verificar a necessidade de manter este arquivo, pois parece que não tem mais utilidade para o projeto</p>
+<ul>
+<li>Lê o arquivo"x_empresas_contratadas.json" e gera o arquivo 'x_empresas_contratadas.csv'</li>
+</ul>
+<h4 id="rank_empresaspy">Rank_empresas.py</h4>
+<p>Página de arquivos do ranking das empresas</p>
+<h4 id="rank_dos_orgaospy">Rank_dos_órgãos.py</h4>
+<p>Página de arquivos do ranking dos órgãos conntratantes</p>
+<h4 id="contatopy">Contato.py</h4>
+<p>Contato do organização do projeto</p>
+<h4 id="sobrepy">Sobre.py</h4>
+<p>Sobre nós</p>
+<h4 id="menupy">Menu.py</h4>
+<p>Menu do Dashboard Interativo</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
