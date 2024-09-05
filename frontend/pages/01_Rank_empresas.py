@@ -53,8 +53,8 @@ def reset_pagination():
 
 with st.container():
     st.subheader("RANKING DAS EMPRESAS MAIS BENFICIADAS POR DISPENSA DE LICITAÇÃO")
-    st.write('Informações sobre contratos')
     st.write("Quer saber mais sobre nosso projeto? [clique aqui](https://unb-mds.github.io/2024-1-Squad-10/)")
+    st.write("Abaixo, o gráfico de barras laterais mostra o Ranking das empresas mais beneficiadas por dispensa de licitação no Distrito Federal. Cada cor dentro das barras laterais indica um contrato diferente que a empresa participou, e a barra inteira é o valor total que ela recebeu somando todos os contratos que participou")
     st.write('---')
     data = carregar_dados()
     data1= carregar_dados1()
@@ -139,14 +139,14 @@ grafico = criar_grafico_barra(df_grafico, df_group_list, altura_grafico)
 st.altair_chart(grafico, use_container_width=True)
 
 # Adiciona o botão "Próxima página" abaixo do gráfico
-col1, col2 = st.columns([1, 1])
-with col1:
-    if st.button("Página anterior"):
+col1, col2, col3,col4,col5 = st.columns(5)
+with col2:
+    if st.button("empresas anteriores"):
         if st.session_state.page > 0:
             change_page(-1)
 
-with col2:
-    if st.button("Próxima página"):
+with col5:
+    if st.button("próximas empresas"):
         change_page(1)
     
 st.write(" ")
@@ -258,7 +258,11 @@ def exibir_detalhes_empresa(df, empresa):
     else:
         st.write("Empresa não encontrada.")
 
-
+st.write("") 
+st.write("")
+st.write("")
+st.write("")
+st.write("")
 
 coluna1,coluna2 = st.columns(2)
 escolha = ["Escolha sua empresa"] + df_group_list
