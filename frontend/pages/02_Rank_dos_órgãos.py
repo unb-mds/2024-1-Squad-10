@@ -74,7 +74,7 @@ if orgaos_unicos != 'Todos':
     df_filtered = df_filtered[df_filtered['Órgão Entidade'] == orgaos_unicos]
 
 #Filtra por palavra no objeto da compra
-palavra_filtro = st.sidebar.text_input("Filtrar por Palavras-Chave na Coluna 'Objeto da Compra'. Ex: coffee break, lanche, abastecimento e etc.")
+palavra_filtro = st.sidebar.text_input("Filtrar por Palavras-Chave na Coluna 'Objeto da Compra': coffee break, lanche, abastecimento e etc.")
 if palavra_filtro:
     df_filtered = df_filtered[df_filtered['Objeto da Compra'].str.contains(palavra_filtro, case=False)]
 
