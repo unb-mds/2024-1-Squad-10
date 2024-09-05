@@ -74,7 +74,7 @@ if orgaos_unicos != 'Todos':
     df_filtered = df_filtered[df_filtered['Órgão Entidade'] == orgaos_unicos]
 
 #Filtra por palavra no objeto da compra
-palavra_filtro = st.sidebar.text_input("Filtrar por Palavra na Coluna 'Objeto da Compra'. Ex: coffee break, lanche, abastecimento e etc.")
+palavra_filtro = st.sidebar.text_input("Filtrar por Palavras-Chave na Coluna 'Objeto da Compra'. Ex: coffee break, lanche, abastecimento e etc.")
 if palavra_filtro:
     df_filtered = df_filtered[df_filtered['Objeto da Compra'].str.contains(palavra_filtro, case=False)]
 
@@ -98,7 +98,7 @@ df_filtered = df_filtered[(df_filtered['Valor Recebido'] >= valor_min_selecionad
 total_barras = len(df_filtered)
 barras_por_pagina = 40
 num_paginas = total_barras // barras_por_pagina + (total_barras % barras_por_pagina > 0)
-pagina = st.sidebar.number_input(f"Nº da página do total de {num_paginas}", min_value=1, max_value=num_paginas, value=1)
+pagina = st.sidebar.number_input(f"Nº da página do total de {num_paginas} páginas", min_value=1, max_value=num_paginas, value=1)
 
 inicio = (pagina - 1) * barras_por_pagina
 fim = inicio + barras_por_pagina
