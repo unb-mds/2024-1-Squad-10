@@ -13,6 +13,16 @@ st.set_page_config(page_title="Gastos de Dispensa por Órgão", layout='wide')
 
 @st.cache_data
 def load_csv_data():
+    """
+    Carrega os dados do arquivo CSV de contratos.
+
+    Esta função lê o arquivo 'contratos_ordenados_completo.csv', remove duplicatas
+    e ordena os dados pelo campo "Valor Total Homologado" em ordem decrescente.
+
+    Returns:
+        pd.DataFrame: DataFrame contendo os dados do CSV ordenados e sem duplicatas.
+    """
+
     # Construindo o caminho absoluto para o arquivo CSV
     file_path = os.path.join(os.path.dirname(__file__), '..', 'contratos_ordenados_completo.csv')
     
@@ -25,6 +35,15 @@ def load_csv_data():
 
 @st.cache_data
 def load_json_data():
+    """
+    Carrega os dados do arquivo JSON de contratos.
+
+    Esta função lê o arquivo 'contratos_OFICIAL.json' e o carrega como um objeto Python.
+
+    Returns:
+        dict: Dicionário contendo os dados do arquivo JSON.
+    """
+
     # Construindo o caminho absoluto para o arquivo JSON
     file_path = os.path.join(os.path.dirname(__file__), '..', 'contratos_OFICIAL.json')
     
@@ -44,12 +63,12 @@ with st.container():
     st.write('---')
 
 #filtra por ano
-ano = st.sidebar.selectbox("Ano da Dispensa", anos_unicos)
+ano = st.sidebar.selectbox("Ano da Dispensa de Licitação", anos_unicos)
 df_filtered = df_ordenado[df_ordenado['Ano da Compra'] == ano] if ano != 'Todos' else df_ordenado
 
 #Filtra por órgão
 orgaos_unicos_lista = ['Todos'] + list(df_filtered['Órgão Entidade'].unique())
-orgaos_unicos = st.sidebar.selectbox("Órgão Contratante", orgaos_unicos_lista)
+orgaos_unicos = st.sidebar.selectbox("Órgão Governamental Contratante", orgaos_unicos_lista)
 
 if orgaos_unicos != 'Todos':
     df_filtered = df_filtered[df_filtered['Órgão Entidade'] == orgaos_unicos]
@@ -70,8 +89,8 @@ if contrato_empresa_opcoes_filtro != 'Todos':
 #Filtra pelo valor da compra
 valor_min = 0
 valor_max = int(df_filtered['Valor Recebido'].max() + 1000000)
-valor_min_selecionado = st.sidebar.number_input('De:', min_value=valor_min, max_value=valor_max, value=valor_min)
-valor_max_selecionado = st.sidebar.number_input('Até:', min_value=valor_min, max_value=valor_max, value=valor_max)  # Formata como número inteiro)
+valor_min_selecionado = st.sidebar.number_input('Valor Contratado - De: (em R$):', min_value=valor_min, max_value=valor_max, value=valor_min)
+valor_max_selecionado = st.sidebar.number_input('Valor Contratado - Até: (em R$):', min_value=valor_min, max_value=valor_max, value=valor_max)  # Formata como número inteiro)
 
 df_filtered = df_filtered[(df_filtered['Valor Recebido'] >= valor_min_selecionado) & (df_filtered['Valor Recebido'] <= valor_max_selecionado)]
 
@@ -79,7 +98,7 @@ df_filtered = df_filtered[(df_filtered['Valor Recebido'] >= valor_min_selecionad
 total_barras = len(df_filtered)
 barras_por_pagina = 40
 num_paginas = total_barras // barras_por_pagina + (total_barras % barras_por_pagina > 0)
-pagina = st.sidebar.number_input(f"Página ... de {num_paginas}", min_value=1, max_value=num_paginas, value=1)
+pagina = st.sidebar.number_input(f"Nº da página do total de {num_paginas}", min_value=1, max_value=num_paginas, value=1)
 
 inicio = (pagina - 1) * barras_por_pagina
 fim = inicio + barras_por_pagina
@@ -105,8 +124,8 @@ fig_orgao = px.bar(
     color='Código',
     title='Contratos Campeões'
 )
-fig_orgao.update_xaxes(title_text='Órgão Contratante e Contrato')
-fig_orgao.update_yaxes(title_text='Valores pagos por órgão e Contrato')
+fig_orgao.update_xaxes(title_text='Órgão Contratante do Governo e Contrato')
+fig_orgao.update_yaxes(title_text='Valores pagos por órgão governamental e Contrato')
 fig_orgao.update_layout(height=800)
 col1.plotly_chart(fig_orgao, use_container_width=True)
 
@@ -117,8 +136,8 @@ df_grouped_chart2 = df_filtered.groupby(['Órgão Entidade'])['Valor Recebido'].
 # Selecionar apenas os 20 primeiros
 df_grouped_chart2_top20 = df_grouped_chart2.head(15)
 fig_orgao2 = px.bar(df_grouped_chart2_top20, x='Órgão Entidade', y='Valor Recebido', color='Órgão Entidade', title='Órgãos Campeões')
-fig_orgao2.update_xaxes(title_text='Órgão Contratante')
-fig_orgao2.update_yaxes(title_text='Valores pagos por órgão')
+fig_orgao2.update_xaxes(title_text='Órgão Governamental Contratante')
+fig_orgao2.update_yaxes(title_text='Valores pagos por órgão governamental')
 fig_orgao2.update_layout(height=800)
 col2.plotly_chart(fig_orgao2, use_container_width=True)
 
