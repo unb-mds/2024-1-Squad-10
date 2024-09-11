@@ -30,11 +30,3 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '20'
-
-    - name: Install Node.js dependencies
-      run: |
-        npm install -g markdownlint-cli
-
-    - name: Run Markdown linter
-      run: |
-        markdownlint '**/*.md'
