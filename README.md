@@ -146,7 +146,7 @@ O protótipo da página web pode ser visualizado [aqui](https://www.figma.com/pr
             </a>
         </td>
          <td align="center">
-            <a href="https://github.com/9livesgod">
+            <a href="https://github.com/rmatuda">
                 <img style="border-radius: 50%;" src="https://github.com/9livesgod.png" width="150px;"/>
                 <h5 class="text-center">Rafael Matuda</h5>
             </a>
